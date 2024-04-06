@@ -393,7 +393,7 @@ if __name__ == '__main__':
                 break
         if found and ((args.noReport is None) or ('changed' not in args.noReport)):
             update = False
-            if ChannelServiceVersion < versionTuple("1.9"):
+            if ChannelServiceVersion == versionTuple("1.9"):
                 data = {}
                 data['ChanId'] = mythChannel['ChanId']
             else:
