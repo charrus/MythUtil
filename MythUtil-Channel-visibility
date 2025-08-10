@@ -255,6 +255,6 @@ if __name__ == '__main__':
 
     if args.update:
         try:
-            s.Dvr('RescheduleRecordings')
+            s.Dvr('RescheduleRecordings', method='post')
         except Exception:
             pass

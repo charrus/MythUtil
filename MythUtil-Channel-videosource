@@ -285,7 +285,7 @@ if __name__ == '__main__':
         if int(s.Channel('AddVideoSource', transformAPIElementNames('VideoSource', data))['int']) > 0:
             print('Video source added')
             try:
-                s.Dvr('RescheduleRecordings')
+                s.Dvr('RescheduleRecordings', method='post')
             except Exception:
                 pass
             sys.exit(0)
@@ -305,7 +305,7 @@ if __name__ == '__main__':
         if bool(s.Channel('RemoveVideoSource', transformAPIElementNames('VideoSource', data))['bool']):
             print('Video source deleted')
             try:
-                s.Dvr('RescheduleRecordings')
+                s.Dvr('RescheduleRecordings', method='post')
             except Exception:
                 pass
             sys.exit(0)
@@ -360,7 +360,7 @@ if __name__ == '__main__':
         if bool(s.Channel('UpdateVideoSource', transformAPIElementNames('VideoSource', data))['bool']):
             print('Video source updated')
             try:
-                s.Dvr('RescheduleRecordings')
+                s.Dvr('RescheduleRecordings', method='post')
             except Exception:
                 pass
             sys.exit(0)
