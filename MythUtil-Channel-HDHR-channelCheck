@@ -126,6 +126,18 @@ def transformAPIElementNames(APIname, existingDict):
             newDict[newKey] = value
     return newDict
 
+def extendedVisibility(arg):
+    ua = str(arg).lower()
+    if ua in ['true'[:len(ua)], 'yes'[:len(ua)], '1', 'visible'[:len(ua)]]:
+        return 'Visible'
+    elif ua in ['false'[:len(ua)], 'no'[:len(ua)], '0', 'invisible'[:len(ua)], 'notvisible'[:len(ua)], 'not visible'[:len(ua)]]:
+        return 'Not Visible'
+    elif ua in ['always'[:len(ua)], '2', 'always visible'[:len(ua)]]:
+        return 'Always Visible'
+    elif ua in ['never'[:len(ua)], '-1', 'never visible'[:len(ua)]]:
+        return 'Never Visible'
+    raise argparse.ArgumentTypeError('{} is not a valid visible/true, not visible/false, always visible, never visible value'.format(arg))
+
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
@@ -152,6 +164,14 @@ if __name__ == '__main__':
                         help='list of channels to exclude.  The default is none')
     parser.add_argument('--include-demo-channels', action='store_true', default=False, dest='includeDemo',
                         help='include demo channels on HDHR')
+    parser.add_argument('--add', action='store_true', default=False, dest='addchannels',
+                        help='add channels to the videosource found on the HDHR but not in the videosource')
+    parser.add_argument('--delete', action='store_true', default=False, dest='deletechannels',
+                        help='delete channels from the videosource that not available on the HDHR')
+    parser.add_argument('--respect-channel-disabled', action='store_true', default=False, dest='respectdisabled',
+                        help='mark new channels as not visible if disabled in device')
+    parser.add_argument('--visibility', action='store', type=extendedVisibility, dest='extendedvisible',
+                        default='Visible', help='specify the new channel(s) visibility')
     args = parser.parse_args()
 
     s = MythTVServices(args.backend, args.port, args.username, args.password)
@@ -217,17 +237,68 @@ if __name__ == '__main__':
         f = channelNormalize(mythChannel['FrequencyId'])
         mythChannelFreqList.append(f)
 
-    # Report on channels that (likely) should be added to MythTV
+    # Report on channels that (likely) should be added to or updated on MythTV
     for guidenumber in natsort.natsorted(hdhrChannelList.keys()):
+        hdhrChannel = hdhrChannelList[guidenumber]
+        guidename = hdhrChannel.get('GuideName', '')
+        enabled = bool(hdhrChannel.get('Enabled', True))
+        subscribed = bool(hdhrChannel.get('Subscribed', True))
+        visibility = args.extendedvisible
+        if not subscribed or (args.respectdisabled and not enabled):
+            visibility = 'Not Visible'
         if guidenumber not in mythChannelFreqList:
-            hdhrChannel = hdhrChannelList[guidenumber]
-            guidename = ''
-            if 'GuideName' in hdhrChannel:
-                guidename = hdhrChannel['GuideName']
             print('Tuner channel {} ({}) is not in the MythTV channel database'.format(guidenumber, guidename))
+            if args.addchannels:
+                # We need to create a valid ChannelID:
+                try:
+                    chanId = sourceId * 10000 + int(guidenumber)
+                except Exception:
+                    chanId = sourceId * 10000
+                while True:
+                    try:
+                        data = {}
+                        data['ChanID'] = chanId
+                        if int(s.Channel('GetChannelInfo', data)['ChannelInfo']['ChanId']) == 0:
+                            break
+                    except Exception:
+                        break
+                    chanId += 1
+                data = {}
+                data['ChanId'] = chanId
+                data['SourceId'] = sourceId
+                data['ChanNum'] = guidenumber
+                data['FrequencyId'] = guidenumber
+                data['XMLTVID'] = ''
+                data['CallSign'] = guidename
+                data['ChannelName'] = guidename
+                data['Icon'] = ''
+                data['ATSCMajorChan'] = 0
+                data['ATSCMinorChan'] = 0
+                data['DefaultAuth'] = ''
+                data['Format'] = 'Default'
+                if ChannelServiceVersion >= versionTuple("1.9"):
+                    data['ExtendedVisible'] = visibility
+                else:
+                    data['Visible'] = bool(visibility in ['Visible', 'Always Visible'])
+                data['UseEIT'] = 0
+                data['MplexId'] = 0
+                data['ServiceId'] = 0
+                if bool(s.Channel('AddDBChannel', transformAPIElementNames('Channel', data))['bool']):
+                    print('  Channel {} added'.format(guidenumber))
+                else:
+                    print('  Channel {} addition failed'.format(guidenumber))
+        else: # Both in mythtv and hdhr
+            pass
 
     # Report on channels that (likely) should be deleted from MythTV
     mythChannelList = natsort.natsorted(mythChannelList, key=lambda c: c['ChanNum'])
     for mythChannel in mythChannelList:
         if mythChannel['FrequencyId']  not in hdhrChannelList:
             print('MythTV channel {} ({}) specifies a tuner channel {} which is not available'.format(mythChannel['ChanNum'], mythChannel['CallSign'], mythChannel['FrequencyId']))
+            if args.deletechannels:
+                data = {}
+                data['ChanId'] = mythChannel['ChanId']
+                if bool(s.Channel('RemoveDBChannel', transformAPIElementNames('Channel', data))['bool']):
+                    print('  Channel {} deleted'.format(mythChannel['FrequencyId']))
+                else:
+                    print('  Channel {} deletion failed'.format(mythChannel['FrequencyId']))
