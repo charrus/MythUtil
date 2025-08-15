@@ -205,6 +205,8 @@ if __name__ == '__main__':
                         help='do not update the xmltvid')
     parser.add_argument('--no-update-freqid', action='store_true', default=False, dest='noUpdateFreqID',
                         help='do not update the frequency id')
+    parser.add_argument('--no-update-atsc', action='store_true', default=False, dest='noUpdateATSC',
+                        help='do not update the atsc major/minor values')
     parser.add_argument('--no-strict-icon-check', action='store_true', default=False, dest='noStrictIcon',
                         help='do not check remote icon against local (bypass a slow/expensive check)')
     parser.add_argument('--refresh-icons', action='store_true', default=False, dest='refreshIcons',
@@ -305,6 +307,8 @@ if __name__ == '__main__':
             name = None
             icon = list()
             freqid = None
+            atscMajor = 0
+            atscMinor = 0
             if lineupEntry.find('preset') is not None:
                 channum = lineupEntry.find('preset').text
             lineupStation = lineupEntry.find('station')
@@ -323,6 +327,13 @@ if __name__ == '__main__':
                 freqid = lineupEntry.find('stb-channel/stb-preset').text
             if lineupEntry.find('atsc-channel/number') is not None:
                 freqid = lineupEntry.find('atsc-channel/number').text
+                m = re.match(r'^(\d+)\.(\d+)$', freqid)
+                if m:
+                    atscMajor = int(m.group(1))
+                    atscMinor = int(m.group(2))
+                    if (atscMajor == 0) or (atscMinor == 0):
+                        atscMajor = 0
+                        atscMinor = 0
 
             # preset is not required, so use the stb-preset
             if (channum is None) and (freqid is not None):
@@ -355,6 +366,8 @@ if __name__ == '__main__':
             c['name'] = name
             c['callsign'] = callsign
             c['icon'] = icon
+            c['atscMajor'] = atscMajor
+            c['atscMinor'] = atscMinor
 
             # Don't add duplicates (more common when mixing OTA DX'ers lineups?)
             for xmlChannel in xmlLineup:
@@ -479,6 +492,12 @@ if __name__ == '__main__':
                 if not args.noUpdateFreqID:
                     data['FrequencyId'] = xmlChannel['freqid']
                     update = True
+            if (xmlChannel['atscMajor'] != int(mythChannel['ATSCMajorChan'])) or (xmlChannel['atscMinor'] != int(mythChannel['ATSCMinorChan'])):
+                print('Channel {} with existing ATSC channel number {}.{} has a revised ATSC channel number {}.{}'.format(mythChannel['ChanNum'], mythChannel['ATSCMajorChan'], mythChannel['ATSCMinorChan'], xmlChannel['atscMajor'], xmlChannel['atscMinor']))
+                if not args.noUpdateATSC:
+                    data['ATSCMajorChan'] = xmlChannel['atscMajor']
+                    data['ATSCMinorChan'] = xmlChannel['atscMinor']
+                    update = True
             if xmlChannel['xmltvid'] != mythChannel['XMLTVID']:
                 print('Channel {} with existing XMLTVID: "{}" has a revised XMLTVID: "{}"'.format(mythChannel['ChanNum'], mythChannel['XMLTVID'], xmlChannel['xmltvid']))
                 if not args.noUpdateXMLTVID:
@@ -546,8 +565,8 @@ if __name__ == '__main__':
                 data['CallSign'] = xmlChannel['callsign']
                 data['ChannelName'] = xmlChannel['name']
                 data['Icon'] = iconFilename
-                data['ATSCMajorChan'] = 0
-                data['ATSCMinorChan'] = 0
+                data['ATSCMajorChan'] = xmlChannel['atscMajor']
+                data['ATSCMinorChan'] = xmlChannel['atscMinor']
                 data['DefaultAuth'] = ''
                 data['Format'] = 'Default'
                 if ChannelServiceVersion >= versionTuple("1.9"):
