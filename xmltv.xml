@@ -2,7 +2,7 @@
 <!-- Note: list-lineups and get-lineup is still unofficial in XMLTV, and the format and content of this xml is liable to change. -->
 <!-- Note: This data has been downloaded from Schedules Direct, and use of the data is restricted by the subscriber agreement to non-commercial use with open source projects.  Refer to the Schedules Direct subscriber agreement for more information -->
 
-<xmltv-lineups modified="2025-11-23T18:28:48 +0000" generator-info-name="tv_grab_zz_sdjson_sqlite" generator-info-url="https://github.com/garybuhrmaster/tv_grab_zz_sdjson_sqlite" source-info-name="Schedules Direct" source-info-url="https://www.schedulesdirect.org">
+<xmltv-lineups modified="2025-11-26T20:04:20 +0000" generator-info-name="tv_grab_zz_sdjson_sqlite" generator-info-url="https://github.com/garybuhrmaster/tv_grab_zz_sdjson_sqlite" source-info-name="Schedules Direct" source-info-url="https://www.schedulesdirect.org">
  <xmltv-lineup id="GBR-1000014-DEFAULT">
   <type>DTV</type>
   <display-name>Freeview (DVB-T London)</display-name>
