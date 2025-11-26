@@ -1,142 +1,202 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import argparse
-import sys
-import time
-import json
-import re
-import xml.etree.ElementTree
-import os
-import socket
-import tempfile
-import errno
 import hashlib
+import re
+import sys
 import urllib.parse
-import natsort
-import requests
-import requests.auth
+import xml.etree.ElementTree
 
-class MythTVServices():
+import httpx
+import natsort
+from rapidfuzz import fuzz, process
+
+SCORE_CUTOFF = 85
+INITIAL_CUTOFF = 85
+DEBUG_XML_CHAN = "92"
+
+
+class MythTVServices:
     def __init__(self, host=None, port=None, username=None, password=None):
         if host is None:
-            host = 'localhost'
+            host = "localhost"
         self.host = host
         if port is None:
             port = 6544
         self.port = port
-        self.session = requests.Session()
+        self.session = httpx.Client()
         if username and password:
-            self.session.auth = requests.auth.HTTPDigestAuth(username, password)
-            self.request(service='Myth', api='version')
+            self.session.auth = httpx.DigestAuth(username=username, password=password)
+            self.request(service="Myth", api="version")
 
-    def request(self, service=None, api=None, data={}, method=None, stream=False):
-        version = '0.28'
-        headers = {'User-Agent':'{} Python Services API Client'.format(version),
-                   'Accept':'application/json',
-                   'Accept-Encoding':'gzip,deflate'}
+    def request(self, service=None, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        version = "0.28"
+        headers = {
+            "User-Agent": f"{version} Python Services API Client",
+            "Accept": "application/json",
+            "Accept-Encoding": "gzip,deflate",
+        }
         if api is None:
-            raise ValueError('api must be specified')
-        url = 'http://{}:{}/{}/{}'.format(self.host, self.port, service, api)
+            raise ValueError("api must be specified")
+        url = f"http://{self.host}:{self.port}/{service}/{api}"
         if method is None:
             if bool(data):
-                method = 'post'
+                method = "post"
             else:
-                method = 'get'
-        if method == 'get':
-            response = self.session.get(url, headers=headers, params=data, stream=stream)
-        elif method == 'post':
-            response = self.session.post(url, headers=headers, data=data, stream=stream)
+                method = "get"
+        if method == "get":
+            response = self.session.get(url, headers=headers, params=data)
+        elif method == "post":
+            response = self.session.post(url, headers=headers, data=data)
         else:
-            raise ValueError('method is not post or get: {}'.format(method))
-        response.raise_for_status()
+            raise ValueError(f"method is not post or get: {method}")
+        if not response.is_success:
+            # print(f'URL: {url}, Reason: {response.reason_phrase}')
+            response.raise_for_status()
         if stream:
-            response.raw.decode_content = True
-            return response.raw
+            return response.content
         else:
             return response.json()
 
-    def Capture(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Capture', api=api, data=data, method=method, stream=stream)
-    def Channel(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Channel', api=api, data=data, method=method, stream=stream)
-    def Content(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Content', api=api, data=data, method=method, stream=stream)
-    def Dvr(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Dvr', api=api, data=data, method=method, stream=stream)
-    def Frontend(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Frontend', api=api, data=data, method=method, stream=stream)
-    def Guide(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Guide', api=api, data=data, method=method, stream=stream)
-    def Myth(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Myth', api=api, data=data, method=method, stream=stream)
-    def Video(self, api=None, data={}, method=None, stream=False):
-        return self.request(service='Video', api=api, data=data, method=method, stream=stream)
+    def Capture(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Capture", api=api, data=data, method=method, stream=stream
+        )
+
+    def Channel(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Channel", api=api, data=data, method=method, stream=stream
+        )
+
+    def Content(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Content", api=api, data=data, method=method, stream=stream
+        )
+
+    def Dvr(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Dvr", api=api, data=data, method=method, stream=stream
+        )
+
+    def Frontend(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Frontend", api=api, data=data, method=method, stream=stream
+        )
+
+    def Guide(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Guide", api=api, data=data, method=method, stream=stream
+        )
+
+    def Myth(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Myth", api=api, data=data, method=method, stream=stream
+        )
+
+    def Video(self, api=None, data=None, method=None, stream=False):
+        if data is None:
+            data = {}
+        return self.request(
+            service="Video", api=api, data=data, method=method, stream=stream
+        )
+
+
+def nameNormalize(name: str) -> str:
+    return (
+        name.replace("FM", "Radio")
+        .replace("(Freeview)", "")
+        .replace("TV", "")
+        .replace(" ", "")
+        .lower()
+    )
+
+
+def nameTLC(name: str) -> str:
+    return "".join([x[0] for x in name.split()])
+
 
 def channelNormalize(channel):
-    m0 = re.match(r'^(\d+)$', channel)
-    m1 = re.match(r'^(\d+)\.(\d+)$', channel)
-    m2 = re.match(r'^(\d+)_(\d+)$', channel)
-    m3 = re.match(r'^(\d+)-(\d+)$', channel)
+    m0 = re.match(r"^(\d+)$", channel)
+    m1 = re.match(r"^(\d+)\.(\d+)$", channel)
+    m2 = re.match(r"^(\d+)_(\d+)$", channel)
+    m3 = re.match(r"^(\d+)-(\d+)$", channel)
     if m0:
-        return '{}'.format(int(m0.group(1)))
+        return f"{int(m0.group(1))}"
     elif m1:
-        return '{}.{}'.format(int(m1.group(1)), int(m1.group(2)))
+        return f"{int(m1.group(1))}.{int(m1.group(2))}"
     elif m2:
-        return '{}.{}'.format(int(m2.group(1)), int(m2.group(2)))
+        return f"{int(m2.group(1))}.{int(m2.group(2))}"
     elif m3:
-        return '{}.{}'.format(int(m3.group(1)), int(m3.group(2)))
-    raise TypeError('Invalid channel: {}'.format(channel))
+        return f"{int(m3.group(1))}.{int(m3.group(2))}"
+    raise TypeError(f"Invalid channel: {channel}")
+
 
 def channelCheck(channel):
     try:
         return channelNormalize(channel)
     except Exception:
-        raise argparse.ArgumentTypeError('{} is not a valid channel'.format(channel))
+        raise argparse.ArgumentTypeError(f"{channel} is not a valid channel")
+
 
 def channelOffset(channel, offset):
-    if ((offset is None) or (offset == 0)):
+    if (offset is None) or (offset == 0):
         return channel
-    m0 = re.match(r'^(\d+)$', channel)
-    m1 = re.match(r'^(\d+)\.(\d+)$', channel)
+    m0 = re.match(r"^(\d+)$", channel)
+    m1 = re.match(r"^(\d+)\.(\d+)$", channel)
     if m0:
-        return '{}'.format((offset + int(m0.group(1))))
+        return f"{offset + int(m0.group(1))}"
     elif m1:
-        return '{}.{}'.format((offset + int(m1.group(1))), int(m1.group(2)))
-    raise TypeError('Invalid channel: {}'.format(channel))
+        return f"{offset + int(m1.group(1))}.{int(m1.group(2))}"
+    raise TypeError(f"Invalid channel: {channel}")
+
 
 def unsignedInt(v):
     try:
         v = int(v)
     except ValueError:
-        raise argparse.ArgumentTypeError("{} is not a valid positive integer".format(v))
+        raise argparse.ArgumentTypeError(f"{v} is not a valid positive integer")
     if v < 0:
-        raise argparse.ArgumentTypeError("{} is not a valid positive integer".format(v))
+        raise argparse.ArgumentTypeError(f"{v} is not a valid positive integer")
     return v
+
 
 def versionTuple(v):
     return tuple(map(int, (v.split("."))))
 
+
 def transformAPIElementNames(APIname, existingDict):
-    transforms = \
-        {
-            'VideoSource':
-                {
-                    'Id':                     'SourceId',
-                },
-            'Channel':
-                {
-                    'SourceId':               'SourceID',
-                    'MplexId':                'MplexID',
-                    'ChanId':                 'ChannelID',
-                    'ChanNum':                'ChannelNumber',
-                    'ServiceId':              'ServiceID',
-                    'ATSCMajorChan':          'ATSCMajorChannel',
-                    'ATSCMinorChan':          'ATSCMinorChannel',
-                    'Visible':                'visible',
-                    'FrequencyId':            'FrequencyID',
-                    'DefaultAuth':            'DefaultAuthority'
-                }
-        }
+    transforms = {
+        "VideoSource": {"Id": "SourceId"},
+        "Channel": {
+            "SourceId": "SourceID",
+            "MplexId": "MplexID",
+            "ChanId": "ChannelID",
+            "ChanNum": "ChannelNumber",
+            "ServiceId": "ServiceID",
+            "ATSCMajorChan": "ATSCMajorChannel",
+            "ATSCMinorChan": "ATSCMinorChannel",
+            "Visible": "Visible",
+            "FrequencyId": "FrequencyID",
+            "DefaultAuth": "DefaultAuthority",
+            "ExtendedVisible": "ExtraVisible",
+        },
+    }
     transform = transforms.get(APIname, {})
     newDict = {}
     for key, value in existingDict.items():
@@ -145,127 +205,281 @@ def transformAPIElementNames(APIname, existingDict):
             newDict[newKey] = value
     return newDict
 
+
 def extendedVisibility(arg):
     ua = str(arg).lower()
-    if ua in ['true'[:len(ua)], 'yes'[:len(ua)], '1', 'visible'[:len(ua)]]:
-        return 'Visible'
-    elif ua in ['false'[:len(ua)], 'no'[:len(ua)], '0', 'invisible'[:len(ua)], 'notvisible'[:len(ua)], 'not visible'[:len(ua)]]:
-        return 'Not Visible'
-    elif ua in ['always'[:len(ua)], '2', 'always visible'[:len(ua)]]:
-        return 'Always Visible'
-    elif ua in ['never'[:len(ua)], '-1', 'never visible'[:len(ua)]]:
-        return 'Never Visible'
-    raise argparse.ArgumentTypeError('{} is not a valid visible/true, not visible/false, always visible, never visible value'.format(arg))
+    if ua in ["true"[: len(ua)], "yes"[: len(ua)], "1", "visible"[: len(ua)]]:
+        return "Visible"
+    elif ua in [
+        "false"[: len(ua)],
+        "no"[: len(ua)],
+        "0",
+        "invisible"[: len(ua)],
+        "notvisible"[: len(ua)],
+        "not visible"[: len(ua)],
+    ]:
+        return "Not Visible"
+    elif ua in ["always"[: len(ua)], "2", "always visible"[: len(ua)]]:
+        return "Always Visible"
+    elif ua in ["never"[: len(ua)], "-1", "never visible"[: len(ua)]]:
+        return "Never Visible"
+    raise argparse.ArgumentTypeError(
+        f"{arg} is not a valid visible/true, not visible/false, always visible, never visible value"
+    )
+
 
 def reportCheck(report):
     reportType = str(report).lower()
-    if reportType == 'new'[:len(reportType)]:
-        return 'new'
-    if reportType == 'missing'[:len(reportType)]:
-        return 'missing'
-    if reportType == 'changed'[:len(reportType)]:
-        return 'changed'
-    raise argparse.ArgumentTypeError('{} is not a valid type to ignore'.format(report))
+    if reportType == "new"[: len(reportType)]:
+        return "new"
+    if reportType == "missing"[: len(reportType)]:
+        return "missing"
+    if reportType == "changed"[: len(reportType)]:
+        return "changed"
+    raise argparse.ArgumentTypeError(f"{report} is not a valid type to ignore")
 
-if __name__ == '__main__':
 
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--backend', '--host', action='store', type=str, default='localhost',
-                        help='the host (backend) to access.  The default is localhost.')
-    parser.add_argument('--port', action='store', type=int, default=6544,
-                        help='the port to connect to on on the host.  The default is 6544')
-    parser.add_argument('--username', action='store', type=str, default=None,
-                        help='the username to use for host authentication')
-    parser.add_argument('--password', action='store', type=str, default=None,
-                        help='the password to use for host authentication')
+    parser.add_argument(
+        "--backend",
+        "--host",
+        action="store",
+        type=str,
+        default="localhost",
+        help="the host (backend) to access.  The default is localhost.",
+    )
+    parser.add_argument(
+        "--port",
+        action="store",
+        type=int,
+        default=6544,
+        help="the port to connect to on on the host.  The default is 6544",
+    )
+    parser.add_argument(
+        "--username",
+        action="store",
+        type=str,
+        default=None,
+        help="the username to use for host authentication",
+    )
+    parser.add_argument(
+        "--password",
+        action="store",
+        type=str,
+        default=None,
+        help="the password to use for host authentication",
+    )
     sourcegroup = parser.add_mutually_exclusive_group(required=True)
-    sourcegroup.add_argument('--videosource-name', action='store', type=str, dest='sourceName',
-                             help='the video source name')
-    sourcegroup.add_argument('--videosource-id', action='store', type=unsignedInt, dest='sourceId',
-                             help='the video source id')
-    parser.add_argument('--channel', '--channels', '--include-channel', '--include-channels',
-                        nargs='+', type=channelCheck, dest='channelInclude',
-                        help='list of channels to consider.  The default is all')
-    parser.add_argument('--exclude-channel', '--exclude-channels', '--no-channel', '--no-channels',
-                        nargs='+', type=channelCheck, dest='channelExclude',
-                        help='list of channels to exclude.  The default is none')
-    parser.add_argument('--add', action='store_true', default=False,
-                        help='add any channels in xmltv lineup')
-    parser.add_argument('--delete', action='store_true', default=False,
-                        help='delete any channels not in xmltv lineup')
-    parser.add_argument('--update', action='store_true', default=False,
-                        help='update the channels to match xmltv lineup')
-    parser.add_argument('--no-update-name', action='store_true', default=False, dest='noUpdateName',
-                        help='do not update the channel name')
-    parser.add_argument('--no-update-callsign', action='store_true', default=False, dest='noUpdateCallsign',
-                        help='do not update the callsign')
-    parser.add_argument('--no-update-icons', action='store_true', default=False, dest='noUpdateIcons',
-                        help='do not update the icon')
-    parser.add_argument('--no-update-xmltvid', action='store_true', default=False, dest='noUpdateXMLTVID',
-                        help='do not update the xmltvid')
-    parser.add_argument('--no-update-freqid', action='store_true', default=False, dest='noUpdateFreqID',
-                        help='do not update the frequency id')
-    parser.add_argument('--no-update-atsc', action='store_true', default=False, dest='noUpdateATSC',
-                        help='do not update the atsc major/minor values')
-    parser.add_argument('--no-strict-icon-check', action='store_true', default=False, dest='noStrictIcon',
-                        help='do not check remote icon against local (bypass a slow/expensive check)')
-    parser.add_argument('--refresh-icons', action='store_true', default=False, dest='refreshIcons',
-                        help='refresh all eligible icons')
-    parser.add_argument('--include-extra-icons', action='store_true', default=False, dest='extraIcons',
-                         help='include extra available icons when downloading')
-    parser.add_argument('--visibility', action='store', type=extendedVisibility, dest='extendedvisible',
-                        default='Visible', help='specify the new channel(s) visibility')
-    parser.add_argument('--lcnoffset', action='store', type=unsignedInt, dest='lcnoffset',
-                        help='lcnoffset override')
-    parser.add_argument('--no-lcnoffset', action='store_true', default=False, dest='noOffset',
-                        help='do not apply videosource lcnoffset to either channel or freqid numbers')
-    parser.add_argument('--no-lcnoffset-channel-number', action='store_true', default=False, dest='noOffsetChannum',
-                        help='do not apply videosource lcnoffset to channel number')
-    parser.add_argument('--no-lcnoffset-freqid', action='store_true', default=False, dest='noOffsetFreqID',
-                        help='do not apply videosource lcnoffset to freqid number')
-    parser.add_argument('--no-report', nargs='+', type=reportCheck, dest='noReport',
-                        help='do not report (or act) on specified types ("new", "missing", "changed")')
-    parser.add_argument('file', nargs='?', type=argparse.FileType('rb'), default=sys.stdin)
+    sourcegroup.add_argument(
+        "--videosource-name",
+        action="store",
+        type=str,
+        dest="sourceName",
+        help="the video source name",
+    )
+    sourcegroup.add_argument(
+        "--videosource-id",
+        action="store",
+        type=unsignedInt,
+        dest="sourceId",
+        help="the video source id",
+    )
+    parser.add_argument(
+        "--channel",
+        "--channels",
+        "--include-channel",
+        "--include-channels",
+        nargs="+",
+        type=channelCheck,
+        dest="channelInclude",
+        help="list of channels to consider.  The default is all",
+    )
+    parser.add_argument(
+        "--exclude-channel",
+        "--exclude-channels",
+        "--no-channel",
+        "--no-channels",
+        nargs="+",
+        type=channelCheck,
+        dest="channelExclude",
+        help="list of channels to exclude.  The default is none",
+    )
+    parser.add_argument(
+        "--add",
+        action="store_true",
+        default=False,
+        help="add any channels in xmltv lineup",
+    )
+    parser.add_argument(
+        "--delete",
+        action="store_true",
+        default=False,
+        help="delete any channels not in xmltv lineup",
+    )
+    parser.add_argument(
+        "--update",
+        action="store_true",
+        default=False,
+        help="update the channels to match xmltv lineup",
+    )
+    parser.add_argument(
+        "--no-update-name",
+        action="store_true",
+        default=False,
+        dest="noUpdateName",
+        help="do not update the channel name",
+    )
+    parser.add_argument(
+        "--no-update-callsign",
+        action="store_true",
+        default=False,
+        dest="noUpdateCallsign",
+        help="do not update the callsign",
+    )
+    parser.add_argument(
+        "--no-update-icons",
+        action="store_true",
+        default=False,
+        dest="noUpdateIcons",
+        help="do not update the icon",
+    )
+    parser.add_argument(
+        "--no-update-xmltvid",
+        action="store_true",
+        default=False,
+        dest="noUpdateXMLTVID",
+        help="do not update the xmltvid",
+    )
+    parser.add_argument(
+        "--no-update-freqid",
+        action="store_true",
+        default=False,
+        dest="noUpdateFreqID",
+        help="do not update the frequency id",
+    )
+    parser.add_argument(
+        "--no-update-atsc",
+        action="store_true",
+        default=False,
+        dest="noUpdateATSC",
+        help="do not update the atsc major/minor values",
+    )
+    parser.add_argument(
+        "--no-strict-icon-check",
+        action="store_true",
+        default=False,
+        dest="noStrictIcon",
+        help="do not check remote icon against local (bypass a slow/expensive check)",
+    )
+    parser.add_argument(
+        "--refresh-icons",
+        action="store_true",
+        default=False,
+        dest="refreshIcons",
+        help="refresh all eligible icons",
+    )
+    parser.add_argument(
+        "--include-extra-icons",
+        action="store_true",
+        default=False,
+        dest="extraIcons",
+        help="include extra available icons when downloading",
+    )
+    parser.add_argument(
+        "--visibility",
+        action="store",
+        type=extendedVisibility,
+        dest="extendedvisible",
+        default="Visible",
+        help="specify the new channel(s) visibility",
+    )
+    parser.add_argument(
+        "--lcnoffset",
+        action="store",
+        type=unsignedInt,
+        dest="lcnoffset",
+        help="lcnoffset override",
+    )
+    parser.add_argument(
+        "--no-lcnoffset",
+        action="store_true",
+        default=False,
+        dest="noOffset",
+        help="do not apply videosource lcnoffset to either channel or freqid numbers",
+    )
+    parser.add_argument(
+        "--no-lcnoffset-channel-number",
+        action="store_true",
+        default=False,
+        dest="noOffsetChannum",
+        help="do not apply videosource lcnoffset to channel number",
+    )
+    parser.add_argument(
+        "--no-lcnoffset-freqid",
+        action="store_true",
+        default=False,
+        dest="noOffsetFreqID",
+        help="do not apply videosource lcnoffset to freqid number",
+    )
+    parser.add_argument(
+        "--no-report",
+        nargs="+",
+        type=reportCheck,
+        dest="noReport",
+        help='do not report (or act) on specified types ("new", "missing", "changed")',
+    )
+    parser.add_argument(
+        "file", nargs="?", type=argparse.FileType("rb"), default=sys.stdin
+    )
     args = parser.parse_args()
 
     s = MythTVServices(args.backend, args.port, args.username, args.password)
 
     try:
-        hostname = s.Myth('GetHostName')['String']
+        hostname = s.Myth("GetHostName")["String"]
     except Exception:
-        print('Unable to obtain hostname from host {}:{}'.format(args.backend, args.port))
+        print(f"Unable to obtain hostname from host {args.backend}:{args.port}")
         sys.exit(1)
 
-    ChannelServiceVersion = versionTuple(s.Channel('version')['String'])
+    ChannelServiceVersion = versionTuple(s.Channel("version")["String"])
 
-    if (ChannelServiceVersion < versionTuple("1.9")) and (args.extendedvisible in ['Never Visible', 'Always Visible']):
-        print('Warning: backend does not supported extended visibility settings')
+    if (ChannelServiceVersion < versionTuple("1.9")) and (
+        args.extendedvisible in ["Never Visible", "Always Visible"]
+    ):
+        print("Warning: backend does not supported extended visibility settings")
 
     # Validate sourceid/name
-    mythsl = s.Channel('GetVideoSourceList')['VideoSourceList']['VideoSources']
+    mythsl = s.Channel("GetVideoSourceList")["VideoSourceList"]["VideoSources"]
     sourceId = None
     sourceName = None
     sourceOffset = 0
     for source in mythsl:
-        if int(source['Id']) == args.sourceId or source['SourceName'] == args.sourceName:
-            sourceId = int(source['Id'])
-            sourceName = source['SourceName']
-            if ChannelServiceVersion >= versionTuple('1.10'):
-                sourceOffset = int(source['LCNOffset'])
+        if (
+            int(source["Id"]) == args.sourceId
+            or source["SourceName"] == args.sourceName
+        ):
+            sourceId = int(source["Id"])
+            sourceName = source["SourceName"]
+            if ChannelServiceVersion >= versionTuple("1.10"):
+                sourceOffset = int(source["LCNOffset"])
             if args.lcnoffset is not None:
                 sourceOffset = args.lcnoffset
             break
     if sourceId is None:
-        print('Video source not found')
+        print("Video source not found")
         sys.exit(1)
 
     # Get channel list for source
-    mythChannelInfo = s.Channel('GetChannelInfoList', {'SourceID': sourceId, 'Details': True})['ChannelInfoList']['ChannelInfos']
+    mythChannelInfo = s.Channel(
+        "GetChannelInfoList", {"SourceID": sourceId, "Details": True}
+    )["ChannelInfoList"]["ChannelInfos"]
     mythChannelList = []
+    mythNames = {}
     for mythChannel in mythChannelInfo:
-        if 'ChanNum' not in mythChannel:
+        if "ChanNum" not in mythChannel:
             continue
-        c = channelNormalize(mythChannel['ChanNum'])
+        c = channelNormalize(mythChannel["ChanNum"])
         if args.channelInclude is not None:
             if c not in args.channelInclude:
                 continue
@@ -273,10 +487,16 @@ if __name__ == '__main__':
             if c in args.channelExclude:
                 continue
         mythChannelList.append(mythChannel)
-    mythChannelList = natsort.natsorted(mythChannelList, key=lambda c: c['ChanNum'])
+        mythNames[nameNormalize(mythChannel["ChannelName"])] = mythChannel
+    mythChannelList = natsort.natsorted(mythChannelList, key=lambda c: c["ChanNum"])
+    mythNames = {
+        nameNormalize(mythChannel["ChannelName"]): mythChannel
+        for mythChannel in mythChannelList
+    }
 
     # Get channel list from get-lineup XML
     xmlLineup = []
+    xmlNames = {}
     try:
         tree = xml.etree.ElementTree.parse(args.file)
     except xml.etree.ElementTree.ParseError:
@@ -284,50 +504,59 @@ if __name__ == '__main__':
         sys.exit(1)
     root = tree.getroot()
     # Some file validation
-    if root.tag != 'xmltv-lineups':
-        print('The XMLTV get-linup file does not appear to be valid (root element is not xmltv-lineups)')
+    if root.tag != "xmltv-lineups":
+        print(
+            "The XMLTV get-linup file does not appear to be valid",
+            "(root element is not xmltv-lineups)",
+        )
         sys.exit(1)
 
-    for lineup in root.iter('xmltv-lineup'):
-        lineupName = lineup.get('id')
+    for lineup in root.iter("xmltv-lineup"):
+        lineupName = lineup.get("id")
         lineupType = None
-        if lineup.find('type') is not None:
-            lineupType = lineup.find('type').text
-        if lineupType not in ['STB', 'DTV']:
-            print('The XMLTV get-lineup file does not specify a supported type ({}) for lineup {}'.format(lineupType, lineupName))
+        if lineup.find("type") is not None:
+            lineupType = lineup.find("type").text
+        if lineupType not in ["STB", "DTV"]:
+            print(
+                "The XMLTV get-lineup file does not specify a supported type",
+                f"({lineupType}) for lineup {lineupName}",
+            )
             sys.exit(1)
-        if lineupType in ['DTV']:                              # Future support for DVB/ATSC?
-            print('The XMLTV get-lineup type ({}) for lineup {} has limited support'.format(lineupType, lineupName))
+        if lineupType in ["DTV"]:  # Future support for DVB/ATSC?
+            print(
+                f"The XMLTV get-lineup type ({lineupType}) ",
+                f"for lineup {lineupName} has limited support",
+            )
 
-    for lineup in root.iter('xmltv-lineup'):
-        for lineupEntry in lineup.iter('lineup-entry'):
+    for lineup in root.iter("xmltv-lineup"):
+        for lineupEntry in lineup.iter("lineup-entry"):
             channum = None
             xmltvid = None
             callsign = None
             name = None
-            icon = list()
+            icon = []
             freqid = None
             atscMajor = 0
             atscMinor = 0
-            if lineupEntry.find('preset') is not None:
-                channum = lineupEntry.find('preset').text
-            lineupStation = lineupEntry.find('station')
+            if lineupEntry.find("preset") is not None:
+                channum = lineupEntry.find("preset").text
+            lineupStation = lineupEntry.find("station")
             if lineupStation is not None:
-                xmltvid = lineupStation.get('rfc2838', default=None)
-                if lineupStation.find('name') is not None:
-                    name = lineupStation.find('name').text
-                if lineupStation.find('short-name') is not None:
-                    callsign = lineupStation.find('short-name').text
-                if lineupStation.find('logo') is not None:
-                    for logo in lineupStation.findall('logo'):
-                        if logo.get('url') is not None:
-                            icon.append(logo.get('url'))
+                xmltvid = lineupStation.get("rfc2838", default=None)
+                if lineupStation.find("name") is not None:
+                    name = lineupStation.find("name").text
+                if lineupStation.find("short-name") is not None:
+                    callsign = lineupStation.find("short-name").text
+                if lineupStation.find("logo") is not None:
+                    for logo in lineupStation.findall("logo"):
+                        if logo.get("url") is not None:
+                            icon.append(logo.get("url"))
             freqid = channum
-            if lineupEntry.find('stb-channel/stb-preset') is not None:
-                freqid = lineupEntry.find('stb-channel/stb-preset').text
-            if lineupEntry.find('atsc-channel/number') is not None:
-                freqid = lineupEntry.find('atsc-channel/number').text
-                m = re.match(r'^(\d+)\.(\d+)$', freqid)
+            if lineupEntry.find("stb-channel/stb-preset") is not None:
+                freqid = lineupEntry.find("stb-channel/stb-preset").text
+            if lineupEntry.find("atsc-channel/number") is not None:
+                freqid = lineupEntry.find("atsc-channel/number").text
+                m = re.match(r"^(\d+)\.(\d+)$", freqid)
                 if m:
                     atscMajor = int(m.group(1))
                     atscMinor = int(m.group(2))
@@ -347,9 +576,9 @@ if __name__ == '__main__':
                 continue
 
             # adjust channum and freqid if lcnoffset
-            if ((not args.noOffset) and (not args.noOffsetChannum)):
+            if (not args.noOffset) and (not args.noOffsetChannum):
                 channum = channelOffset(channum, sourceOffset)
-            if ((not args.noOffset) and (not args.noOffsetFreqID)):
+            if (not args.noOffset) and (not args.noOffsetFreqID):
                 freqid = channelOffset(freqid, sourceOffset)
 
             if args.channelInclude is not None:
@@ -360,239 +589,484 @@ if __name__ == '__main__':
                     continue
 
             c = {}
-            c['channum'] = channum
-            c['xmltvid'] = xmltvid
-            c['freqid'] = freqid
-            c['name'] = name
-            c['callsign'] = callsign
-            c['icon'] = icon
-            c['atscMajor'] = atscMajor
-            c['atscMinor'] = atscMinor
+            c["channum"] = channum
+            c["xmltvid"] = xmltvid
+            c["freqid"] = freqid
+            c["name"] = name
+            c["callsign"] = callsign
+            c["icon"] = icon
+            c["atscMajor"] = atscMajor
+            c["atscMinor"] = atscMinor
 
             # Don't add duplicates (more common when mixing OTA DX'ers lineups?)
             for xmlChannel in xmlLineup:
-                if (xmlChannel['channum'] == channum) and (xmlChannel['xmltvid'] == xmltvid) and \
-                    (xmlChannel['freqid'] == freqid) and (xmlChannel['name'] == name) and \
-                    (xmlChannel['callsign'] == callsign):
+                if (
+                    (xmlChannel["channum"] == channum)
+                    and (xmlChannel["xmltvid"] == xmltvid)
+                    and (xmlChannel["freqid"] == freqid)
+                    and (xmlChannel["name"] == name)
+                    and (xmlChannel["callsign"] == callsign)
+                ):
                     continue
 
             xmlLineup.append(c)
 
-    xmlLineup = natsort.natsorted(xmlLineup, key=lambda c: c['freqid'])
+    xmlLineup = natsort.natsorted(xmlLineup, key=lambda c: c["freqid"])
+    xmlNames = {
+        nameNormalize(xmlChannel["name"]): xmlChannel for xmlChannel in xmlLineup
+    }
+
+    mythtv_missing = {}
 
     # Check for MythTV channels that do not exist in get-lineup XMLTV channels
-    for mythChannel in mythChannelList:
+    for mythName, mythChannel in mythNames.items():
         found = False
-        for xmlChannel in xmlLineup:
-            if mythChannel['ChanNum'] == xmlChannel['channum']:
-                found = True
+        fuzzy = 0
+        xmlAuthName = "[MISSING]"
+        for xmlName, xmlChannel in xmlNames.items():
+            if xmlChannel["channum"] == mythChannel["ChanNum"]:
+                xmlAuthName = xmlChannel["name"]
+                if xmlChannel["channum"] == DEBUG_XML_CHAN:
+                    ...
+                # Confirm this is the correct channel by doing an fuzzy
+                # check with the channel name.
+                fuzzy = fuzz.WRatio(
+                    mythName,
+                    xmlName,
+                    # processor=utils.default_process,
+                )
+                if fuzzy >= INITIAL_CUTOFF:
+                    found = True
+                else:
+                    fuzzy = fuzz.WRatio(
+                        mythName, nameNormalize(nameTLC(xmlChannel["name"]))
+                    )
+                    if fuzzy >= INITIAL_CUTOFF:
+                        found = True
+                    else:
+                        found = False
+
                 break
-        if (not found) and ((args.noReport is None) or ('missing' not in args.noReport)):
-            print('Channel {}, callsign: "{}", name: "{}" is not in the XMLTV channel list'.format(mythChannel['ChanNum'], mythChannel['CallSign'], mythChannel['ChannelName']))
+
+        if not found:
+            if args.noReport is None or "missing" not in args.noReport:
+                print(
+                    f"Channel {mythChannel['ChanNum']},",
+                    f'callsign: "{mythChannel["CallSign"]}",',
+                    f'vs XMLTV name: "{xmlAuthName}"',
+                    f'name: "{mythChannel["ChannelName"]}"',
+                    f"is not in the XMLTV channel list (match={fuzzy:.2f}/{INITIAL_CUTOFF})",
+                )
             if args.delete:
                 data = {}
-                data['ChanId'] = mythChannel['ChanId']
-                if bool(s.Channel('RemoveDBChannel', transformAPIElementNames('Channel', data))['bool']):
-                    print('  Channel deleted')
+                data["ChanId"] = mythChannel["ChanId"]
+                if s.Channel(
+                    "RemoveDBChannel", transformAPIElementNames("Channel", data)
+                )["bool"]:
+                    print("  Channel deleted")
                 else:
-                    print('  Channel deletion failed')
+                    print("  Channel deletion failed")
+            elif args.update:
+                update = False
+                data = {}
+                data["ChanId"] = mythChannel["ChanId"]
+
+                if mythChannel["XMLTVID"]:
+                    print(
+                        f"Channel {mythChannel['ChanNum']} xmltvid is no longer valid"
+                    )
+                    mythChannel["XMLTVID"] = ""
+                    if not args.noUpdateXMLTVID:
+                        data["XMLTVID"] = mythChannel["XMLTVID"]
+                        update = True
+                if mythChannel["Icon"]:
+                    mythChannel["Icon"] = ""
+                    print(f"Channel {mythChannel['ChanNum']} icon is no longer valid")
+                    if not args.noUpdateIcons:
+                        data["Icon"] = mythChannel["Icon"]
+                        update = True
+                if update:
+                    if s.Channel(
+                        "UpdateDBChannel", transformAPIElementNames("Channel", data)
+                    )["bool"]:
+                        print(
+                            f"  Channel {mythChannel['ChanNum']} updated with:\n{data}"
+                        )
+                    else:
+                        print(
+                            "  Channel {} update failed".format(mythChannel["ChanNum"])
+                        )
+                    mythtv_missing[mythName] = mythChannel
+                else:
+                    mythtv_missing[mythName] = mythChannel
+        else:
+            if args.noReport is None or "notmissing" not in args.noReport:
+                print(
+                    f"Channel {mythChannel['ChanNum']},",
+                    f'callsign: "{mythChannel["CallSign"]}",',
+                    f'XMLTV name: "{xmlChannel["name"]}"',
+                    f'vs name: "{mythChannel["ChannelName"]}"',
+                    f"is in the XMLTV channel list (match={fuzzy:.2f}/{INITIAL_CUTOFF})",
+                )
 
     # Check XMLTV channels against MythTV channels
-    for xmlChannel in xmlLineup:
-        found = False
-        for mythChannel in mythChannelList:
-            if mythChannel['ChanNum'] == xmlChannel['channum']:
-                found = True
-                break
-        if found and ((args.noReport is None) or ('changed' not in args.noReport)):
-            update = False
-            if ChannelServiceVersion >= versionTuple("1.9"):
-                data = {}
-                data['ChanId'] = mythChannel['ChanId']
-            else:
-                # Copy existing values
-                data = mythChannel.copy()
-            if (len(xmlChannel['icon']) == 0) and (mythChannel['IconURL'] == ''):
-                pass           # Nothing to see here
-            elif (len(xmlChannel['icon']) > 0) and (mythChannel['IconURL'] == ''):
-                print('Channel {} has a new icon'.format(mythChannel['ChanNum']))
-                if ((not args.noUpdateIcons) and (args.update)):
-                    iconFilename = urllib.parse.urlparse(xmlChannel['icon'][0])[2].rpartition('/')[2]
-                    downloadFileData = {}
-                    downloadFileData['StorageGroup'] = 'ChannelIcons'
-                    downloadFileData['URL'] = xmlChannel['icon'][0]
-                    if bool(s.Content('DownloadFile', downloadFileData)['bool']):
-                        data['Icon'] = iconFilename
-                        update = True
+    with httpx.Client(http2=True) as client:
+        for xmlName, xmlChannel in xmlNames.items():
+            found = False
+            fuzzy = 0
+            for mythName, mythChannel in mythNames.items():
+                if xmlChannel["channum"] == mythChannel["ChanNum"]:
+                    # if mythChannel['ChanNum'] == '710':
+                    if xmlChannel["channum"] == DEBUG_XML_CHAN:
+                        ...
+                    # Confirm this is the correct channel by doing an fuzzy
+                    # check with the channel name.
+                    fuzzy = fuzz.WRatio(mythName, xmlName)
+                    if fuzzy >= INITIAL_CUTOFF:
+                        found = True
                     else:
-                        print('   Channel {} icon download failed'.format(mythChannel['ChanNum']))
-                    if (args.extraIcons):
-                        for icon in xmlChannel['icon'][1:]:
-                            downloadFileData = {}
-                            downloadFileData['StorageGroup'] = 'ChannelIcons'
-                            downloadFileData['URL'] = icon
-                            if bool(s.Content('DownloadFile', downloadFileData)['bool']):
-                                pass
-                            else:
-                                print('   Channel {} extra icon download failed'.format(mythChannel['ChanNum']))
-            elif (len(xmlChannel['icon']) == 0) and (mythChannel['IconURL'] != ''):
-                print('Channel {} icon is no longer valid'.format(mythChannel['ChanNum']))
-                if not args.noUpdateIcons:
-                    data['Icon'] = ''
-                    update = True
-            else:
-                # xmlChannel and mythChannel both have icons.
-                if not args.noStrictIcon:
-                    # comparing is expensive, so allow one to accept that icons are icons
-                    mythChannelIcon = None
-                    for attempt in range(2):
-                        try:
-                            mythChannelIcon = s.Guide('GetChannelIcon', {'ChanID': mythChannel['ChanId']}, stream=True).read()
-                        except requests.exceptions.RequestException:
-                            mythChannelIcon = None
-                            time.sleep(0.1)
+                        fuzzy = fuzz.WRatio(
+                            mythName, nameNormalize(nameTLC(xmlChannel["name"]))
+                        )
+                        if fuzzy >= INITIAL_CUTOFF:
+                            found = True
                         else:
-                            break
-                    if mythChannelIcon is None:
-                        print('Channel {} icon cannot be retrieved from the backend'.format(mythChannel['ChanNum']))
-                        mythChannelIcon = b''
-                    mythChannelIconHash = hashlib.sha256(mythChannelIcon).hexdigest()
-                    try:
-                        xmlIcon = requests.get(xmlChannel['icon'][0]).content
-                    except requests.exceptions.RequestException:
-                        print('Channel {} icon cannot be retrieved from source'.format(xmlChannel['channum']))
-                        xmlIcon = b''
-                    xmlIconHash = hashlib.sha256(xmlIcon).hexdigest()
-                    if (xmlIconHash != mythChannelIconHash) or args.refreshIcons:
-                        if xmlIconHash != mythChannelIconHash:
-                            print('Channel {} icon differs from source'.format(mythChannel['ChanNum']))
-                        elif ((not args.noUpdateIcons) and (args.update)):
-                            print('Channel {} icon refresh forced'.format(mythChannel['ChanNum']))
-                        if ((not args.noUpdateIcons) and (args.update)):
-                            iconFilename = urllib.parse.urlparse(xmlChannel['icon'][0])[2].rpartition('/')[2]
-                            downloadFileData = {}
-                            downloadFileData['StorageGroup'] = 'ChannelIcons'
-                            downloadFileData['URL'] = xmlChannel['icon'][0]
-                            if bool(s.Content('DownloadFile', downloadFileData)['bool']):
-                                data['Icon'] = iconFilename
-                                update = True
-                            else:
-                                print('   Channel {} icon download failed'.format(mythChannel['ChanNum']))
-                            if (args.extraIcons):
-                                for icon in xmlChannel['icon'][1:]:
-                                    downloadFileData = {}
-                                    downloadFileData['StorageGroup'] = 'ChannelIcons'
-                                    downloadFileData['URL'] = icon
-                                    if bool(s.Content('DownloadFile', downloadFileData)['bool']):
-                                        pass
-                                    else:
-                                        print('   Channel {} extra icon download failed'.format(mythChannel['ChanNum']))
-            if xmlChannel['freqid'] != mythChannel['FrequencyId']:
-                print('Channel {} with existing frequency id: "{}" has a revised frequency id: {}'.format(mythChannel['ChanNum'], mythChannel['FrequencyId'], xmlChannel['freqid']))
-                if not args.noUpdateFreqID:
-                    data['FrequencyId'] = xmlChannel['freqid']
-                    update = True
-            if (xmlChannel['atscMajor'] != int(mythChannel['ATSCMajorChan'])) or (xmlChannel['atscMinor'] != int(mythChannel['ATSCMinorChan'])):
-                print('Channel {} with existing ATSC channel number {}.{} has a revised ATSC channel number {}.{}'.format(mythChannel['ChanNum'], mythChannel['ATSCMajorChan'], mythChannel['ATSCMinorChan'], xmlChannel['atscMajor'], xmlChannel['atscMinor']))
-                if not args.noUpdateATSC:
-                    data['ATSCMajorChan'] = xmlChannel['atscMajor']
-                    data['ATSCMinorChan'] = xmlChannel['atscMinor']
-                    update = True
-            if xmlChannel['xmltvid'] != mythChannel['XMLTVID']:
-                print('Channel {} with existing XMLTVID: "{}" has a revised XMLTVID: "{}"'.format(mythChannel['ChanNum'], mythChannel['XMLTVID'], xmlChannel['xmltvid']))
-                if not args.noUpdateXMLTVID:
-                    data['XMLTVID'] = xmlChannel['xmltvid']
-                    update = True
-            if xmlChannel['callsign'] != mythChannel['CallSign']:
-                print('Channel {} with existing callsign: "{}" has a revised callsign: "{}"'.format(mythChannel['ChanNum'], mythChannel['CallSign'], xmlChannel['callsign']))
-                if not args.noUpdateCallsign:
-                    data['CallSign'] = xmlChannel['callsign']
-                    update = True
-            if xmlChannel['name'] != mythChannel['ChannelName']:
-                print('Channel {} with existing name: "{}" has a new name: "{}"'.format(mythChannel['ChanNum'], mythChannel['ChannelName'], xmlChannel['name']))
-                if not args.noUpdateName:
-                    data['ChannelName'] = xmlChannel['name']
-                    update = True
-            if update and args.update:
-                if bool(s.Channel('UpdateDBChannel', transformAPIElementNames('Channel', data))['bool']):
-                    print('  Channel {} updated'.format(mythChannel['ChanNum']))
-                else:
-                    print('  Channel {} update failed'.format(mythChannel['ChanNum']))
+                            found = False
+                    break
 
-        if (not found) and ((args.noReport is None) or ('new' not in args.noReport)):
-            print('Channel {}, callsign: "{}", name: "{}" is new'.format(xmlChannel['channum'], xmlChannel['callsign'], xmlChannel['name']))
-            if args.add:
-                # Attempt to download icon (if not excluded)
-                iconFilename = ''
-                if not args.noUpdateIcons:
-                    if (len(xmlChannel['icon']) > 0):
+            if not found:
+                if xmlChannel["channum"] == DEBUG_XML_CHAN:
+                    ...
+                print(
+                    f"Channel {xmlChannel['channum']} not found, Searcing for a match",
+                    f'with "{mythChannel["ChannelName"]} to the channel name "{xmlChannel["name"]}" (match={fuzzy})',
+                )
+
+                match = process.extractOne(
+                    xmlName,
+                    mythtv_missing.keys(),
+                    scorer=fuzz.WRatio,
+                    score_cutoff=SCORE_CUTOFF,
+                )
+                if match:
+                    # Get the mythChannel for the fuzzy name match
+                    mythName = match[0]
+                    mythChannel = mythNames[mythName]
+                    print(
+                        f"   Channel {xmlChannel['channum']},",
+                        f'name: "{xmlChannel["name"]}"',
+                        f'callsign: "{xmlChannel["callsign"]}",',
+                        f"found at channel {mythChannel['ChanNum']},"
+                        f'name: "{mythChannel["ChannelName"]}"',
+                        f'callsign: "{mythChannel["CallSign"]}"',
+                        f"with a score of {match[1]:.2f}%",
+                    )
+
+                    # Channel has been found, so remove it from missing choices to avoid
+                    # the myth channel being matched again and over-written.
+                    del mythtv_missing[mythName]
+                    found = True
+
+            if found and ((args.noReport is None) or ("changed" not in args.noReport)):
+                update = False
+                if "NameMatch" in mythChannel:
+                    del mythChannel["NameMatch"]
+                if ChannelServiceVersion >= versionTuple("1.9"):
+                    data = {}
+                    data["ChanId"] = mythChannel["ChanId"]
+                else:
+                    # Copy existing values
+                    data = mythChannel.copy()
+                if (len(xmlChannel["icon"]) == 0) and (mythChannel["IconURL"] == ""):
+                    pass  # Nothing to see here
+                elif (len(xmlChannel["icon"]) > 0) and (mythChannel["IconURL"] == ""):
+                    print(f"Channel {mythChannel['ChanNum']} has a new icon")
+                    if (not args.noUpdateIcons) and (args.update):
+                        iconFilename = urllib.parse.urlparse(xmlChannel["icon"][0])[
+                            2
+                        ].rpartition("/")[2]
                         downloadFileData = {}
-                        downloadFileData['StorageGroup'] = 'ChannelIcons'
-                        downloadFileData['URL'] = xmlChannel['icon'][0]
-                        if bool(s.Content('DownloadFile', downloadFileData)['bool']):
-                            iconFilename = urllib.parse.urlparse(xmlChannel['icon'][0])[2].rpartition('/')[2]
+                        downloadFileData["StorageGroup"] = "ChannelIcons"
+                        downloadFileData["URL"] = xmlChannel["icon"][0]
+                        if s.Content("DownloadFile", downloadFileData)["bool"]:
+                            data["Icon"] = iconFilename
+                            update = True
                         else:
-                            print('   Channel {} icon download failed'.format(xmlChannel['channum']))
-                        if (args.extraIcons):
-                            for icon in xmlChannel['icon'][1:]:
+                            print(
+                                f"   Channel {mythChannel['ChanNum']} icon download failed"
+                            )
+                        if args.extraIcons:
+                            for icon in xmlChannel["icon"][1:]:
                                 downloadFileData = {}
-                                downloadFileData['StorageGroup'] = 'ChannelIcons'
-                                downloadFileData['URL'] = icon
-                                if bool(s.Content('DownloadFile', downloadFileData)['bool']):
+                                downloadFileData["StorageGroup"] = "ChannelIcons"
+                                downloadFileData["URL"] = icon
+                                if s.Content("DownloadFile", downloadFileData)["bool"]:
                                     pass
                                 else:
-                                    print('   Channel {} extra icon download failed'.format(xmlChannel['channum']))
-                # We need to create a valid ChannelID:
-                try:
-                    chanId = sourceId * 10000 + int(xmlChannel['channum'])
-                except Exception:
-                    chanId = sourceId * 10000
-                while True:
-                    try:
+                                    print(
+                                        f"   Channel {mythChannel['ChanNum']} extra icon download failed"
+                                    )
+                elif (len(xmlChannel["icon"]) == 0) and (mythChannel["IconURL"] != ""):
+                    print(f"Channel {mythChannel['ChanNum']} icon is no longer valid")
+                    if not args.noUpdateIcons:
+                        data["Icon"] = ""
+                        update = True
+                else:
+                    # xmlChannel and mythChannel both have icons.
+                    if not args.noStrictIcon:
+                        # comparing is expensive, so allow one to accept that icons are icons
+                        mythChannelIcon = None
+
+                        try:
+                            mythChannelIcon = s.Guide(
+                                "GetChannelIcon",
+                                {"ChanID": mythChannel["ChanId"]},
+                                stream=True,
+                            )
+                        except httpx.HTTPError:
+                            print(
+                                f"Channel {mythChannel['ChanNum']} icon request with ChanId failed."
+                            )
+
+                        if not mythChannelIcon:
+                            try:
+                                mythChannelIcon = s.Guide(
+                                    "GetChannelIcon",
+                                    {"FileName": mythChannel["Icon"]},
+                                    stream=True,
+                                )
+                            except httpx.HTTPError:
+                                print(
+                                    f"Channel {mythChannel['ChanNum']} icon request with FileName failed."
+                                )
+
+                        if not mythChannelIcon:
+                            print(
+                                f"Channel {mythChannel['ChanNum']} icon cannot be retrieved from the backend"
+                            )
+                            mythChannelIcon = b""
+
+                        mythChannelIconHash = hashlib.sha256(
+                            mythChannelIcon
+                        ).hexdigest()
+                        try:
+                            xmlIcon = client.get(xmlChannel["icon"][0]).content
+                        except httpx.HTTPError:
+                            print(
+                                f"Channel {xmlChannel['channum']} icon cannot be retrieved from source"
+                            )
+                            xmlIcon = b""
+                        xmlIconHash = hashlib.sha256(xmlIcon).hexdigest()
+                        if (xmlIconHash != mythChannelIconHash) or args.refreshIcons:
+                            if xmlIconHash != mythChannelIconHash:
+                                print(
+                                    f"Channel {mythChannel['ChanNum']} icon differs from source"
+                                )
+                            elif (not args.noUpdateIcons) and (args.update):
+                                print(
+                                    f"Channel {mythChannel['ChanNum']} icon refresh forced"
+                                )
+                            if (not args.noUpdateIcons) and (args.update):
+                                iconFilename = urllib.parse.urlparse(
+                                    xmlChannel["icon"][0]
+                                )[2].rpartition("/")[2]
+                                downloadFileData = {}
+                                downloadFileData["StorageGroup"] = "ChannelIcons"
+                                downloadFileData["URL"] = xmlChannel["icon"][0]
+                                if s.Content("DownloadFile", downloadFileData)["bool"]:
+                                    data["Icon"] = iconFilename
+                                    update = True
+                                else:
+                                    print(
+                                        f"   Channel {mythChannel['ChanNum']} icon download failed"
+                                    )
+                                if args.extraIcons:
+                                    for icon in xmlChannel["icon"][1:]:
+                                        downloadFileData = {}
+                                        downloadFileData["StorageGroup"] = (
+                                            "ChannelIcons"
+                                        )
+                                        downloadFileData["URL"] = icon
+                                        if s.Content("DownloadFile", downloadFileData)[
+                                            "bool"
+                                        ]:
+                                            pass
+                                        else:
+                                            print(
+                                                f"   Channel {mythChannel['ChanNum']} "
+                                                "extra icon download failed"
+                                            )
+                if xmlChannel["freqid"] != mythChannel["FrequencyId"]:
+                    print(
+                        f"Channel {mythChannel['ChanNum']} with existing frequency id: "
+                        f'"{mythChannel["FrequencyId"]}" has a revised frequency id: {xmlChannel["freqid"]}'
+                    )
+                    if not args.noUpdateFreqID:
+                        data["FrequencyId"] = xmlChannel["freqid"]
+                        update = True
+                if (xmlChannel["atscMajor"] != int(mythChannel["ATSCMajorChan"])) or (
+                    xmlChannel["atscMinor"] != int(mythChannel["ATSCMinorChan"])
+                ):
+                    print(
+                        "Channel {} with existing ATSC channel number {}.{} has a revised ATSC channel number {}.{}".format(
+                            mythChannel["ChanNum"],
+                            mythChannel["ATSCMajorChan"],
+                            mythChannel["ATSCMinorChan"],
+                            xmlChannel["atscMajor"],
+                            xmlChannel["atscMinor"],
+                        )
+                    )
+                    if not args.noUpdateATSC:
+                        data["ATSCMajorChan"] = xmlChannel["atscMajor"]
+                        data["ATSCMinorChan"] = xmlChannel["atscMinor"]
+                        update = True
+                if xmlChannel["xmltvid"] != mythChannel["XMLTVID"]:
+                    print(
+                        'Channel {} with existing XMLTVID: "{}" has a revised XMLTVID: "{}"'.format(
+                            mythChannel["ChanNum"],
+                            mythChannel["XMLTVID"],
+                            xmlChannel["xmltvid"],
+                        )
+                    )
+                    if not args.noUpdateXMLTVID:
+                        data["XMLTVID"] = xmlChannel["xmltvid"]
+                        update = True
+                if xmlChannel["callsign"] != mythChannel["CallSign"]:
+                    print(
+                        'Channel {} with existing callsign: "{}" has a revised callsign: "{}"'.format(
+                            mythChannel["ChanNum"],
+                            mythChannel["CallSign"],
+                            xmlChannel["callsign"],
+                        )
+                    )
+                    if not args.noUpdateCallsign:
+                        data["CallSign"] = xmlChannel["callsign"]
+                        update = True
+                if xmlChannel["name"] != mythChannel["ChannelName"]:
+                    print(
+                        'Channel {} with existing name: "{}" has a new name: "{}"'.format(
+                            mythChannel["ChanNum"],
+                            mythChannel["ChannelName"],
+                            xmlChannel["name"],
+                        )
+                    )
+                    if not args.noUpdateName:
+                        data["ChannelName"] = xmlChannel["name"]
+                        update = True
+                if update and args.update:
+                    if s.Channel(
+                        "UpdateDBChannel", transformAPIElementNames("Channel", data)
+                    )["bool"]:
+                        print(
+                            f"  Channel {mythChannel['ChanNum']} updated with:\n{data}"
+                        )
+                    else:
+                        print(
+                            "  Channel {} update failed".format(mythChannel["ChanNum"])
+                        )
+
+            if (not found) and (
+                (args.noReport is None) or ("new" not in args.noReport)
+            ):
+                mythName = xmlName
+                print(
+                    f"Channel {xmlChannel['channum']},",
+                    f'callsign: "{xmlChannel["callsign"]}",',
+                    f'name: "{xmlChannel["name"]}" is new',
+                )
+                if args.add:
+                    # Attempt to download icon (if not excluded)
+                    iconFilename = ""
+                    if not args.noUpdateIcons:
+                        if len(xmlChannel["icon"]) > 0:
+                            downloadFileData = {}
+                            downloadFileData["StorageGroup"] = "ChannelIcons"
+                            downloadFileData["URL"] = xmlChannel["icon"][0]
+                            if s.Content("DownloadFile", downloadFileData)["bool"]:
+                                iconFilename = urllib.parse.urlparse(
+                                    xmlChannel["icon"][0]
+                                )[2].rpartition("/")[2]
+                            else:
+                                print(
+                                    f"   Channel {xmlChannel['channum']} icon download failed"
+                                )
+                            if args.extraIcons:
+                                for icon in xmlChannel["icon"][1:]:
+                                    downloadFileData = {}
+                                    downloadFileData["StorageGroup"] = "ChannelIcons"
+                                    downloadFileData["URL"] = icon
+                                    if s.Content("DownloadFile", downloadFileData)[
+                                        "bool"
+                                    ]:
+                                        pass
+                                    else:
+                                        print(
+                                            '   Channel {xmlChannel["channum"]} extra icon download failed'
+                                        )
+                        # We need to create a valid ChannelID:
+                        try:
+                            chanId = sourceId * 10000 + int(xmlChannel["channum"])
+                        except Exception:
+                            chanId = sourceId * 10000
+                        while True:
+                            try:
+                                data = {}
+                                data["ChanID"] = chanId
+                                if (
+                                    int(
+                                        s.Channel("GetChannelInfo", data)[
+                                            "ChannelInfo"
+                                        ]["ChanId"]
+                                    )
+                                    == 0
+                                ):
+                                    break
+                            except Exception:
+                                break
+                            chanId += 1
                         data = {}
-                        data['ChanID'] = chanId
-                        if int(s.Channel('GetChannelInfo', data)['ChannelInfo']['ChanId']) == 0:
-                            break
-                    except Exception:
-                        break
-                    chanId += 1
-                data = {}
-                data['ChanId'] = chanId
-                data['SourceId'] = sourceId
-                data['ChanNum'] = xmlChannel['channum']
-                data['FrequencyId'] = xmlChannel['freqid']
-                data['XMLTVID'] = xmlChannel['xmltvid']
-                data['CallSign'] = xmlChannel['callsign']
-                data['ChannelName'] = xmlChannel['name']
-                data['Icon'] = iconFilename
-                data['ATSCMajorChan'] = xmlChannel['atscMajor']
-                data['ATSCMinorChan'] = xmlChannel['atscMinor']
-                data['DefaultAuth'] = ''
-                data['Format'] = 'Default'
-                if ChannelServiceVersion >= versionTuple("1.9"):
-                    data['ExtendedVisible'] = args.extendedvisible
-                else:
-                    data['Visible'] = bool(args.extendedvisible in ['Visible', 'Always Visible'])
-                data['UseEIT'] = 0
-                data['MplexId'] = 0
-                data['ServiceId'] = 0
-                if bool(s.Channel('AddDBChannel', transformAPIElementNames('Channel', data))['bool']):
-                    print('  Channel {} added'.format(xmlChannel['channum']))
-                    mythChannel = data.copy()
-                    mythChannel['IconURL']        = data['Icon']
-                    mythChannel['FineTune']       = 0
-                    mythChannel['ChanFilters']    = ''
-                    mythChannel['InputId']        = 0
-                    mythChannel['CommFree']       = False
-                    mythChannel['DefaultAuth']    = ''
-                    mythChannel['Programs']       = []
-                    mythChannelList.append(mythChannel)
-                else:
-                    print('  Channel {} addition failed'.format(xmlChannel['channum']))
+                        data["ChanId"] = chanId
+                        data["SourceId"] = sourceId
+                        data["ChanNum"] = xmlChannel["channum"]
+                        data["FrequencyId"] = xmlChannel["freqid"]
+                        data["XMLTVID"] = xmlChannel["xmltvid"]
+                        data["CallSign"] = xmlChannel["callsign"]
+                        data["ChannelName"] = xmlChannel["name"]
+                        data["Icon"] = iconFilename
+                        data["ATSCMajorChan"] = xmlChannel["atscMajor"]
+                        data["ATSCMinorChan"] = xmlChannel["atscMinor"]
+                        data["DefaultAuth"] = ""
+                        data["Format"] = "Default"
+                        if ChannelServiceVersion >= versionTuple("1.9"):
+                            data["ExtendedVisible"] = args.extendedvisible
+                        else:
+                            data["Visible"] = args.extendedvisible in [
+                                "Visible",
+                                "Always Visible",
+                            ]
+                        data["UseEIT"] = 0
+                        data["MplexId"] = 0
+                        data["ServiceId"] = 0
+                        if s.Channel(
+                            "AddDBChannel",
+                            transformAPIElementNames("Channel", data)["bool"],
+                        ):
+                            print(f"  Channel {xmlChannel['channum']} added")
+                            mythChannel = data.copy()
+                            mythChannel["IconURL"] = data["Icon"]
+                            mythChannel["FineTune"] = 0
+                            mythChannel["ChanFilters"] = ""
+                            mythChannel["InputId"] = 0
+                            mythChannel["CommFree"] = False
+                            mythChannel["DefaultAuth"] = ""
+                            mythChannel["Programs"] = []
+                            mythNames[mythName] = mythChannel
+                        else:
+                            print('  Channel {xmlChannel["channum"]} addition failed')
 
     if args.add or args.delete or args.update:
         try:
-            s.Dvr('RescheduleRecordings', method='post')
+            s.Dvr("RescheduleRecordings", method="post")
         except Exception:
             pass
 

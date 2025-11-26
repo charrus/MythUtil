@@ -1,0 +1,715 @@
+The XMLTV get-lineup type (DTV)  for lineup GBR-1000014-DEFAULT has limited support
+Channel 22, callsign: "TJC", name: "TJC" is not in the XMLTV channel list
+Channel 37, callsign: "QVC2", name: "QVC2" is not in the XMLTV channel list
+Channel 58, callsign: "ITV3+1", name: "ITV3+1" is not in the XMLTV channel list
+Channel 59, callsign: "ITV4+1", name: "ITV4+1" is not in the XMLTV channel list
+Channel 61, callsign: "Great! Movies", name: "Great! Movies" is not in the XMLTV channel list
+Channel 63, callsign: "Great! Player", name: "Great! Player" is not in the XMLTV channel list
+Channel 73, callsign: "HobbyMaker", name: "HobbyMaker" is not in the XMLTV channel list
+Channel 75, callsign: "That's Oldies", name: "That's Oldies" is not in the XMLTV channel list
+Channel 76, callsign: "That's Melody", name: "That's Melody" is not in the XMLTV channel list
+Channel 81, callsign: "Rewind TV", name: "Rewind TV" is not in the XMLTV channel list
+Channel 89, callsign: "Shop On TV", name: "Shop On TV" is not in the XMLTV channel list
+Channel 92, callsign: "Blaze+1", name: "Blaze+1" is not in the XMLTV channel list
+Channel 94, callsign: "SonLife", name: "SonLife" is not in the XMLTV channel list
+Channel 96, callsign: "Must Have Ideas", name: "Must Have Ideas" is not in the XMLTV channel list
+Channel 97, callsign: "Hobbycraft TV", name: "Hobbycraft TV" is not in the XMLTV channel list
+Channel 98, callsign: "wedotv Movies UK", name: "wedotv Movies UK" is not in the XMLTV channel list
+Channel 207, callsign: "POP UP", name: "POP UP" is not in the XMLTV channel list
+Channel 210, callsign: "Ketchup Too", name: "Ketchup Too" is not in the XMLTV channel list
+Channel 211, callsign: "YAAAS!", name: "YAAAS!" is not in the XMLTV channel list
+Channel 212, callsign: "POP Max", name: "POP Max" is not in the XMLTV channel list
+Channel 214, callsign: "Cartoon Classics", name: "Cartoon Classics" is not in the XMLTV channel list
+Channel 251, callsign: "Al Jazeera English", name: "Al Jazeera English" is not in the XMLTV channel list
+Channel 252, callsign: "Al Jazeera Arabic", name: "Al Jazeera Arabic" is not in the XMLTV channel list
+Channel 253, callsign: "Trailblazer", name: "Trailblazer" is not in the XMLTV channel list
+Channel 254, callsign: "On Demand 365", name: "On Demand 365" is not in the XMLTV channel list
+Channel 256, callsign: "Odyssey TV", name: "Odyssey TV" is not in the XMLTV channel list
+Channel 257, callsign: "EuroNews", name: "EuroNews" is not in the XMLTV channel list
+Channel 258, callsign: "India Today", name: "India Today" is not in the XMLTV channel list
+Channel 259, callsign: "MBC", name: "MBC" is not in the XMLTV channel list
+Channel 260, callsign: "ASHARQ NEWS", name: "ASHARQ NEWS" is not in the XMLTV channel list
+Channel 261, callsign: "AL ARABIYA", name: "AL ARABIYA" is not in the XMLTV channel list
+Channel 264, callsign: "Alaraby Network", name: "Alaraby Network" is not in the XMLTV channel list
+Channel 265, callsign: "ROK", name: "ROK" is not in the XMLTV channel list
+Channel 266, callsign: "Revelation TV", name: "Revelation TV" is not in the XMLTV channel list
+Channel 267, callsign: "God TV", name: "God TV" is not in the XMLTV channel list
+Channel 268, callsign: "It Is Written TV", name: "It Is Written TV" is not in the XMLTV channel list
+Channel 269, callsign: "New Media TV", name: "New Media TV" is not in the XMLTV channel list
+Channel 270, callsign: "Together TV IP", name: "Together TV IP" is not in the XMLTV channel list
+Channel 271, callsign: "Channelbox", name: "Channelbox" is not in the XMLTV channel list
+Channel 273, callsign: "Newsmax", name: "Newsmax" is not in the XMLTV channel list
+Channel 274, callsign: "Amazing Facts", name: "Amazing Facts" is not in the XMLTV channel list
+Channel 275, callsign: "wedotv movies", name: "wedotv movies" is not in the XMLTV channel list
+Channel 276, callsign: "CNA Originals", name: "CNA Originals" is not in the XMLTV channel list
+Channel 278, callsign: "Nosey", name: "Nosey" is not in the XMLTV channel list
+Channel 279, callsign: "Purpose Media", name: "Purpose Media" is not in the XMLTV channel list
+Channel 280, callsign: "Talk", name: "Talk" is not in the XMLTV channel list
+Channel 283, callsign: "Global Arabic +", name: "Global Arabic +" is not in the XMLTV channel list
+Channel 284, callsign: "GIGS", name: "GIGS" is not in the XMLTV channel list
+Channel 287, callsign: "Nolly Africa", name: "Nolly Africa" is not in the XMLTV channel list
+Channel 288, callsign: "OUTflix Proud", name: "OUTflix Proud" is not in the XMLTV channel list
+Channel 289, callsign: "MBC Group", name: "MBC Group" is not in the XMLTV channel list
+Channel 555, callsign: "Accessible TV Guide", name: "Accessible TV Guide" is not in the XMLTV channel list
+Channel 670, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 671, callsign: "ADULT Xpanded TV", name: "ADULT Xpanded TV" is not in the XMLTV channel list
+Channel 673, callsign: "ADULT smileTV3", name: "ADULT smileTV3" is not in the XMLTV channel list
+Channel 674, callsign: "ADULT Babestn", name: "ADULT Babestn" is not in the XMLTV channel list
+Channel 699, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 711, callsign: "BBC Berkshire", name: "BBC Berkshire" is not in the XMLTV channel list
+Channel 712, callsign: "BBC Three Counties", name: "BBC Three Counties" is not in the XMLTV channel list
+Channel 713, callsign: "BBC Radio London", name: "BBC Radio London" is not in the XMLTV channel list
+Channel 714, callsign: "BBC Surrey", name: "BBC Radio Surrey" is not in the XMLTV channel list
+Channel 716, callsign: "BBC Essex", name: "BBC Radio Essex" is not in the XMLTV channel list
+Channel 1 icon refresh forced
+Channel 1 with existing callsign: "BBC ONE Lon" has a revised callsign: "BBC1LDN"
+Channel 1 with existing name: "BBC ONE Lon" has a new name: "BBC One London"
+  Channel 1 updated with:
+{'ChanId': 10001, 'Icon': 's30644_dark_360w_270h.png'}
+Channel 2 icon refresh forced
+Channel 2 with existing callsign: "BBC TWO" has a revised callsign: "BBC2"
+Channel 2 with existing name: "BBC TWO" has a new name: "BBC Two"
+  Channel 2 updated with:
+{'ChanId': 10002, 'Icon': 's17154_dark_360w_270h.png'}
+Channel 3 icon refresh forced
+Channel 3 with existing callsign: "ITV1" has a revised callsign: "ITV1LON"
+Channel 3 with existing name: "ITV1" has a new name: "ITV1 (London)"
+  Channel 3 updated with:
+{'ChanId': 10003, 'Icon': 's17468_dark_360w_270h.png'}
+Channel 4 icon refresh forced
+Channel 4 with existing callsign: "Channel 4" has a revised callsign: "C4"
+  Channel 4 updated with:
+{'ChanId': 10004, 'Icon': 's17155_dark_360w_270h.png'}
+Channel 5 icon refresh forced
+Channel 5 with existing callsign: "5" has a revised callsign: "CH5"
+  Channel 5 updated with:
+{'ChanId': 10005, 'Icon': 's17157_dark_360w_270h.png'}
+Channel 6 icon refresh forced
+  Channel 6 updated with:
+{'ChanId': 10006, 'Icon': 's20630_dark_360w_270h.png'}
+Channel 8 icon refresh forced
+Channel 8 with existing callsign: "London TV" has a revised callsign: "LONLIVE"
+  Channel 8 updated with:
+{'ChanId': 10008, 'Icon': 's84926_dark_360w_270h.png'}
+Channel 9 icon refresh forced
+Channel 9 with existing callsign: "BBC FOUR" has a revised callsign: "BBC4"
+Channel 9 with existing name: "BBC FOUR" has a new name: "BBC Four"
+  Channel 9 updated with:
+{'ChanId': 10009, 'Icon': 's20684_dark_360w_270h.png'}
+Channel 10 icon refresh forced
+Channel 10 with existing callsign: "ITV3" has a revised callsign: "ITVTHREE"
+  Channel 10 updated with:
+{'ChanId': 10010, 'Icon': 's44643_dark_360w_270h.png'}
+Channel 11 icon refresh forced
+Channel 11 with existing callsign: "Sky Mix" has a revised callsign: "SKYMIX"
+  Channel 11 updated with:
+{'ChanId': 78046, 'Icon': 's48021_dark_360w_270h.png'}
+Channel 12 icon refresh forced
+Channel 12 with existing name: "QUEST" has a new name: "Quest"
+  Channel 12 updated with:
+{'ChanId': 77986, 'Icon': 's62391_dark_360w_270h.png'}
+Channel 13 icon refresh forced
+  Channel 13 updated with:
+{'ChanId': 10013, 'Icon': 's25117_dark_360w_270h.png'}
+Channel 14 icon refresh forced
+Channel 14 with existing callsign: "Film4" has a revised callsign: "FILM4UK"
+  Channel 14 updated with:
+{'ChanId': 10014, 'Icon': 's21494_dark_360w_270h.png'}
+Channel 15 icon refresh forced
+Channel 15 with existing callsign: "Channel 4+1" has a revised callsign: "C4P1"
+Channel 15 with existing name: "Channel 4+1" has a new name: "Channel 4 +1"
+  Channel 15 updated with:
+{'ChanId': 10015, 'Icon': 's56892_dark_360w_270h.png'}
+Channel 16 icon refresh forced
+Channel 16 with existing callsign: "QVC" has a revised callsign: "QVCUKSD"
+  Channel 16 updated with:
+{'ChanId': 10016, 'Icon': 's125129_dark_360w_270h.png'}
+Channel 17 icon refresh forced
+Channel 17 with existing callsign: "Really" has a revised callsign: "REALLY"
+Channel 17 with existing name: "Really" has a new name: "Really UKTV"
+  Channel 17 updated with:
+{'ChanId': 10017, 'Icon': 's45828_dark_360w_270h.png'}
+Channel 18 icon refresh forced
+Channel 18 with existing callsign: "More 4" has a revised callsign: "MORE4"
+  Channel 18 updated with:
+{'ChanId': 10018, 'Icon': 's47657_dark_360w_270h.png'}
+Channel 19 icon refresh forced
+Channel 19 with existing callsign: "U&Dave" has a revised callsign: "UDAVE"
+  Channel 19 updated with:
+{'ChanId': 10019, 'Icon': 's24305_dark_360w_270h.png'}
+Channel 20 icon refresh forced
+Channel 20 with existing callsign: "U&Drama" has a revised callsign: "UDRAMA"
+  Channel 20 updated with:
+{'ChanId': 10020, 'Icon': 's117464_dark_360w_270h.png'}
+Channel 21 icon refresh forced
+  Channel 21 updated with:
+{'ChanId': 10021, 'Icon': 's52335_dark_360w_270h.png'}
+Channel 22 not found, Searcing for a match on the channel name "The Jewellery Channel"
+Channel 22, callsign: "JEWELCH", name: "The Jewellery Channel" is new
+Channel 23 icon refresh forced
+Channel 23 with existing callsign: "BBC THREE" has a revised callsign: "BBC3"
+Channel 23 with existing name: "BBC THREE" has a new name: "BBC Three"
+  Channel 23 updated with:
+{'ChanId': 12300, 'Icon': 's20683_dark_360w_270h.png'}
+Channel 25 icon refresh forced
+Channel 25 with existing callsign: "U&W" has a revised callsign: "UANDW"
+  Channel 25 updated with:
+{'ChanId': 77995, 'Icon': 's61458_dark_360w_270h.png'}
+Channel 26 icon refresh forced
+  Channel 26 updated with:
+{'ChanId': 10025, 'Icon': 's48020_dark_360w_270h.png'}
+Channel 27 icon refresh forced
+Channel 27 with existing callsign: "U&Yesterday" has a revised callsign: "UYESTSD"
+  Channel 27 updated with:
+{'ChanId': 77981, 'Icon': 's138444_dark_360w_270h.png'}
+Channel 28 icon refresh forced
+Channel 28 with existing callsign: "ITV Quiz" has a revised callsign: "ITVQZVM"
+  Channel 28 updated with:
+{'ChanId': 77852, 'Icon': 'GNLZZGG0022XGPX.png_dark_360w_270h.png'}
+Channel 29 icon refresh forced
+Channel 29 with existing callsign: "ITV2+1" has a revised callsign: "ITV2P1"
+Channel 29 with existing name: "ITV2+1" has a new name: "ITV2 +1"
+  Channel 29 updated with:
+{'ChanId': 10028, 'Icon': 's53059_dark_360w_270h.png'}
+Channel 30 icon refresh forced
+Channel 30 with existing callsign: "E4+1" has a revised callsign: "E4P1"
+Channel 30 with existing name: "E4+1" has a new name: "E4 +1"
+  Channel 30 updated with:
+{'ChanId': 10029, 'Icon': 's33882_dark_360w_270h.png'}
+Channel 31 icon refresh forced
+Channel 31 with existing callsign: "E4 Extra" has a revised callsign: "E4EXTRA"
+  Channel 31 updated with:
+{'ChanId': 77847, 'Icon': 's31786_dark_360w_270h.png'}
+Channel 32 icon refresh forced
+Channel 32 with existing callsign: "5STAR" has a revised callsign: "5ST"
+Channel 32 with existing name: "5STAR" has a new name: "5 Star"
+  Channel 32 updated with:
+{'ChanId': 10031, 'Icon': 's52336_dark_360w_270h.png'}
+Channel 33 icon refresh forced
+Channel 33 with existing callsign: "5ACTION" has a revised callsign: "5ACTSVM"
+Channel 33 with existing name: "5ACTION" has a new name: "5 Action"
+  Channel 33 updated with:
+{'ChanId': 10032, 'Icon': 's109246_dark_360w_270h.png'}
+Channel 34 icon refresh forced
+Channel 34 with existing callsign: "Great! TV" has a revised callsign: "GRETMYS"
+Channel 34 with existing name: "Great! TV" has a new name: "Great! Mystery"
+  Channel 34 updated with:
+{'ChanId': 77991, 'Icon': 'GNLZZGG0029BMCL.png_dark_360w_270h.png'}
+Channel 35 icon refresh forced
+Channel 35 with existing callsign: "ITV1+1" has a revised callsign: "ITVP1LN"
+Channel 35 with existing name: "ITV1+1" has a new name: "ITV1 +1"
+  Channel 35 updated with:
+{'ChanId': 10034, 'Icon': 's65160_dark_360w_270h.png'}
+Channel 36 icon refresh forced
+Channel 36 with existing callsign: "Sky Arts" has a revised callsign: "SKYART1"
+  Channel 36 updated with:
+{'ChanId': 10036, 'Icon': 's24919_dark_360w_270h.png'}
+Channel 38 icon refresh forced
+Channel 38 with existing callsign: "5 +1" has a revised callsign: "CH5P1VM"
+  Channel 38 updated with:
+{'ChanId': 10045, 'Icon': 's77749_dark_360w_270h.png'}
+Channel 39 icon refresh forced
+Channel 39 with existing callsign: "DMAX" has a revised callsign: "DMAXE"
+  Channel 39 updated with:
+{'ChanId': 77988, 'Icon': 's58793_dark_360w_270h.png'}
+Channel 40 icon refresh forced
+Channel 40 with existing callsign: "Quest Red" has a revised callsign: "QREDUK"
+  Channel 40 updated with:
+{'ChanId': 10039, 'Icon': 's102471_dark_360w_270h.png'}
+Channel 41 icon refresh forced
+Channel 41 with existing callsign: "LEGEND" has a revised callsign: "LEGENDVM"
+Channel 41 with existing name: "LEGEND" has a new name: "Legend"
+  Channel 41 updated with:
+{'ChanId': 77851, 'Icon': 's73970_dark_360w_270h.png'}
+Channel 42 icon refresh forced
+Channel 42 with existing callsign: "Great! Action" has a revised callsign: "GRTMACT"
+  Channel 42 updated with:
+{'ChanId': 10041, 'Icon': 'GNLZZGG0027ESGV.png_dark_360w_270h.png'}
+Channel 43 icon refresh forced
+Channel 43 with existing callsign: "Food Network" has a revised callsign: "FOODNET"
+  Channel 43 updated with:
+{'ChanId': 10042, 'Icon': 's44718_dark_360w_270h.png'}
+Channel 44 icon refresh forced
+Channel 44 with existing callsign: "HGTV" has a revised callsign: "HGTVUK"
+  Channel 44 updated with:
+{'ChanId': 77994, 'Icon': 's21257_dark_360w_270h.png'}
+Channel 45 icon refresh forced
+Channel 45 with existing callsign: "Gemporia" has a revised callsign: "GEMPORIAHD"
+Channel 45 with existing name: "Gemporia" has a new name: "GEMPORIA HD"
+  Channel 45 updated with:
+{'ChanId': 10044, 'Icon': 's27993_dark_360w_270h.png'}
+Channel 46 icon refresh forced
+  Channel 46 updated with:
+{'ChanId': 78007, 'Icon': 's56888_dark_360w_270h.png'}
+Channel 47 icon refresh forced
+Channel 47 with existing callsign: "Film4+1" has a revised callsign: "FILM41"
+Channel 47 with existing name: "Film4+1" has a new name: "Film4 +1"
+  Channel 47 updated with:
+{'ChanId': 10046, 'Icon': 's25630_dark_360w_270h.png'}
+Channel 48 icon refresh forced
+Channel 48 with existing callsign: "Challenge" has a revised callsign: "CHALL"
+  Channel 48 updated with:
+{'ChanId': 10047, 'Icon': 's21793_dark_360w_270h.png'}
+Channel 49 icon refresh forced
+Channel 49 with existing callsign: "4seven" has a revised callsign: "4SEVEN"
+Channel 49 with existing name: "4seven" has a new name: "4Seven"
+  Channel 49 updated with:
+{'ChanId': 78056, 'Icon': 's75804_dark_360w_270h.png'}
+Channel 50 icon refresh forced
+Channel 50 with existing callsign: "Great! Mystery" has a revised callsign: "GREATUK"
+Channel 50 with existing name: "Great! Mystery" has a new name: "Great! TV"
+  Channel 50 updated with:
+{'ChanId': 77983, 'Icon': 'GNLZZGG002GB9YS.png_dark_360w_270h.png'}
+Channel 51 icon refresh forced
+Channel 51 with existing callsign: "Ideal World" has a revised callsign: "IDLFV"
+Channel 51 with existing name: "Ideal World" has a new name: "Ideal World (Freeview)"
+  Channel 51 updated with:
+{'ChanId': 77982, 'Icon': 's110927_dark_360w_270h.png'}
+Channel 52 icon refresh forced
+Channel 52 with existing callsign: "Great! Christmas" has a revised callsign: "GREATRO"
+  Channel 52 updated with:
+{'ChanId': 77985, 'Icon': 'GNLZZGG0029BNQD.png_dark_360w_270h.png'}
+Channel 56 icon refresh forced
+Channel 56 with existing callsign: "That's TV (UK)" has a revised callsign: "THATSTV"
+Channel 56 with existing name: "That's TV (UK)" has a new name: "That's TV"
+  Channel 56 updated with:
+{'ChanId': 77992, 'Icon': 's120346_dark_360w_270h.png'}
+Channel 57 icon refresh forced
+Channel 57 with existing callsign: "U&Eden" has a revised callsign: "EDEN"
+  Channel 57 updated with:
+{'ChanId': 78052, 'Icon': 's35806_dark_360w_270h.png'}
+Channel 58 not found, Searcing for a match on the channel name "ITV3 +1 (Freeview)"
+Channel 58, callsign: "ITV3P1F", name: "ITV3 +1 (Freeview)" is new
+Channel 59 not found, Searcing for a match on the channel name "ITV4 +1 (Freeview)"
+Channel 59, callsign: "ITV4PF", name: "ITV4 +1 (Freeview)" is new
+Channel 60 icon refresh forced
+Channel 60 with existing callsign: "U&Drama+1" has a revised callsign: "UDRP1VM"
+  Channel 60 updated with:
+{'ChanId': 16000, 'Icon': 's111955_dark_360w_270h.png'}
+Channel 62 icon refresh forced
+Channel 62 with existing callsign: "Great! Romance Mix" has a revised callsign: "GRROMIX"
+Channel 62 with existing name: "Great! Romance Mix" has a new name: "GREAT! Romance mix"
+  Channel 62 updated with:
+{'ChanId': 77999, 'Icon': 's50011_dark_360w_270h.png'}
+Channel 64 icon refresh forced
+Channel 64 with existing callsign: "Blaze" has a revised callsign: "BLZEFV"
+Channel 64 with existing name: "Blaze" has a new name: "Blaze (Freeview)"
+  Channel 64 updated with:
+{'ChanId': 10063, 'Icon': 's110919_dark_360w_270h.png'}
+Channel 65 icon refresh forced
+Channel 65 with existing callsign: "That's TV 2" has a revised callsign: "THATS2"
+  Channel 65 updated with:
+{'ChanId': 10065, 'Icon': 's136453_dark_360w_270h.png'}
+Channel 66 icon refresh forced
+Channel 66 with existing callsign: "TBN UK" has a revised callsign: "TBNUK"
+  Channel 66 updated with:
+{'ChanId': 78006, 'Icon': 's97332_dark_360w_270h.png'}
+Channel 67 icon refresh forced
+Channel 67 with existing callsign: "TRUE CRIME" has a revised callsign: "TRUCRUK"
+Channel 67 with existing name: "TRUE CRIME" has a new name: "True Crime"
+  Channel 67 updated with:
+{'ChanId': 10066, 'Icon': 's31756_dark_360w_270h.png'}
+Channel 68 icon refresh forced
+Channel 68 with existing callsign: "TRUE CRIME XTRA" has a revised callsign: "TCEXTRA"
+Channel 68 with existing name: "TRUE CRIME XTRA" has a new name: "True Crime Xtra"
+  Channel 68 updated with:
+{'ChanId': 77850, 'Icon': 's57827_dark_360w_270h.png'}
+Channel 69 icon refresh forced
+Channel 69 with existing callsign: "LEGEND XTRA" has a revised callsign: "LEGEXTR"
+Channel 69 with existing name: "LEGEND XTRA" has a new name: "Legend Xtra"
+  Channel 69 updated with:
+{'ChanId': 16900, 'Icon': 's42762_dark_360w_270h.png'}
+Channel 70 icon refresh forced
+Channel 70 with existing callsign: "QUEST+1" has a revised callsign: "QUESTP1"
+Channel 70 with existing name: "QUEST+1" has a new name: "Quest +1"
+  Channel 70 updated with:
+{'ChanId': 10069, 'Icon': 's65394_dark_360w_270h.png'}
+Channel 71 icon refresh forced
+Channel 71 with existing callsign: "That's TV 3" has a revised callsign: "THATMEM"
+  Channel 71 updated with:
+{'ChanId': 17100, 'Icon': 's125463_dark_360w_270h.png'}
+Channel 72 icon refresh forced
+Channel 72 with existing callsign: "Jewellery Maker" has a revised callsign: "JEWMAKF"
+Channel 72 with existing name: "Jewellery Maker" has a new name: "Jewellery Maker (Freeview)"
+  Channel 72 updated with:
+{'ChanId': 77984, 'Icon': 's131426_dark_360w_270h.png'}
+Channel 73 not found, Searcing for a match on the channel name "Shopping Quarter"
+Channel 73, callsign: "SHOPQUA", name: "Shopping Quarter" is new
+Channel 74 icon refresh forced
+Channel 74 with existing callsign: "U&DaveJaVu" has a revised callsign: "UDAVEJV"
+  Channel 74 updated with:
+{'ChanId': 78053, 'Icon': 's44855_dark_360w_270h.png'}
+Channel 75 not found, Searcing for a match on the channel name "Thats Melody"
+   Channel 75, name: "Thats Melody" callsign: "THAT80S", found at channel 76,name: "That's Melody" callsign: "That's Melody" with a score of 96.0%
+Channel 76 icon differs from source
+Channel 76 with existing callsign: "That's Melody" has a revised callsign: "THAT80S"
+Channel 76 with existing name: "That's Melody" has a new name: "Thats Melody"
+  Channel 76 updated with:
+{'ChanId': 82503, 'Icon': 's131027_dark_360w_270h.png'}
+Channel 76 not found, Searcing for a match on the channel name "That's Dance"
+Channel 76, callsign: "THDANCE", name: "That's Dance" is new
+Channel 79 not found, Searcing for a match on the channel name "Seen On TV HD"
+   Channel 79, name: "Seen On TV HD" callsign: "SOTVHD", found at channel 267,name: "God TV" callsign: "God TV" with a score of 85.5%
+Channel 267 icon differs from source
+Channel 267 with existing callsign: "God TV" has a revised callsign: "SOTVHD"
+Channel 267 with existing name: "God TV" has a new name: "Seen On TV HD"
+  Channel 267 updated with:
+{'ChanId': 10267, 'Icon': 's155010_dark_360w_270h.png'}
+Channel 81 not found, Searcing for a match on the channel name "Blaze +1 (Freeview)"
+   Channel 81, name: "Blaze +1 (Freeview)" callsign: "BLZP1FV", found at channel 92,name: "Blaze+1" callsign: "Blaze+1" with a score of 77.14285714285715%
+Channel 92 icon differs from source
+Channel 92 with existing callsign: "Blaze+1" has a revised callsign: "BLZP1FV"
+Channel 92 with existing name: "Blaze+1" has a new name: "Blaze +1 (Freeview)"
+  Channel 92 updated with:
+{'ChanId': 10080, 'Icon': 's110920_dark_360w_270h.png'}
+Channel 82 icon refresh forced
+Channel 82 with existing callsign: "TalkingPictures TV" has a revised callsign: "TALKPIC"
+Channel 82 with existing name: "TalkingPictures TV" has a new name: "Talking Pictures TV"
+  Channel 82 updated with:
+{'ChanId': 77996, 'Icon': 's99024_dark_360w_270h.png'}
+Channel 83 icon refresh forced
+Channel 83 with existing callsign: "Together TV" has a revised callsign: "TOGETUK"
+Channel 83 with existing name: "Together TV" has a new name: "Together"
+  Channel 83 updated with:
+{'ChanId': 18300, 'Icon': 's24677_dark_360w_270h.png'}
+Channel 84 icon refresh forced
+Channel 84 with existing callsign: "PBS America" has a revised callsign: "PBSAMEF"
+Channel 84 with existing name: "PBS America" has a new name: "PBS America (Freeview)"
+  Channel 84 updated with:
+{'ChanId': 77993, 'Icon': 's131428_dark_360w_270h.png'}
+Channel 85 not found, Searcing for a match on the channel name "Create and Craft"
+Channel 85, callsign: "CREATEC", name: "Create and Craft" is new
+Channel 90 icon refresh forced
+Channel 90 with existing callsign: "Together TV+1" has a revised callsign: "TOGETP1"
+Channel 90 with existing name: "Together TV+1" has a new name: "Together TV +1"
+  Channel 90 updated with:
+{'ChanId': 10790, 'Icon': 's112603_dark_360w_270h.png'}
+Channel 91 icon refresh forced
+Channel 91 with existing callsign: "WildEarth" has a revised callsign: "WIEAUK"
+Channel 91 with existing name: "WildEarth" has a new name: "WildEarth HD"
+  Channel 91 updated with:
+{'ChanId': 77854, 'Icon': 's131702_dark_360w_270h.png'}
+Channel 92 not found, Searcing for a match on the channel name "Rewind TV"
+   Channel 92, name: "Rewind TV" callsign: "REWINDUK", found at channel 81,name: "Rewind TV" callsign: "Rewind TV" with a score of 100.0%
+Channel 81 icon differs from source
+Channel 81 with existing callsign: "Rewind TV" has a revised callsign: "REWINDUK"
+  Channel 81 updated with:
+{'ChanId': 10095, 'Icon': 's156817_dark_360w_270h.png'}
+Channel 93 not found, Searcing for a match on the channel name "ITVBe +1 (Freeview)"
+Channel 93, callsign: "ITVBPFV", name: "ITVBe +1 (Freeview)" is new
+Channel 95 icon refresh forced
+Channel 95 with existing callsign: "High Street TV" has a revised callsign: "HIGHST"
+  Channel 95 updated with:
+{'ChanId': 82505, 'Icon': 's25958_dark_360w_270h.png'}
+Channel 100 icon refresh forced
+Channel 100 with existing callsign: "Freeview" has a revised callsign: "FREEVIE"
+Channel 100 with existing name: "Freeview" has a new name: "Freeview Information"
+  Channel 100 updated with:
+{'ChanId': 10100, 'Icon': 's105389_dark_360w_270h.png'}
+Channel 101 icon refresh forced
+Channel 101 with existing callsign: "BBC ONE Lon HD" has a revised callsign: "BBC1LDHV"
+Channel 101 with existing name: "BBC ONE Lon HD" has a new name: "BBC One London HD"
+  Channel 101 updated with:
+{'ChanId': 78001, 'Icon': 's121745_dark_360w_270h.png'}
+Channel 102 icon refresh forced
+Channel 102 with existing callsign: "BBC TWO HD" has a revised callsign: "BBC2HD"
+Channel 102 with existing name: "BBC TWO HD" has a new name: "BBC Two HD"
+  Channel 102 updated with:
+{'ChanId': 78000, 'Icon': 's50059_dark_360w_270h.png'}
+Channel 103 icon refresh forced
+Channel 103 with existing callsign: "ITV1 HD" has a revised callsign: "ITV1HDL"
+Channel 103 with existing name: "ITV1 HD" has a new name: "ITV1 HD (London)"
+  Channel 103 updated with:
+{'ChanId': 78002, 'Icon': 's50523_dark_360w_270h.png'}
+Channel 104 icon refresh forced
+Channel 104 with existing callsign: "Channel 4 HD" has a revised callsign: "C4HD"
+  Channel 104 updated with:
+{'ChanId': 78003, 'Icon': 's50716_dark_360w_270h.png'}
+Channel 105 icon refresh forced
+Channel 105 with existing callsign: "5 HD" has a revised callsign: "CH5HD"
+  Channel 105 updated with:
+{'ChanId': 78004, 'Icon': 's50717_dark_360w_270h.png'}
+Channel 106 icon refresh forced
+Channel 106 with existing callsign: "BBC FOUR HD" has a revised callsign: "BBC4HD"
+Channel 106 with existing name: "BBC FOUR HD" has a new name: "BBC Four HD"
+  Channel 106 updated with:
+{'ChanId': 78005, 'Icon': 's83282_dark_360w_270h.png'}
+Channel 107 icon refresh forced
+Channel 107 with existing callsign: "BBC THREE HD" has a revised callsign: "BBC3H"
+Channel 107 with existing name: "BBC THREE HD" has a new name: "BBC Three HD"
+  Channel 107 updated with:
+{'ChanId': 10107, 'Icon': 's122089_dark_360w_270h.png'}
+Channel 201 icon refresh forced
+  Channel 201 updated with:
+{'ChanId': 10201, 'Icon': 's29324_dark_360w_270h.png'}
+Channel 202 icon refresh forced
+Channel 202 with existing callsign: "CBeebies" has a revised callsign: "CBEEB"
+  Channel 202 updated with:
+{'ChanId': 10202, 'Icon': 's29325_dark_360w_270h.png'}
+Channel 203 icon refresh forced
+Channel 203 with existing callsign: "CBBC HD" has a revised callsign: "CBBCHD"
+  Channel 203 updated with:
+{'ChanId': 10204, 'Icon': 's83281_dark_360w_270h.png'}
+Channel 204 icon refresh forced
+Channel 204 with existing callsign: "CBeebies HD" has a revised callsign: "CBEEBHD"
+  Channel 204 updated with:
+{'ChanId': 10205, 'Icon': 's83283_dark_360w_270h.png'}
+Channel 205 icon refresh forced
+Channel 205 with existing name: "POP" has a new name: "Pop"
+  Channel 205 updated with:
+{'ChanId': 78058, 'Icon': 's33638_dark_360w_270h.png'}
+Channel 206 icon refresh forced
+Channel 206 with existing callsign: "Tiny Pop" has a revised callsign: "TINPOPSD"
+Channel 206 with existing name: "Tiny Pop" has a new name: "Tiny Pop SD"
+  Channel 206 updated with:
+{'ChanId': 10206, 'Icon': 's153520_dark_360w_270h.png'}
+Channel 208 icon refresh forced
+Channel 208 with existing callsign: "Pop Player" has a revised callsign: "TINPFV"
+Channel 208 with existing name: "Pop Player" has a new name: "Tiny Pop (Freeview)"
+  Channel 208 updated with:
+{'ChanId': 10208, 'Icon': 's110925_dark_360w_270h.png'}
+Channel 209 icon refresh forced
+Channel 209 with existing callsign: "Ketchup TV" has a revised callsign: "KETCHUP"
+  Channel 209 updated with:
+{'ChanId': 10209, 'Icon': 's112601_dark_360w_270h.png'}
+Channel 231 icon refresh forced
+Channel 231 with existing callsign: "BBC NEWS" has a revised callsign: "BBCNEWS"
+Channel 231 with existing name: "BBC NEWS" has a new name: "BBC News"
+  Channel 231 updated with:
+{'ChanId': 10231, 'Icon': 's19037_dark_360w_270h.png'}
+Channel 232 icon refresh forced
+Channel 232 with existing callsign: "BBC Parliament" has a revised callsign: "BBCPARL"
+  Channel 232 updated with:
+{'ChanId': 10232, 'Icon': 's20685_dark_360w_270h.png'}
+Channel 233 icon refresh forced
+Channel 233 with existing callsign: "Sky News" has a revised callsign: "SKYNEWS"
+  Channel 233 updated with:
+{'ChanId': 10233, 'Icon': 's16234_dark_360w_270h.png'}
+Channel 235 not found, Searcing for a match on the channel name "Al Jazeera English"
+   Channel 235, name: "Al Jazeera English" callsign: "ALJAZEN", found at channel 251,name: "Al Jazeera English" callsign: "Al Jazeera English" with a score of 100.0%
+Channel 251 icon refresh forced
+Channel 251 with existing callsign: "Al Jazeera English" has a revised callsign: "ALJAZEN"
+  Channel 251 updated with:
+{'ChanId': 10251, 'Icon': 's49968_dark_360w_270h.png'}
+Channel 236 icon refresh forced
+Channel 236 with existing callsign: "GB News" has a revised callsign: "GBNEWSD"
+  Channel 236 updated with:
+{'ChanId': 10236, 'Icon': 's119993_dark_360w_270h.png'}
+Channel 237 not found, Searcing for a match on the channel name "Talk HD"
+   Channel 237, name: "Talk HD" callsign: "TALKHD", found at channel 280,name: "Talk" callsign: "Talk" with a score of 90.0%
+Channel 280 icon request with ChanId failed.
+Channel 280 icon refresh forced
+Channel 280 with existing callsign: "Talk" has a revised callsign: "TALKHD"
+Channel 280 with existing name: "Talk" has a new name: "Talk HD"
+  Channel 280 updated with:
+{'ChanId': 78064, 'Icon': 's122614_dark_360w_270h.png'}
+Channel 250 icon refresh forced
+Channel 250 with existing callsign: "BBC Red Button" has a revised callsign: "BBCRDB1"
+Channel 250 with existing name: "BBC Red Button" has a new name: "BBC Red Button 1"
+  Channel 250 updated with:
+{'ChanId': 10250, 'Icon': 's81004_dark_360w_270h.png'}
+Channel 255 icon refresh forced
+Channel 255 with existing callsign: "FRANCE 24" has a revised callsign: "FR24EN"
+Channel 255 with existing name: "FRANCE 24" has a new name: "France 24 English HD"
+  Channel 255 updated with:
+{'ChanId': 10255, 'Icon': 's60961_dark_360w_270h.png'}
+Channel 263 icon refresh forced
+Channel 263 with existing callsign: "Sonlife" has a revised callsign: "SBND"
+Channel 263 with existing name: "Sonlife" has a new name: "SonLife Broadcasting Network"
+  Channel 263 updated with:
+{'ChanId': 10263, 'Icon': 's67676_dark_360w_270h.png'}
+Channel 267 not found, Searcing for a match on the channel name "Al Jazeera English"
+   Channel 267, name: "Al Jazeera English" callsign: "ALJAZEN", found at channel 261,name: "AL ARABIYA" callsign: "AL ARABIYA" with a score of 85.5%
+Channel 261 icon differs from source
+Channel 261 with existing callsign: "AL ARABIYA" has a revised callsign: "ALJAZEN"
+Channel 261 with existing name: "AL ARABIYA" has a new name: "Al Jazeera English"
+  Channel 261 updated with:
+{'ChanId': 10261, 'Icon': 's49968_dark_360w_270h.png'}
+Channel 268 not found, Searcing for a match on the channel name "Al Jazeera Arabic"
+   Channel 268, name: "Al Jazeera Arabic" callsign: "ALJAZAR", found at channel 252,name: "Al Jazeera Arabic" callsign: "Al Jazeera Arabic" with a score of 100.0%
+Channel 252 icon refresh forced
+Channel 252 with existing callsign: "Al Jazeera Arabic" has a revised callsign: "ALJAZAR"
+  Channel 252 updated with:
+{'ChanId': 10252, 'Icon': 's78639_dark_360w_270h.png'}
+Channel 270 not found, Searcing for a match on the channel name "Real Crime"
+Channel 270, callsign: "RCRIM", name: "Real Crime" is new
+Channel 272 icon refresh forced
+Channel 272 with existing callsign: "NHK WORLD" has a revised callsign: "NHKWLD"
+Channel 272 with existing name: "NHK WORLD" has a new name: "NHK World Europe"
+  Channel 272 updated with:
+{'ChanId': 10272, 'Icon': 's62096_dark_360w_270h.png'}
+Channel 274 not found, Searcing for a match on the channel name "Asharq News"
+   Channel 274, name: "Asharq News" callsign: "ASHN", found at channel 260,name: "ASHARQ NEWS" callsign: "ASHARQ NEWS" with a score of 100.0%
+Channel 260 icon refresh forced
+Channel 260 with existing callsign: "ASHARQ NEWS" has a revised callsign: "ASHN"
+Channel 260 with existing name: "ASHARQ NEWS" has a new name: "Asharq News"
+  Channel 260 updated with:
+{'ChanId': 10260, 'Icon': 's122965_dark_360w_270h.png'}
+Channel 275 not found, Searcing for a match on the channel name "Al Arabiya"
+Channel 275, callsign: "ARABIYA", name: "Al Arabiya" is new
+Channel 280 not found, Searcing for a match on the channel name "ROK"
+   Channel 280, name: "ROK" callsign: "ROKEU", found at channel 265,name: "ROK" callsign: "ROK" with a score of 100.0%
+Channel 265 icon refresh forced
+Channel 265 with existing callsign: "ROK" has a revised callsign: "ROKEU"
+  Channel 265 updated with:
+{'ChanId': 78061, 'Icon': 's117979_dark_360w_270h.png'}
+Channel 281 not found, Searcing for a match on the channel name "Revelation TV"
+   Channel 281, name: "Revelation TV" callsign: "REVEL", found at channel 266,name: "Revelation TV" callsign: "Revelation TV" with a score of 100.0%
+Channel 266 icon refresh forced
+Channel 266 with existing callsign: "Revelation TV" has a revised callsign: "REVEL"
+  Channel 266 updated with:
+{'ChanId': 10266, 'Icon': 's32561_dark_360w_270h.png'}
+Channel 282 not found, Searcing for a match on the channel name "GINX TV HD"
+   Channel 282, name: "GINX TV HD" callsign: "GINXTVH", found at channel 268,name: "It Is Written TV" callsign: "It Is Written TV" with a score of 85.5%
+Channel 268 icon request with ChanId failed.
+Channel 268 icon refresh forced
+Channel 268 with existing callsign: "It Is Written TV" has a revised callsign: "GINXTVH"
+Channel 268 with existing name: "It Is Written TV" has a new name: "GINX TV HD"
+  Channel 268 updated with:
+{'ChanId': 10268, 'Icon': 's100015_dark_360w_270h.png'}
+Channel 287 not found, Searcing for a match on the channel name "Newsmax"
+   Channel 287, name: "Newsmax" callsign: "VIZNSMX", found at channel 273,name: "Newsmax" callsign: "Newsmax" with a score of 100.0%
+Channel 273 icon refresh forced
+Channel 273 with existing callsign: "Newsmax" has a revised callsign: "VIZNSMX"
+  Channel 273 updated with:
+{'ChanId': 78063, 'Icon': 's119182_dark_360w_270h.png'}
+Channel 601 icon refresh forced
+Channel 601 with existing callsign: "BBC RB 1" has a revised callsign: "BBCRDB1"
+Channel 601 with existing name: "BBC RB 1" has a new name: "BBC Red Button 1"
+  Channel 601 updated with:
+{'ChanId': 10601, 'Icon': 's81004_dark_360w_270h.png'}
+Channel 700 icon refresh forced
+Channel 700 with existing callsign: "BBC Radio 1" has a revised callsign: "BBCR1"
+  Channel 700 updated with:
+{'ChanId': 10700, 'Icon': 's24434_dark_360w_270h.png'}
+Channel 701 icon refresh forced
+Channel 701 with existing callsign: "BBC R1X" has a revised callsign: "BBCR1X"
+Channel 701 with existing name: "BBC R1X" has a new name: "BBC Radio 1 Xtra"
+  Channel 701 updated with:
+{'ChanId': 10701, 'Icon': 's31266_dark_360w_270h.png'}
+Channel 702 icon refresh forced
+Channel 702 with existing callsign: "BBC Radio 2" has a revised callsign: "BBCR2"
+  Channel 702 updated with:
+{'ChanId': 10702, 'Icon': 's24435_dark_360w_270h.png'}
+Channel 703 icon refresh forced
+Channel 703 with existing callsign: "BBC Radio 3" has a revised callsign: "BBCR3"
+  Channel 703 updated with:
+{'ChanId': 10703, 'Icon': 's24436_dark_360w_270h.png'}
+Channel 704 icon refresh forced
+Channel 704 with existing callsign: "BBC Radio 4" has a revised callsign: "BBCR4FM"
+Channel 704 with existing name: "BBC Radio 4" has a new name: "BBC Radio 4 FM"
+  Channel 704 updated with:
+{'ChanId': 10704, 'Icon': 's24437_dark_360w_270h.png'}
+Channel 705 icon refresh forced
+Channel 705 with existing callsign: "BBC R5L" has a revised callsign: "BBCR5L"
+Channel 705 with existing name: "BBC R5L" has a new name: "BBC Radio 5 Live"
+  Channel 705 updated with:
+{'ChanId': 10705, 'Icon': 's24438_dark_360w_270h.png'}
+Channel 706 icon refresh forced
+Channel 706 with existing callsign: "BBC R5SX" has a revised callsign: "BBC5LX"
+Channel 706 with existing name: "BBC R5SX" has a new name: "BBC Radio 5 Live Sports Xtra"
+  Channel 706 updated with:
+{'ChanId': 10706, 'Icon': 's29920_dark_360w_270h.png'}
+Channel 707 icon refresh forced
+Channel 707 with existing callsign: "BBC 6 Music" has a revised callsign: "BBCR6M"
+Channel 707 with existing name: "BBC 6 Music" has a new name: "BBC Radio 6 Music"
+  Channel 707 updated with:
+{'ChanId': 10707, 'Icon': 's30166_dark_360w_270h.png'}
+Channel 708 icon refresh forced
+Channel 708 with existing callsign: "BBC Radio 4 Ex" has a revised callsign: "BBCR4EX"
+Channel 708 with existing name: "BBC Radio 4 Ex" has a new name: "BBC Radio 4 Extra"
+  Channel 708 updated with:
+{'ChanId': 10708, 'Icon': 's31790_dark_360w_270h.png'}
+Channel 709 icon refresh forced
+Channel 709 with existing callsign: "BBC Asian Net." has a revised callsign: "BBCASIA"
+Channel 709 with existing name: "BBC Asian Net." has a new name: "BBC Asian Network"
+  Channel 709 updated with:
+{'ChanId': 10709, 'Icon': 's24452_dark_360w_270h.png'}
+Channel 710 icon refresh forced
+Channel 710 with existing callsign: "BBC World Sv." has a revised callsign: "BBCWS"
+Channel 710 with existing name: "BBC World Sv." has a new name: "BBC World Service"
+  Channel 710 updated with:
+{'ChanId': 10710, 'Icon': 's24448_dark_360w_270h.png'}
+Channel 718 icon refresh forced
+Channel 718 with existing callsign: "Smooth Radio" has a revised callsign: "SMTHFM"
+Channel 718 with existing name: "Smooth Radio" has a new name: "Smooth FM 102.2"
+  Channel 718 updated with:
+{'ChanId': 10718, 'Icon': 's45752_dark_360w_270h.png'}
+Channel 719 not found, Searcing for a match on the channel name "BBC Radio Berkshire"
+   Channel 719, name: "BBC Radio Berkshire" callsign: "BBCRBKS", found at channel 711,name: "BBC Berkshire" callsign: "BBC Berkshire" with a score of 95.0%
+Channel 711 icon refresh forced
+Channel 711 with existing callsign: "BBC Berkshire" has a revised callsign: "BBCRBKS"
+Channel 711 with existing name: "BBC Berkshire" has a new name: "BBC Radio Berkshire"
+  Channel 711 updated with:
+{'ChanId': 10711, 'Icon': 's82550_dark_360w_270h.png'}
+Channel 720 not found, Searcing for a match on the channel name "BBC Three Counties Radio"
+   Channel 720, name: "BBC Three Counties Radio" callsign: "BBCTCR", found at channel 712,name: "BBC Three Counties" callsign: "BBC Three Counties" with a score of 95.0%
+Channel 712 icon refresh forced
+Channel 712 with existing callsign: "BBC Three Counties" has a revised callsign: "BBCTCR"
+Channel 712 with existing name: "BBC Three Counties" has a new name: "BBC Three Counties Radio"
+  Channel 712 updated with:
+{'ChanId': 10712, 'Icon': 's82562_dark_360w_270h.png'}
+Channel 721 not found, Searcing for a match on the channel name "BBC Radio London"
+   Channel 721, name: "BBC Radio London" callsign: "BBCLON", found at channel 713,name: "BBC Radio London" callsign: "BBC Radio London" with a score of 100.0%
+Channel 713 icon refresh forced
+Channel 713 with existing callsign: "BBC Radio London" has a revised callsign: "BBCLON"
+  Channel 713 updated with:
+{'ChanId': 10713, 'Icon': 's25604_dark_360w_270h.png'}
+Channel 722 not found, Searcing for a match on the channel name "BBC Radio Surrey"
+   Channel 722, name: "BBC Radio Surrey" callsign: "BBCRSUR", found at channel 714,name: "BBC Radio Surrey" callsign: "BBC Surrey" with a score of 100.0%
+Channel 714 icon refresh forced
+Channel 714 with existing callsign: "BBC Surrey" has a revised callsign: "BBCRSUR"
+  Channel 714 updated with:
+{'ChanId': 10714, 'Icon': 's86817_dark_360w_270h.png'}
+Channel 723 icon refresh forced
+Channel 723 with existing callsign: "talkSPORT" has a revised callsign: "TLKSPT"
+Channel 723 with existing name: "talkSPORT" has a new name: "Talk Sport"
+  Channel 723 updated with:
+{'ChanId': 10723, 'Icon': 's24441_dark_360w_270h.png'}
+Channel 724 icon refresh forced
+Channel 724 with existing callsign: "Capital" has a revised callsign: "CAPRAD"
+Channel 724 with existing name: "Capital" has a new name: "Capital London"
+  Channel 724 updated with:
+{'ChanId': 10724, 'Icon': 's30500_dark_360w_270h.png'}
+Channel 725 icon refresh forced
+Channel 725 with existing callsign: "Premier Radio" has a revised callsign: "PREMIER"
+Channel 725 with existing name: "Premier Radio" has a new name: "Premier"
+  Channel 725 updated with:
+{'ChanId': 82500, 'Icon': 's24469_dark_360w_270h.png'}
+Channel 728 icon refresh forced
+Channel 728 with existing callsign: "Heart" has a revised callsign: "HEART"
+Channel 728 with existing name: "Heart" has a new name: "Heart FM"
+  Channel 728 updated with:
+{'ChanId': 10728, 'Icon': 's24467_dark_360w_270h.png'}
+Channel 730 icon refresh forced
+Channel 730 with existing callsign: "RNIB Connect" has a revised callsign: "RNIBCO"
+  Channel 730 updated with:
+{'ChanId': 10730, 'Icon': 's112560_dark_360w_270h.png'}
+Channel 731 icon refresh forced
+Channel 731 with existing callsign: "Classic FM" has a revised callsign: "CLASSFM"
+  Channel 731 updated with:
+{'ChanId': 10731, 'Icon': 's24439_dark_360w_270h.png'}
+Channel 732 icon refresh forced
+Channel 732 with existing callsign: "LBC" has a revised callsign: "LBCLND"
+  Channel 732 updated with:
+{'ChanId': 10732, 'Icon': 's33579_dark_360w_270h.png'}
+Channel 733 not found, Searcing for a match on the channel name "TWR"
+Channel 733, callsign: "TWR", name: "TWR" is new
+Channel 734 not found, Searcing for a match on the channel name "BBC Radio Essex"
+   Channel 734, name: "BBC Radio Essex" callsign: "BBCREX", found at channel 716,name: "BBC Radio Essex" callsign: "BBC Essex" with a score of 100.0%
+Channel 716 icon refresh forced
+Channel 716 with existing callsign: "BBC Essex" has a revised callsign: "BBCREX"
+  Channel 716 updated with:
+{'ChanId': 10716, 'Icon': 's33762_dark_360w_270h.png'}
+Using /tmp/tmpiudasy7z as file.
+Running: tv_grab_zz_sdjson_sqlite --quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv --output /tmp/tmpiudasy7z
+Running: ./MythUtil-Channel-XMLTV-getLineup --host vdr --videosource-id 1 --update --no-update-name --no-update-callsign --no-update-atsc --no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid --refresh-icons /tmp/tmpiudasy7z
+Using EIT for channels with no xmltvids
+Done
+
+Disabling EIT for channels with xmltvids
+Done
+
+Updating missing channel icons
+Done
+

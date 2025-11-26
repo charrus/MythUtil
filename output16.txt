@@ -1,0 +1,1076 @@
+The XMLTV get-lineup type (DTV)  for lineup GBR-1000014-DEFAULT has limited support
+Channel 1, callsign: "BBC ONE Lon", vs XMLTV name: "BBC One London" name: "BBC ONE Lon" is in the XMLTV channel list (match=85.71/85)
+Channel 2, callsign: "BBC TWO", vs XMLTV name: "BBC Two" name: "BBC TWO" is in the XMLTV channel list (match=100.00/85)
+Channel 3, callsign: "ITV1", vs XMLTV name: "ITV1 (London)" name: "ITV1" is in the XMLTV channel list (match=90.00/85)
+Channel 4, callsign: "Channel 4", vs XMLTV name: "Channel 4" name: "Channel 4" is in the XMLTV channel list (match=100.00/85)
+Channel 5, callsign: "5", vs XMLTV name: "5" name: "5" is in the XMLTV channel list (match=100.00/85)
+Channel 6, callsign: "ITV2", vs XMLTV name: "ITV2" name: "ITV2" is in the XMLTV channel list (match=100.00/85)
+Channel 8, callsign: "London TV", vs XMLTV name: "London TV" name: "London TV" is in the XMLTV channel list (match=100.00/85)
+Channel 9, callsign: "BBC FOUR", vs XMLTV name: "BBC Four" name: "BBC FOUR" is in the XMLTV channel list (match=100.00/85)
+Channel 10, callsign: "ITV3", vs XMLTV name: "ITV3" name: "ITV3" is in the XMLTV channel list (match=100.00/85)
+Channel 11, callsign: "Sky Mix", vs XMLTV name: "Sky Mix" name: "Sky Mix" is in the XMLTV channel list (match=100.00/85)
+Channel 12, callsign: "QUEST", vs XMLTV name: "Quest" name: "QUEST" is in the XMLTV channel list (match=100.00/85)
+Channel 13, callsign: "E4", vs XMLTV name: "E4" name: "E4" is in the XMLTV channel list (match=100.00/85)
+Channel 14, callsign: "Film4", vs XMLTV name: "Film4" name: "Film4" is in the XMLTV channel list (match=100.00/85)
+Channel 15, callsign: "Channel 4+1", vs XMLTV name: "Channel 4 +1" name: "Channel 4+1" is in the XMLTV channel list (match=100.00/85)
+Channel 16, callsign: "QVC", vs XMLTV name: "QVC" name: "QVC" is in the XMLTV channel list (match=100.00/85)
+Channel 17, callsign: "Really", vs XMLTV name: "Really UKTV" name: "Really" is in the XMLTV channel list (match=85.71/85)
+Channel 18, callsign: "More 4", vs XMLTV name: "More 4" name: "More 4" is in the XMLTV channel list (match=100.00/85)
+Channel 19, callsign: "U&Dave", vs XMLTV name: "U&Dave" name: "U&Dave" is in the XMLTV channel list (match=100.00/85)
+Channel 20, callsign: "U&Drama", vs XMLTV name: "U&Drama" name: "U&Drama" is in the XMLTV channel list (match=100.00/85)
+Channel 21, callsign: "5USA", vs XMLTV name: "5USA" name: "5USA" is in the XMLTV channel list (match=100.00/85)
+Channel 22, callsign: "TJC", vs XMLTV name: "The Jewellery Channel" name: "TJC" is not in the XMLTV channel list (match=45.00/85)
+Channel 22 icon is no longer valid
+  Channel 22 updated with:
+{'ChanId': 10050, 'Icon': ''}
+Channel 23, callsign: "BBC THREE", vs XMLTV name: "BBC Three" name: "BBC THREE" is in the XMLTV channel list (match=100.00/85)
+Channel 25, callsign: "U&W", vs XMLTV name: "U&W" name: "U&W" is in the XMLTV channel list (match=100.00/85)
+Channel 26, callsign: "ITV4", vs XMLTV name: "ITV4" name: "ITV4" is in the XMLTV channel list (match=100.00/85)
+Channel 27, callsign: "U&Yesterday", vs XMLTV name: "U&Yesterday" name: "U&Yesterday" is in the XMLTV channel list (match=100.00/85)
+Channel 28, callsign: "ITV Quiz", vs XMLTV name: "ITV Quiz" name: "ITV Quiz" is in the XMLTV channel list (match=100.00/85)
+Channel 29, callsign: "ITV2+1", vs XMLTV name: "ITV2 +1" name: "ITV2+1" is in the XMLTV channel list (match=100.00/85)
+Channel 30, callsign: "E4+1", vs XMLTV name: "E4 +1" name: "E4+1" is in the XMLTV channel list (match=100.00/85)
+Channel 31, callsign: "E4 Extra", vs XMLTV name: "E4 Extra" name: "E4 Extra" is in the XMLTV channel list (match=100.00/85)
+Channel 32, callsign: "5STAR", vs XMLTV name: "5 Star" name: "5STAR" is in the XMLTV channel list (match=100.00/85)
+Channel 33, callsign: "5ACTION", vs XMLTV name: "5 Action" name: "5ACTION" is in the XMLTV channel list (match=100.00/85)
+Channel 34, callsign: "Great! TV", vs XMLTV name: "Great! Mystery" name: "Great! TV" is in the XMLTV channel list (match=90.00/85)
+Channel 35, callsign: "ITV1+1", vs XMLTV name: "ITV1 +1" name: "ITV1+1" is in the XMLTV channel list (match=100.00/85)
+Channel 36, callsign: "Sky Arts", vs XMLTV name: "Sky Arts" name: "Sky Arts" is in the XMLTV channel list (match=100.00/85)
+Channel 37, callsign: "QVC2", vs XMLTV name: "BBC Radio Essex" name: "QVC2" is not in the XMLTV channel list (match=0.00/85)
+Channel 37 icon is no longer valid
+  Channel 37 updated with:
+{'ChanId': 13700, 'Icon': ''}
+Channel 38, callsign: "5 +1", vs XMLTV name: "5 +1" name: "5 +1" is in the XMLTV channel list (match=100.00/85)
+Channel 39, callsign: "DMAX", vs XMLTV name: "DMAX" name: "DMAX" is in the XMLTV channel list (match=100.00/85)
+Channel 40, callsign: "Quest Red", vs XMLTV name: "Quest Red" name: "Quest Red" is in the XMLTV channel list (match=100.00/85)
+Channel 41, callsign: "LEGEND", vs XMLTV name: "Legend" name: "LEGEND" is in the XMLTV channel list (match=100.00/85)
+Channel 42, callsign: "Great! Action", vs XMLTV name: "Great! Action" name: "Great! Action" is in the XMLTV channel list (match=100.00/85)
+Channel 43, callsign: "Food Network", vs XMLTV name: "Food Network" name: "Food Network" is in the XMLTV channel list (match=100.00/85)
+Channel 44, callsign: "HGTV", vs XMLTV name: "HGTV" name: "HGTV" is in the XMLTV channel list (match=100.00/85)
+Channel 45, callsign: "Gemporia", vs XMLTV name: "GEMPORIA HD" name: "Gemporia" is in the XMLTV channel list (match=88.89/85)
+Channel 46, callsign: "5SELECT", vs XMLTV name: "5SELECT" name: "5SELECT" is in the XMLTV channel list (match=100.00/85)
+Channel 47, callsign: "Film4+1", vs XMLTV name: "Film4 +1" name: "Film4+1" is in the XMLTV channel list (match=100.00/85)
+Channel 48, callsign: "Challenge", vs XMLTV name: "Challenge" name: "Challenge" is in the XMLTV channel list (match=100.00/85)
+Channel 49, callsign: "4seven", vs XMLTV name: "4Seven" name: "4seven" is in the XMLTV channel list (match=100.00/85)
+Channel 50, callsign: "Great! Mystery", vs XMLTV name: "Great! TV" name: "Great! Mystery" is in the XMLTV channel list (match=90.00/85)
+Channel 51, callsign: "Ideal World", vs XMLTV name: "Ideal World (Freeview)" name: "Ideal World" is in the XMLTV channel list (match=100.00/85)
+Channel 52, callsign: "Great! Christmas", vs XMLTV name: "Great! Christmas" name: "Great! Christmas" is in the XMLTV channel list (match=100.00/85)
+Channel 56, callsign: "That's TV (UK)", vs XMLTV name: "That's TV" name: "That's TV (UK)" is in the XMLTV channel list (match=90.00/85)
+Channel 57, callsign: "U&Eden", vs XMLTV name: "U&Eden" name: "U&Eden" is in the XMLTV channel list (match=100.00/85)
+Channel 58, callsign: "ITV3+1", vs XMLTV name: "ITV3 +1 (Freeview)" name: "ITV3+1" is in the XMLTV channel list (match=100.00/85)
+Channel 59, callsign: "ITV4+1", vs XMLTV name: "ITV4 +1 (Freeview)" name: "ITV4+1" is in the XMLTV channel list (match=100.00/85)
+Channel 60, callsign: "U&Drama+1", vs XMLTV name: "U&Drama+1" name: "U&Drama+1" is in the XMLTV channel list (match=100.00/85)
+Channel 61, callsign: "Great! Movies", vs XMLTV name: "BBC Radio Essex" name: "Great! Movies" is not in the XMLTV channel list (match=0.00/85)
+Channel 61 icon is no longer valid
+  Channel 61 updated with:
+{'ChanId': 10061, 'Icon': ''}
+Channel 62, callsign: "Great! Romance Mix", vs XMLTV name: "GREAT! Romance mix" name: "Great! Romance Mix" is in the XMLTV channel list (match=100.00/85)
+Channel 63, callsign: "Great! Player", vs XMLTV name: "BBC Radio Essex" name: "Great! Player" is not in the XMLTV channel list (match=0.00/85)
+Channel 63 icon is no longer valid
+  Channel 63 updated with:
+{'ChanId': 77998, 'Icon': ''}
+Channel 64, callsign: "Blaze", vs XMLTV name: "Blaze (Freeview)" name: "Blaze" is in the XMLTV channel list (match=100.00/85)
+Channel 65, callsign: "That's TV 2", vs XMLTV name: "That's TV 2" name: "That's TV 2" is in the XMLTV channel list (match=100.00/85)
+Channel 66, callsign: "TBN UK", vs XMLTV name: "TBN UK" name: "TBN UK" is in the XMLTV channel list (match=100.00/85)
+Channel 67, callsign: "TRUE CRIME", vs XMLTV name: "True Crime" name: "TRUE CRIME" is in the XMLTV channel list (match=100.00/85)
+Channel 68, callsign: "TRUE CRIME XTRA", vs XMLTV name: "True Crime Xtra" name: "TRUE CRIME XTRA" is in the XMLTV channel list (match=100.00/85)
+Channel 69, callsign: "LEGEND XTRA", vs XMLTV name: "Legend Xtra" name: "LEGEND XTRA" is in the XMLTV channel list (match=100.00/85)
+Channel 70, callsign: "QUEST+1", vs XMLTV name: "Quest +1" name: "QUEST+1" is in the XMLTV channel list (match=100.00/85)
+Channel 71, callsign: "That's TV 3", vs XMLTV name: "That's TV 3" name: "That's TV 3" is in the XMLTV channel list (match=100.00/85)
+Channel 72, callsign: "Jewellery Maker", vs XMLTV name: "Jewellery Maker (Freeview)" name: "Jewellery Maker" is in the XMLTV channel list (match=100.00/85)
+Channel 73, callsign: "HobbyMaker", vs XMLTV name: "Shopping Quarter" name: "HobbyMaker" is not in the XMLTV channel list (match=40.00/85)
+Channel 73 icon is no longer valid
+  Channel 73 updated with:
+{'ChanId': 77990, 'Icon': ''}
+Channel 74, callsign: "U&DaveJaVu", vs XMLTV name: "U&DaveJaVu" name: "U&DaveJaVu" is in the XMLTV channel list (match=100.00/85)
+Channel 75, callsign: "That's Oldies", vs XMLTV name: "Thats Melody" name: "That's Oldies" is not in the XMLTV channel list (match=60.87/85)
+Channel 75 freqid is no longer valid
+Channel 75 icon is no longer valid
+  Channel 75 updated with:
+{'ChanId': 82502, 'FrequencyId': '', 'Icon': ''}
+Channel 76, callsign: "That's Melody", vs XMLTV name: "That's Dance" name: "That's Melody" is not in the XMLTV channel list (match=60.87/85)
+Channel 76 freqid is no longer valid
+Channel 76 xmltvid is no longer valid
+Channel 76 icon is no longer valid
+  Channel 76 updated with:
+{'ChanId': 82503, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 81, callsign: "Rewind TV", vs XMLTV name: "Blaze +1 (Freeview)" name: "Rewind TV" is not in the XMLTV channel list (match=15.38/85)
+Channel 81 freqid is no longer valid
+Channel 81 xmltvid is no longer valid
+Channel 81 icon is no longer valid
+  Channel 81 updated with:
+{'ChanId': 10095, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 82, callsign: "TalkingPictures TV", vs XMLTV name: "Talking Pictures TV" name: "TalkingPictures TV" is in the XMLTV channel list (match=100.00/85)
+Channel 83, callsign: "Together TV", vs XMLTV name: "Together" name: "Together TV" is in the XMLTV channel list (match=100.00/85)
+Channel 84, callsign: "PBS America", vs XMLTV name: "PBS America (Freeview)" name: "PBS America" is in the XMLTV channel list (match=100.00/85)
+Channel 89, callsign: "Shop On TV", vs XMLTV name: "BBC Radio Essex" name: "Shop On TV" is not in the XMLTV channel list (match=0.00/85)
+Channel 89 freqid is no longer valid
+Channel 89 icon is no longer valid
+  Channel 89 updated with:
+{'ChanId': 18900, 'FrequencyId': '', 'Icon': ''}
+Channel 90, callsign: "Together TV+1", vs XMLTV name: "Together TV +1" name: "Together TV+1" is in the XMLTV channel list (match=100.00/85)
+Channel 91, callsign: "WildEarth", vs XMLTV name: "WildEarth HD" name: "WildEarth" is in the XMLTV channel list (match=90.00/85)
+Channel 92, callsign: "Blaze+1", vs XMLTV name: "Rewind TV" name: "Blaze+1" is not in the XMLTV channel list (match=15.38/85)
+Channel 92 freqid is no longer valid
+Channel 92 xmltvid is no longer valid
+Channel 92 icon is no longer valid
+  Channel 92 updated with:
+{'ChanId': 10080, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 94, callsign: "SonLife", vs XMLTV name: "BBC Radio Essex" name: "SonLife" is not in the XMLTV channel list (match=0.00/85)
+Channel 94 freqid is no longer valid
+Channel 94 icon is no longer valid
+  Channel 94 updated with:
+{'ChanId': 78050, 'FrequencyId': '', 'Icon': ''}
+Channel 95, callsign: "High Street TV", vs XMLTV name: "High Street TV" name: "High Street TV" is in the XMLTV channel list (match=100.00/85)
+Channel 96, callsign: "Must Have Ideas", vs XMLTV name: "BBC Radio Essex" name: "Must Have Ideas" is not in the XMLTV channel list (match=0.00/85)
+Channel 96 icon is no longer valid
+  Channel 96 updated with:
+{'ChanId': 19600, 'Icon': ''}
+Channel 97, callsign: "Hobbycraft TV", vs XMLTV name: "BBC Radio Essex" name: "Hobbycraft TV" is not in the XMLTV channel list (match=0.00/85)
+Channel 97 icon is no longer valid
+  Channel 97 updated with:
+{'ChanId': 82504, 'Icon': ''}
+Channel 98, callsign: "wedotv Movies UK", vs XMLTV name: "BBC Radio Essex" name: "wedotv Movies UK" is not in the XMLTV channel list (match=0.00/85)
+Channel 98 icon is no longer valid
+  Channel 98 updated with:
+{'ChanId': 82506, 'Icon': ''}
+Channel 100, callsign: "Freeview", vs XMLTV name: "Freeview Information" name: "Freeview" is in the XMLTV channel list (match=90.00/85)
+Channel 101, callsign: "BBC ONE Lon HD", vs XMLTV name: "BBC One London HD" name: "BBC ONE Lon HD" is in the XMLTV channel list (match=88.00/85)
+Channel 102, callsign: "BBC TWO HD", vs XMLTV name: "BBC Two HD" name: "BBC TWO HD" is in the XMLTV channel list (match=100.00/85)
+Channel 103, callsign: "ITV1 HD", vs XMLTV name: "ITV1 HD (London)" name: "ITV1 HD" is in the XMLTV channel list (match=90.00/85)
+Channel 104, callsign: "Channel 4 HD", vs XMLTV name: "Channel 4 HD" name: "Channel 4 HD" is in the XMLTV channel list (match=100.00/85)
+Channel 105, callsign: "5 HD", vs XMLTV name: "5 HD" name: "5 HD" is in the XMLTV channel list (match=100.00/85)
+Channel 106, callsign: "BBC FOUR HD", vs XMLTV name: "BBC Four HD" name: "BBC FOUR HD" is in the XMLTV channel list (match=100.00/85)
+Channel 107, callsign: "BBC THREE HD", vs XMLTV name: "BBC Three HD" name: "BBC THREE HD" is in the XMLTV channel list (match=100.00/85)
+Channel 201, callsign: "CBBC", vs XMLTV name: "CBBC" name: "CBBC" is in the XMLTV channel list (match=100.00/85)
+Channel 202, callsign: "CBeebies", vs XMLTV name: "CBeebies" name: "CBeebies" is in the XMLTV channel list (match=100.00/85)
+Channel 203, callsign: "CBBC HD", vs XMLTV name: "CBBC HD" name: "CBBC HD" is in the XMLTV channel list (match=100.00/85)
+Channel 204, callsign: "CBeebies HD", vs XMLTV name: "CBeebies HD" name: "CBeebies HD" is in the XMLTV channel list (match=100.00/85)
+Channel 205, callsign: "POP", vs XMLTV name: "Pop" name: "POP" is in the XMLTV channel list (match=100.00/85)
+Channel 206, callsign: "Tiny Pop", vs XMLTV name: "Tiny Pop SD" name: "Tiny Pop" is in the XMLTV channel list (match=87.50/85)
+Channel 207, callsign: "POP UP", vs XMLTV name: "BBC Radio Essex" name: "POP UP" is not in the XMLTV channel list (match=0.00/85)
+Channel 207 freqid is no longer valid
+Channel 207 icon is no longer valid
+  Channel 207 updated with:
+{'ChanId': 10207, 'FrequencyId': '', 'Icon': ''}
+Channel 208, callsign: "Pop Player", vs XMLTV name: "Tiny Pop (Freeview)" name: "Pop Player" is not in the XMLTV channel list (match=37.50/85)
+Channel 208 freqid is no longer valid
+Channel 208 icon is no longer valid
+  Channel 208 updated with:
+{'ChanId': 10208, 'FrequencyId': '', 'Icon': ''}
+Channel 209, callsign: "Ketchup TV", vs XMLTV name: "Ketchup TV" name: "Ketchup TV" is in the XMLTV channel list (match=100.00/85)
+Channel 210, callsign: "Ketchup Too", vs XMLTV name: "BBC Radio Essex" name: "Ketchup Too" is not in the XMLTV channel list (match=0.00/85)
+Channel 210 icon is no longer valid
+  Channel 210 updated with:
+{'ChanId': 10210, 'Icon': ''}
+Channel 211, callsign: "YAAAS!", vs XMLTV name: "BBC Radio Essex" name: "YAAAS!" is not in the XMLTV channel list (match=0.00/85)
+Channel 211 icon is no longer valid
+  Channel 211 updated with:
+{'ChanId': 10211, 'Icon': ''}
+Channel 212, callsign: "POP Max", vs XMLTV name: "BBC Radio Essex" name: "POP Max" is not in the XMLTV channel list (match=0.00/85)
+Channel 212 icon is no longer valid
+  Channel 212 updated with:
+{'ChanId': 10212, 'Icon': ''}
+Channel 214, callsign: "Cartoon Classics", vs XMLTV name: "BBC Radio Essex" name: "Cartoon Classics" is not in the XMLTV channel list (match=0.00/85)
+Channel 214 icon is no longer valid
+  Channel 214 updated with:
+{'ChanId': 10214, 'Icon': ''}
+Channel 231, callsign: "BBC NEWS", vs XMLTV name: "BBC News" name: "BBC NEWS" is in the XMLTV channel list (match=100.00/85)
+Channel 232, callsign: "BBC Parliament", vs XMLTV name: "BBC Parliament" name: "BBC Parliament" is in the XMLTV channel list (match=100.00/85)
+Channel 233, callsign: "Sky News", vs XMLTV name: "Sky News" name: "Sky News" is in the XMLTV channel list (match=100.00/85)
+Channel 236, callsign: "GB News", vs XMLTV name: "GB News" name: "GB News" is in the XMLTV channel list (match=100.00/85)
+Channel 250, callsign: "BBC Red Button", vs XMLTV name: "BBC Red Button 1" name: "BBC Red Button" is in the XMLTV channel list (match=96.00/85)
+Channel 251, callsign: "Al Jazeera English", vs XMLTV name: "BBC Radio Essex" name: "Al Jazeera English" is not in the XMLTV channel list (match=0.00/85)
+Channel 251 freqid is no longer valid
+Channel 251 xmltvid is no longer valid
+Channel 251 icon is no longer valid
+  Channel 251 updated with:
+{'ChanId': 10251, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 252, callsign: "Al Jazeera Arabic", vs XMLTV name: "BBC Radio Essex" name: "Al Jazeera Arabic" is not in the XMLTV channel list (match=0.00/85)
+Channel 252 freqid is no longer valid
+Channel 252 xmltvid is no longer valid
+Channel 252 icon is no longer valid
+  Channel 252 updated with:
+{'ChanId': 10252, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 253, callsign: "Trailblazer", vs XMLTV name: "BBC Radio Essex" name: "Trailblazer" is not in the XMLTV channel list (match=0.00/85)
+Channel 253 icon is no longer valid
+  Channel 253 updated with:
+{'ChanId': 10253, 'Icon': ''}
+Channel 254, callsign: "On Demand 365", vs XMLTV name: "BBC Radio Essex" name: "On Demand 365" is not in the XMLTV channel list (match=0.00/85)
+Channel 254 icon is no longer valid
+  Channel 254 updated with:
+{'ChanId': 10254, 'Icon': ''}
+Channel 255, callsign: "FRANCE 24", vs XMLTV name: "France 24 English HD" name: "FRANCE 24" is in the XMLTV channel list (match=90.00/85)
+Channel 256, callsign: "Odyssey TV", vs XMLTV name: "BBC Radio Essex" name: "Odyssey TV" is not in the XMLTV channel list (match=0.00/85)
+Channel 256 icon is no longer valid
+  Channel 256 updated with:
+{'ChanId': 10256, 'Icon': ''}
+Channel 257, callsign: "EuroNews", vs XMLTV name: "BBC Radio Essex" name: "EuroNews" is not in the XMLTV channel list (match=0.00/85)
+Channel 257 icon is no longer valid
+  Channel 257 updated with:
+{'ChanId': 10257, 'Icon': ''}
+Channel 258, callsign: "India Today", vs XMLTV name: "BBC Radio Essex" name: "India Today" is not in the XMLTV channel list (match=0.00/85)
+Channel 258 icon is no longer valid
+  Channel 258 updated with:
+{'ChanId': 10258, 'Icon': ''}
+Channel 259, callsign: "MBC", vs XMLTV name: "BBC Radio Essex" name: "MBC" is not in the XMLTV channel list (match=0.00/85)
+Channel 259 icon is no longer valid
+  Channel 259 updated with:
+{'ChanId': 10259, 'Icon': ''}
+Channel 260, callsign: "ASHARQ NEWS", vs XMLTV name: "BBC Radio Essex" name: "ASHARQ NEWS" is not in the XMLTV channel list (match=0.00/85)
+Channel 260 freqid is no longer valid
+Channel 260 xmltvid is no longer valid
+Channel 260 icon is no longer valid
+  Channel 260 updated with:
+{'ChanId': 10260, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 261, callsign: "AL ARABIYA", vs XMLTV name: "BBC Radio Essex" name: "AL ARABIYA" is not in the XMLTV channel list (match=0.00/85)
+Channel 261 freqid is no longer valid
+Channel 261 xmltvid is no longer valid
+Channel 261 icon is no longer valid
+  Channel 261 updated with:
+{'ChanId': 10261, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 263, callsign: "Sonlife", vs XMLTV name: "SonLife Broadcasting Network" name: "Sonlife" is in the XMLTV channel list (match=90.00/85)
+Channel 264, callsign: "Alaraby Network", vs XMLTV name: "BBC Radio Essex" name: "Alaraby Network" is not in the XMLTV channel list (match=0.00/85)
+Channel 264 icon is no longer valid
+  Channel 264 updated with:
+{'ChanId': 10264, 'Icon': ''}
+Channel 265, callsign: "ROK", vs XMLTV name: "BBC Radio Essex" name: "ROK" is not in the XMLTV channel list (match=0.00/85)
+Channel 265 freqid is no longer valid
+Channel 265 xmltvid is no longer valid
+Channel 265 icon is no longer valid
+  Channel 265 updated with:
+{'ChanId': 78061, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 266, callsign: "Revelation TV", vs XMLTV name: "BBC Radio Essex" name: "Revelation TV" is not in the XMLTV channel list (match=0.00/85)
+Channel 266 freqid is no longer valid
+Channel 266 xmltvid is no longer valid
+Channel 266 icon is no longer valid
+  Channel 266 updated with:
+{'ChanId': 10266, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 267, callsign: "God TV", vs XMLTV name: "Al Jazeera English" name: "God TV" is not in the XMLTV channel list (match=30.00/85)
+Channel 267 freqid is no longer valid
+Channel 267 icon is no longer valid
+  Channel 267 updated with:
+{'ChanId': 10267, 'FrequencyId': '', 'Icon': ''}
+Channel 268, callsign: "It Is Written TV", vs XMLTV name: "Al Jazeera Arabic" name: "It Is Written TV" is not in the XMLTV channel list (match=15.38/85)
+Channel 268 freqid is no longer valid
+Channel 268 icon is no longer valid
+  Channel 268 updated with:
+{'ChanId': 10268, 'FrequencyId': '', 'Icon': ''}
+Channel 269, callsign: "New Media TV", vs XMLTV name: "BBC Radio Essex" name: "New Media TV" is not in the XMLTV channel list (match=0.00/85)
+Channel 269 icon is no longer valid
+  Channel 269 updated with:
+{'ChanId': 10269, 'Icon': ''}
+Channel 270, callsign: "Together TV IP", vs XMLTV name: "Real Crime" name: "Together TV IP" is not in the XMLTV channel list (match=31.58/85)
+Channel 270 icon is no longer valid
+  Channel 270 updated with:
+{'ChanId': 10270, 'Icon': ''}
+Channel 271, callsign: "Channelbox", vs XMLTV name: "BBC Radio Essex" name: "Channelbox" is not in the XMLTV channel list (match=0.00/85)
+Channel 271 icon is no longer valid
+  Channel 271 updated with:
+{'ChanId': 10271, 'Icon': ''}
+Channel 272, callsign: "NHK WORLD", vs XMLTV name: "NHK World Europe" name: "NHK WORLD" is in the XMLTV channel list (match=90.00/85)
+Channel 273, callsign: "Newsmax", vs XMLTV name: "BBC Radio Essex" name: "Newsmax" is not in the XMLTV channel list (match=0.00/85)
+Channel 273 freqid is no longer valid
+Channel 273 xmltvid is no longer valid
+Channel 273 icon is no longer valid
+  Channel 273 updated with:
+{'ChanId': 78063, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 274, callsign: "Amazing Facts", vs XMLTV name: "Asharq News" name: "Amazing Facts" is not in the XMLTV channel list (match=36.36/85)
+Channel 274 icon is no longer valid
+  Channel 274 updated with:
+{'ChanId': 10274, 'Icon': ''}
+Channel 275, callsign: "wedotv movies", vs XMLTV name: "Al Arabiya" name: "wedotv movies" is not in the XMLTV channel list (match=9.52/85)
+Channel 275 icon is no longer valid
+  Channel 275 updated with:
+{'ChanId': 82501, 'Icon': ''}
+Channel 276, callsign: "CNA Originals", vs XMLTV name: "BBC Radio Essex" name: "CNA Originals" is not in the XMLTV channel list (match=0.00/85)
+Channel 276 icon is no longer valid
+  Channel 276 updated with:
+{'ChanId': 78059, 'Icon': ''}
+Channel 278, callsign: "Nosey", vs XMLTV name: "BBC Radio Essex" name: "Nosey" is not in the XMLTV channel list (match=0.00/85)
+Channel 278 icon is no longer valid
+  Channel 278 updated with:
+{'ChanId': 10278, 'Icon': ''}
+Channel 279, callsign: "Purpose Media", vs XMLTV name: "BBC Radio Essex" name: "Purpose Media" is not in the XMLTV channel list (match=0.00/85)
+Channel 279 icon is no longer valid
+  Channel 279 updated with:
+{'ChanId': 10279, 'Icon': ''}
+Channel 280, callsign: "Talk", vs XMLTV name: "ROK" name: "Talk" is not in the XMLTV channel list (match=28.57/85)
+Channel 280 freqid is no longer valid
+Channel 280 xmltvid is no longer valid
+Channel 280 icon is no longer valid
+  Channel 280 updated with:
+{'ChanId': 78064, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 283, callsign: "Global Arabic +", vs XMLTV name: "BBC Radio Essex" name: "Global Arabic +" is not in the XMLTV channel list (match=0.00/85)
+Channel 283 icon is no longer valid
+  Channel 283 updated with:
+{'ChanId': 78062, 'Icon': ''}
+Channel 284, callsign: "GIGS", vs XMLTV name: "BBC Radio Essex" name: "GIGS" is not in the XMLTV channel list (match=0.00/85)
+Channel 284 icon is no longer valid
+  Channel 284 updated with:
+{'ChanId': 78060, 'Icon': ''}
+Channel 287, callsign: "Nolly Africa", vs XMLTV name: "Newsmax" name: "Nolly Africa" is not in the XMLTV channel list (match=27.69/85)
+Channel 287 icon is no longer valid
+  Channel 287 updated with:
+{'ChanId': 10287, 'Icon': ''}
+Channel 288, callsign: "OUTflix Proud", vs XMLTV name: "BBC Radio Essex" name: "OUTflix Proud" is not in the XMLTV channel list (match=0.00/85)
+Channel 288 icon is no longer valid
+  Channel 288 updated with:
+{'ChanId': 10288, 'Icon': ''}
+Channel 289, callsign: "MBC Group", vs XMLTV name: "BBC Radio Essex" name: "MBC Group" is not in the XMLTV channel list (match=0.00/85)
+Channel 289 icon is no longer valid
+  Channel 289 updated with:
+{'ChanId': 10289, 'Icon': ''}
+Channel 555, callsign: "Accessible TV Guide", vs XMLTV name: "BBC Radio Essex" name: "Accessible TV Guide" is not in the XMLTV channel list (match=0.00/85)
+Channel 555 freqid is no longer valid
+Channel 555 icon is no longer valid
+  Channel 555 updated with:
+{'ChanId': 10555, 'FrequencyId': '', 'Icon': ''}
+Channel 601, callsign: "BBC RB 1", vs XMLTV name: "BBC Red Button 1" name: "BBC RB 1" is not in the XMLTV channel list (match=72.00/85)
+Channel 601 freqid is no longer valid
+Channel 601 icon is no longer valid
+  Channel 601 updated with:
+{'ChanId': 10601, 'FrequencyId': '', 'Icon': ''}
+Channel 670, callsign: "ADULT Section", vs XMLTV name: "BBC Radio Essex" name: "ADULT Section" is not in the XMLTV channel list (match=0.00/85)
+Channel 670 icon is no longer valid
+  Channel 670 updated with:
+{'ChanId': 78049, 'Icon': ''}
+Channel 671, callsign: "ADULT Xpanded TV", vs XMLTV name: "BBC Radio Essex" name: "ADULT Xpanded TV" is not in the XMLTV channel list (match=0.00/85)
+Channel 671 icon is no longer valid
+  Channel 671 updated with:
+{'ChanId': 77987, 'Icon': ''}
+Channel 673, callsign: "ADULT smileTV3", vs XMLTV name: "BBC Radio Essex" name: "ADULT smileTV3" is not in the XMLTV channel list (match=0.00/85)
+Channel 673 icon is no longer valid
+  Channel 673 updated with:
+{'ChanId': 10673, 'Icon': ''}
+Channel 674, callsign: "ADULT Babestn", vs XMLTV name: "BBC Radio Essex" name: "ADULT Babestn" is not in the XMLTV channel list (match=0.00/85)
+Channel 674 icon is no longer valid
+  Channel 674 updated with:
+{'ChanId': 10674, 'Icon': ''}
+Channel 699, callsign: "ADULT Section", vs XMLTV name: "BBC Radio Essex" name: "ADULT Section" is not in the XMLTV channel list (match=0.00/85)
+Channel 699 icon is no longer valid
+  Channel 699 updated with:
+{'ChanId': 10699, 'Icon': ''}
+Channel 700, callsign: "BBC Radio 1", vs XMLTV name: "BBC Radio 1" name: "BBC Radio 1" is in the XMLTV channel list (match=100.00/85)
+Channel 701, callsign: "BBC R1X", vs XMLTV name: "BBC Radio 1 Xtra" name: "BBC R1X" is not in the XMLTV channel list (match=72.00/85)
+Channel 701 freqid is no longer valid
+Channel 701 icon is no longer valid
+  Channel 701 updated with:
+{'ChanId': 10701, 'FrequencyId': '', 'Icon': ''}
+Channel 702, callsign: "BBC Radio 2", vs XMLTV name: "BBC Radio 2" name: "BBC Radio 2" is in the XMLTV channel list (match=100.00/85)
+Channel 703, callsign: "BBC Radio 3", vs XMLTV name: "BBC Radio 3" name: "BBC Radio 3" is in the XMLTV channel list (match=100.00/85)
+Channel 704, callsign: "BBC Radio 4", vs XMLTV name: "BBC Radio 4 FM" name: "BBC Radio 4" is in the XMLTV channel list (match=90.00/85)
+Channel 705, callsign: "BBC R5L", vs XMLTV name: "BBC Radio 5 Live" name: "BBC R5L" is not in the XMLTV channel list (match=72.00/85)
+Channel 705 freqid is no longer valid
+Channel 705 icon is no longer valid
+  Channel 705 updated with:
+{'ChanId': 10705, 'FrequencyId': '', 'Icon': ''}
+Channel 706, callsign: "BBC R5SX", vs XMLTV name: "BBC Radio 5 Live Sports Xtra" name: "BBC R5SX" is not in the XMLTV channel list (match=65.45/85)
+Channel 706 freqid is no longer valid
+Channel 706 icon is no longer valid
+  Channel 706 updated with:
+{'ChanId': 10706, 'FrequencyId': '', 'Icon': ''}
+Channel 707, callsign: "BBC 6 Music", vs XMLTV name: "BBC Radio 6 Music" name: "BBC 6 Music" is not in the XMLTV channel list (match=78.26/85)
+Channel 707 freqid is no longer valid
+Channel 707 icon is no longer valid
+  Channel 707 updated with:
+{'ChanId': 10707, 'FrequencyId': '', 'Icon': ''}
+Channel 708, callsign: "BBC Radio 4 Ex", vs XMLTV name: "BBC Radio 4 Extra" name: "BBC Radio 4 Ex" is in the XMLTV channel list (match=88.00/85)
+Channel 709, callsign: "BBC Asian Net.", vs XMLTV name: "BBC Asian Network" name: "BBC Asian Net." is not in the XMLTV channel list (match=81.48/85)
+Channel 709 freqid is no longer valid
+Channel 709 icon is no longer valid
+  Channel 709 updated with:
+{'ChanId': 10709, 'FrequencyId': '', 'Icon': ''}
+Channel 710, callsign: "BBC World Sv.", vs XMLTV name: "BBC World Service" name: "BBC World Sv." is not in the XMLTV channel list (match=76.92/85)
+Channel 710 freqid is no longer valid
+Channel 710 icon is no longer valid
+  Channel 710 updated with:
+{'ChanId': 10710, 'FrequencyId': '', 'Icon': ''}
+Channel 711, callsign: "BBC Berkshire", vs XMLTV name: "BBC Radio Essex" name: "BBC Berkshire" is not in the XMLTV channel list (match=0.00/85)
+Channel 711 freqid is no longer valid
+Channel 711 icon is no longer valid
+  Channel 711 updated with:
+{'ChanId': 10711, 'FrequencyId': '', 'Icon': ''}
+Channel 712, callsign: "BBC Three Counties", vs XMLTV name: "BBC Radio Essex" name: "BBC Three Counties" is not in the XMLTV channel list (match=0.00/85)
+Channel 712 freqid is no longer valid
+Channel 712 xmltvid is no longer valid
+Channel 712 icon is no longer valid
+  Channel 712 updated with:
+{'ChanId': 10712, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 713, callsign: "BBC Radio London", vs XMLTV name: "BBC Radio Essex" name: "BBC Radio London" is not in the XMLTV channel list (match=0.00/85)
+Channel 713 freqid is no longer valid
+Channel 713 xmltvid is no longer valid
+Channel 713 icon is no longer valid
+  Channel 713 updated with:
+{'ChanId': 10713, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 714, callsign: "BBC Surrey", vs XMLTV name: "BBC Radio Essex" name: "BBC Radio Surrey" is not in the XMLTV channel list (match=0.00/85)
+Channel 714 freqid is no longer valid
+Channel 714 xmltvid is no longer valid
+Channel 714 icon is no longer valid
+  Channel 714 updated with:
+{'ChanId': 10714, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 716, callsign: "BBC Essex", vs XMLTV name: "BBC Radio Essex" name: "BBC Radio Essex" is not in the XMLTV channel list (match=0.00/85)
+Channel 716 freqid is no longer valid
+Channel 716 xmltvid is no longer valid
+Channel 716 icon is no longer valid
+  Channel 716 updated with:
+{'ChanId': 10716, 'FrequencyId': '', 'XMLTVID': '', 'Icon': ''}
+Channel 718, callsign: "Smooth Radio", vs XMLTV name: "Smooth FM 102.2" name: "Smooth Radio" is not in the XMLTV channel list (match=81.48/85)
+Channel 718 freqid is no longer valid
+Channel 718 icon is no longer valid
+  Channel 718 updated with:
+{'ChanId': 10718, 'FrequencyId': '', 'Icon': ''}
+Channel 723, callsign: "talkSPORT", vs XMLTV name: "Talk Sport" name: "talkSPORT" is in the XMLTV channel list (match=100.00/85)
+Channel 724, callsign: "Capital", vs XMLTV name: "Capital London" name: "Capital" is in the XMLTV channel list (match=90.00/85)
+Channel 725, callsign: "Premier Radio", vs XMLTV name: "Premier" name: "Premier Radio" is in the XMLTV channel list (match=90.00/85)
+Channel 728, callsign: "Heart", vs XMLTV name: "Heart FM" name: "Heart" is in the XMLTV channel list (match=90.00/85)
+Channel 730, callsign: "RNIB Connect", vs XMLTV name: "RNIB Connect" name: "RNIB Connect" is in the XMLTV channel list (match=100.00/85)
+Channel 731, callsign: "Classic FM", vs XMLTV name: "Classic FM" name: "Classic FM" is in the XMLTV channel list (match=100.00/85)
+Channel 732, callsign: "LBC", vs XMLTV name: "LBC" name: "LBC" is in the XMLTV channel list (match=100.00/85)
+Channel 1 icon refresh forced
+Channel 1 with existing callsign: "BBC ONE Lon" has a revised callsign: "BBC1LDN"
+Channel 1 with existing name: "BBC ONE Lon" has a new name: "BBC One London"
+  Channel 1 updated with:
+{'ChanId': 10001, 'Icon': 's30644_dark_360w_270h.png'}
+Channel 2 icon refresh forced
+Channel 2 with existing callsign: "BBC TWO" has a revised callsign: "BBC2"
+Channel 2 with existing name: "BBC TWO" has a new name: "BBC Two"
+  Channel 2 updated with:
+{'ChanId': 10002, 'Icon': 's17154_dark_360w_270h.png'}
+Channel 3 icon refresh forced
+Channel 3 with existing callsign: "ITV1" has a revised callsign: "ITV1LON"
+Channel 3 with existing name: "ITV1" has a new name: "ITV1 (London)"
+  Channel 3 updated with:
+{'ChanId': 10003, 'Icon': 's17468_dark_360w_270h.png'}
+Channel 4 icon refresh forced
+Channel 4 with existing callsign: "Channel 4" has a revised callsign: "C4"
+  Channel 4 updated with:
+{'ChanId': 10004, 'Icon': 's17155_dark_360w_270h.png'}
+Channel 5 icon refresh forced
+Channel 5 with existing callsign: "5" has a revised callsign: "CH5"
+  Channel 5 updated with:
+{'ChanId': 10005, 'Icon': 's17157_dark_360w_270h.png'}
+Channel 6 icon refresh forced
+  Channel 6 updated with:
+{'ChanId': 10006, 'Icon': 's20630_dark_360w_270h.png'}
+Channel 8 icon refresh forced
+Channel 8 with existing callsign: "London TV" has a revised callsign: "LONLIVE"
+  Channel 8 updated with:
+{'ChanId': 10008, 'Icon': 's84926_dark_360w_270h.png'}
+Channel 9 icon refresh forced
+Channel 9 with existing callsign: "BBC FOUR" has a revised callsign: "BBC4"
+Channel 9 with existing name: "BBC FOUR" has a new name: "BBC Four"
+  Channel 9 updated with:
+{'ChanId': 10009, 'Icon': 's20684_dark_360w_270h.png'}
+Channel 10 icon refresh forced
+Channel 10 with existing callsign: "ITV3" has a revised callsign: "ITVTHREE"
+  Channel 10 updated with:
+{'ChanId': 10010, 'Icon': 's44643_dark_360w_270h.png'}
+Channel 11 icon refresh forced
+Channel 11 with existing callsign: "Sky Mix" has a revised callsign: "SKYMIX"
+  Channel 11 updated with:
+{'ChanId': 78046, 'Icon': 's48021_dark_360w_270h.png'}
+Channel 12 icon refresh forced
+Channel 12 with existing name: "QUEST" has a new name: "Quest"
+  Channel 12 updated with:
+{'ChanId': 77986, 'Icon': 's62391_dark_360w_270h.png'}
+Channel 13 icon refresh forced
+  Channel 13 updated with:
+{'ChanId': 10013, 'Icon': 's25117_dark_360w_270h.png'}
+Channel 14 icon refresh forced
+Channel 14 with existing callsign: "Film4" has a revised callsign: "FILM4UK"
+  Channel 14 updated with:
+{'ChanId': 10014, 'Icon': 's21494_dark_360w_270h.png'}
+Channel 15 icon refresh forced
+Channel 15 with existing callsign: "Channel 4+1" has a revised callsign: "C4P1"
+Channel 15 with existing name: "Channel 4+1" has a new name: "Channel 4 +1"
+  Channel 15 updated with:
+{'ChanId': 10015, 'Icon': 's56892_dark_360w_270h.png'}
+Channel 16 icon refresh forced
+Channel 16 with existing callsign: "QVC" has a revised callsign: "QVCUKSD"
+  Channel 16 updated with:
+{'ChanId': 10016, 'Icon': 's125129_dark_360w_270h.png'}
+Channel 17 icon refresh forced
+Channel 17 with existing callsign: "Really" has a revised callsign: "REALLY"
+Channel 17 with existing name: "Really" has a new name: "Really UKTV"
+  Channel 17 updated with:
+{'ChanId': 10017, 'Icon': 's45828_dark_360w_270h.png'}
+Channel 18 icon refresh forced
+Channel 18 with existing callsign: "More 4" has a revised callsign: "MORE4"
+  Channel 18 updated with:
+{'ChanId': 10018, 'Icon': 's47657_dark_360w_270h.png'}
+Channel 19 icon refresh forced
+Channel 19 with existing callsign: "U&Dave" has a revised callsign: "UDAVE"
+  Channel 19 updated with:
+{'ChanId': 10019, 'Icon': 's24305_dark_360w_270h.png'}
+Channel 20 icon refresh forced
+Channel 20 with existing callsign: "U&Drama" has a revised callsign: "UDRAMA"
+  Channel 20 updated with:
+{'ChanId': 10020, 'Icon': 's117464_dark_360w_270h.png'}
+Channel 21 icon refresh forced
+  Channel 21 updated with:
+{'ChanId': 10021, 'Icon': 's52335_dark_360w_270h.png'}
+Channel 22 not found, Searcing for a match with "TJC to the channel name "The Jewellery Channel" (match=45.0)
+Channel 22, callsign: "JEWELCH", name: "The Jewellery Channel" is new
+Channel 23 icon refresh forced
+Channel 23 with existing callsign: "BBC THREE" has a revised callsign: "BBC3"
+Channel 23 with existing name: "BBC THREE" has a new name: "BBC Three"
+  Channel 23 updated with:
+{'ChanId': 12300, 'Icon': 's20683_dark_360w_270h.png'}
+Channel 25 icon refresh forced
+Channel 25 with existing callsign: "U&W" has a revised callsign: "UANDW"
+  Channel 25 updated with:
+{'ChanId': 77995, 'Icon': 's61458_dark_360w_270h.png'}
+Channel 26 icon refresh forced
+  Channel 26 updated with:
+{'ChanId': 10025, 'Icon': 's48020_dark_360w_270h.png'}
+Channel 27 icon refresh forced
+Channel 27 with existing callsign: "U&Yesterday" has a revised callsign: "UYESTSD"
+  Channel 27 updated with:
+{'ChanId': 77981, 'Icon': 's138444_dark_360w_270h.png'}
+Channel 28 icon refresh forced
+Channel 28 with existing callsign: "ITV Quiz" has a revised callsign: "ITVQZVM"
+  Channel 28 updated with:
+{'ChanId': 77852, 'Icon': 'GNLZZGG0022XGPX.png_dark_360w_270h.png'}
+Channel 29 icon refresh forced
+Channel 29 with existing callsign: "ITV2+1" has a revised callsign: "ITV2P1"
+Channel 29 with existing name: "ITV2+1" has a new name: "ITV2 +1"
+  Channel 29 updated with:
+{'ChanId': 10028, 'Icon': 's53059_dark_360w_270h.png'}
+Channel 30 icon refresh forced
+Channel 30 with existing callsign: "E4+1" has a revised callsign: "E4P1"
+Channel 30 with existing name: "E4+1" has a new name: "E4 +1"
+  Channel 30 updated with:
+{'ChanId': 10029, 'Icon': 's33882_dark_360w_270h.png'}
+Channel 31 icon refresh forced
+Channel 31 with existing callsign: "E4 Extra" has a revised callsign: "E4EXTRA"
+  Channel 31 updated with:
+{'ChanId': 77847, 'Icon': 's31786_dark_360w_270h.png'}
+Channel 32 icon refresh forced
+Channel 32 with existing callsign: "5STAR" has a revised callsign: "5ST"
+Channel 32 with existing name: "5STAR" has a new name: "5 Star"
+  Channel 32 updated with:
+{'ChanId': 10031, 'Icon': 's52336_dark_360w_270h.png'}
+Channel 33 icon refresh forced
+Channel 33 with existing callsign: "5ACTION" has a revised callsign: "5ACTSVM"
+Channel 33 with existing name: "5ACTION" has a new name: "5 Action"
+  Channel 33 updated with:
+{'ChanId': 10032, 'Icon': 's109246_dark_360w_270h.png'}
+Channel 34 icon refresh forced
+Channel 34 with existing callsign: "Great! TV" has a revised callsign: "GRETMYS"
+Channel 34 with existing name: "Great! TV" has a new name: "Great! Mystery"
+  Channel 34 updated with:
+{'ChanId': 77991, 'Icon': 'GNLZZGG0029BMCL.png_dark_360w_270h.png'}
+Channel 35 icon refresh forced
+Channel 35 with existing callsign: "ITV1+1" has a revised callsign: "ITVP1LN"
+Channel 35 with existing name: "ITV1+1" has a new name: "ITV1 +1"
+  Channel 35 updated with:
+{'ChanId': 10034, 'Icon': 's65160_dark_360w_270h.png'}
+Channel 36 icon refresh forced
+Channel 36 with existing callsign: "Sky Arts" has a revised callsign: "SKYART1"
+  Channel 36 updated with:
+{'ChanId': 10036, 'Icon': 's24919_dark_360w_270h.png'}
+Channel 38 icon refresh forced
+Channel 38 with existing callsign: "5 +1" has a revised callsign: "CH5P1VM"
+  Channel 38 updated with:
+{'ChanId': 10045, 'Icon': 's77749_dark_360w_270h.png'}
+Channel 39 icon refresh forced
+Channel 39 with existing callsign: "DMAX" has a revised callsign: "DMAXE"
+  Channel 39 updated with:
+{'ChanId': 77988, 'Icon': 's58793_dark_360w_270h.png'}
+Channel 40 icon refresh forced
+Channel 40 with existing callsign: "Quest Red" has a revised callsign: "QREDUK"
+  Channel 40 updated with:
+{'ChanId': 10039, 'Icon': 's102471_dark_360w_270h.png'}
+Channel 41 icon refresh forced
+Channel 41 with existing callsign: "LEGEND" has a revised callsign: "LEGENDVM"
+Channel 41 with existing name: "LEGEND" has a new name: "Legend"
+  Channel 41 updated with:
+{'ChanId': 77851, 'Icon': 's73970_dark_360w_270h.png'}
+Channel 42 icon refresh forced
+Channel 42 with existing callsign: "Great! Action" has a revised callsign: "GRTMACT"
+  Channel 42 updated with:
+{'ChanId': 10041, 'Icon': 'GNLZZGG0027ESGV.png_dark_360w_270h.png'}
+Channel 43 icon refresh forced
+Channel 43 with existing callsign: "Food Network" has a revised callsign: "FOODNET"
+  Channel 43 updated with:
+{'ChanId': 10042, 'Icon': 's44718_dark_360w_270h.png'}
+Channel 44 icon refresh forced
+Channel 44 with existing callsign: "HGTV" has a revised callsign: "HGTVUK"
+  Channel 44 updated with:
+{'ChanId': 77994, 'Icon': 's21257_dark_360w_270h.png'}
+Channel 45 icon refresh forced
+Channel 45 with existing callsign: "Gemporia" has a revised callsign: "GEMPORIAHD"
+Channel 45 with existing name: "Gemporia" has a new name: "GEMPORIA HD"
+  Channel 45 updated with:
+{'ChanId': 10044, 'Icon': 's27993_dark_360w_270h.png'}
+Channel 46 icon refresh forced
+  Channel 46 updated with:
+{'ChanId': 78007, 'Icon': 's56888_dark_360w_270h.png'}
+Channel 47 icon refresh forced
+Channel 47 with existing callsign: "Film4+1" has a revised callsign: "FILM41"
+Channel 47 with existing name: "Film4+1" has a new name: "Film4 +1"
+  Channel 47 updated with:
+{'ChanId': 10046, 'Icon': 's25630_dark_360w_270h.png'}
+Channel 48 icon refresh forced
+Channel 48 with existing callsign: "Challenge" has a revised callsign: "CHALL"
+  Channel 48 updated with:
+{'ChanId': 10047, 'Icon': 's21793_dark_360w_270h.png'}
+Channel 49 icon refresh forced
+Channel 49 with existing callsign: "4seven" has a revised callsign: "4SEVEN"
+Channel 49 with existing name: "4seven" has a new name: "4Seven"
+  Channel 49 updated with:
+{'ChanId': 78056, 'Icon': 's75804_dark_360w_270h.png'}
+Channel 50 icon refresh forced
+Channel 50 with existing callsign: "Great! Mystery" has a revised callsign: "GREATUK"
+Channel 50 with existing name: "Great! Mystery" has a new name: "Great! TV"
+  Channel 50 updated with:
+{'ChanId': 77983, 'Icon': 'GNLZZGG002GB9YS.png_dark_360w_270h.png'}
+Channel 51 icon refresh forced
+Channel 51 with existing callsign: "Ideal World" has a revised callsign: "IDLFV"
+Channel 51 with existing name: "Ideal World" has a new name: "Ideal World (Freeview)"
+  Channel 51 updated with:
+{'ChanId': 77982, 'Icon': 's110927_dark_360w_270h.png'}
+Channel 52 icon refresh forced
+Channel 52 with existing callsign: "Great! Christmas" has a revised callsign: "GREATRO"
+  Channel 52 updated with:
+{'ChanId': 77985, 'Icon': 'GNLZZGG0029BNQD.png_dark_360w_270h.png'}
+Channel 56 icon refresh forced
+Channel 56 with existing callsign: "That's TV (UK)" has a revised callsign: "THATSTV"
+Channel 56 with existing name: "That's TV (UK)" has a new name: "That's TV"
+  Channel 56 updated with:
+{'ChanId': 77992, 'Icon': 's120346_dark_360w_270h.png'}
+Channel 57 icon refresh forced
+Channel 57 with existing callsign: "U&Eden" has a revised callsign: "EDEN"
+  Channel 57 updated with:
+{'ChanId': 78052, 'Icon': 's35806_dark_360w_270h.png'}
+Channel 58 icon refresh forced
+Channel 58 with existing callsign: "ITV3+1" has a revised callsign: "ITV3P1F"
+Channel 58 with existing name: "ITV3+1" has a new name: "ITV3 +1 (Freeview)"
+  Channel 58 updated with:
+{'ChanId': 10058, 'Icon': 's98366_dark_360w_270h.png'}
+Channel 59 icon refresh forced
+Channel 59 with existing callsign: "ITV4+1" has a revised callsign: "ITV4PF"
+Channel 59 with existing name: "ITV4+1" has a new name: "ITV4 +1 (Freeview)"
+  Channel 59 updated with:
+{'ChanId': 10093, 'Icon': 's110918_dark_360w_270h.png'}
+Channel 60 icon refresh forced
+Channel 60 with existing callsign: "U&Drama+1" has a revised callsign: "UDRP1VM"
+  Channel 60 updated with:
+{'ChanId': 16000, 'Icon': 's111955_dark_360w_270h.png'}
+Channel 62 icon refresh forced
+Channel 62 with existing callsign: "Great! Romance Mix" has a revised callsign: "GRROMIX"
+Channel 62 with existing name: "Great! Romance Mix" has a new name: "GREAT! Romance mix"
+  Channel 62 updated with:
+{'ChanId': 77999, 'Icon': 's50011_dark_360w_270h.png'}
+Channel 64 icon refresh forced
+Channel 64 with existing callsign: "Blaze" has a revised callsign: "BLZEFV"
+Channel 64 with existing name: "Blaze" has a new name: "Blaze (Freeview)"
+  Channel 64 updated with:
+{'ChanId': 10063, 'Icon': 's110919_dark_360w_270h.png'}
+Channel 65 icon refresh forced
+Channel 65 with existing callsign: "That's TV 2" has a revised callsign: "THATS2"
+  Channel 65 updated with:
+{'ChanId': 10065, 'Icon': 's136453_dark_360w_270h.png'}
+Channel 66 icon refresh forced
+Channel 66 with existing callsign: "TBN UK" has a revised callsign: "TBNUK"
+  Channel 66 updated with:
+{'ChanId': 78006, 'Icon': 's97332_dark_360w_270h.png'}
+Channel 67 icon refresh forced
+Channel 67 with existing callsign: "TRUE CRIME" has a revised callsign: "TRUCRUK"
+Channel 67 with existing name: "TRUE CRIME" has a new name: "True Crime"
+  Channel 67 updated with:
+{'ChanId': 10066, 'Icon': 's31756_dark_360w_270h.png'}
+Channel 68 icon refresh forced
+Channel 68 with existing callsign: "TRUE CRIME XTRA" has a revised callsign: "TCEXTRA"
+Channel 68 with existing name: "TRUE CRIME XTRA" has a new name: "True Crime Xtra"
+  Channel 68 updated with:
+{'ChanId': 77850, 'Icon': 's57827_dark_360w_270h.png'}
+Channel 69 icon refresh forced
+Channel 69 with existing callsign: "LEGEND XTRA" has a revised callsign: "LEGEXTR"
+Channel 69 with existing name: "LEGEND XTRA" has a new name: "Legend Xtra"
+  Channel 69 updated with:
+{'ChanId': 16900, 'Icon': 's42762_dark_360w_270h.png'}
+Channel 70 icon refresh forced
+Channel 70 with existing callsign: "QUEST+1" has a revised callsign: "QUESTP1"
+Channel 70 with existing name: "QUEST+1" has a new name: "Quest +1"
+  Channel 70 updated with:
+{'ChanId': 10069, 'Icon': 's65394_dark_360w_270h.png'}
+Channel 71 icon refresh forced
+Channel 71 with existing callsign: "That's TV 3" has a revised callsign: "THATMEM"
+  Channel 71 updated with:
+{'ChanId': 17100, 'Icon': 's125463_dark_360w_270h.png'}
+Channel 72 icon refresh forced
+Channel 72 with existing callsign: "Jewellery Maker" has a revised callsign: "JEWMAKF"
+Channel 72 with existing name: "Jewellery Maker" has a new name: "Jewellery Maker (Freeview)"
+  Channel 72 updated with:
+{'ChanId': 77984, 'Icon': 's131426_dark_360w_270h.png'}
+Channel 73 not found, Searcing for a match with "HobbyMaker to the channel name "Shopping Quarter" (match=40.0)
+Channel 73, callsign: "SHOPQUA", name: "Shopping Quarter" is new
+Channel 74 icon refresh forced
+Channel 74 with existing callsign: "U&DaveJaVu" has a revised callsign: "UDAVEJV"
+  Channel 74 updated with:
+{'ChanId': 78053, 'Icon': 's44855_dark_360w_270h.png'}
+Channel 75 not found, Searcing for a match with "That's Oldies to the channel name "Thats Melody" (match=60.86956521739131)
+   Channel 75, name: "Thats Melody" callsign: "THAT80S", found at channel 76,name: "That's Melody" callsign: "That's Melody" with a score of 95.65%
+Channel 76 icon differs from source
+Channel 76 with existing frequency id: "" has a revised frequency id: 75
+Channel 76 with existing XMLTVID: "" has a revised XMLTVID: "I131027.json.schedulesdirect.org"
+Channel 76 with existing callsign: "That's Melody" has a revised callsign: "THAT80S"
+Channel 76 with existing name: "That's Melody" has a new name: "Thats Melody"
+  Channel 76 updated with:
+{'ChanId': 82503, 'Icon': 's131027_dark_360w_270h.png', 'FrequencyId': '75', 'XMLTVID': 'I131027.json.schedulesdirect.org'}
+Channel 76 not found, Searcing for a match with "That's Melody to the channel name "That's Dance" (match=60.86956521739131)
+Channel 76, callsign: "THDANCE", name: "That's Dance" is new
+Channel 79 not found, Searcing for a match with "LBC to the channel name "Seen On TV HD" (match=0)
+Channel 79, callsign: "SOTVHD", name: "Seen On TV HD" is new
+Channel 81 not found, Searcing for a match with "Rewind TV to the channel name "Blaze +1 (Freeview)" (match=15.384615384615385)
+   Channel 81, name: "Blaze +1 (Freeview)" callsign: "BLZP1FV", found at channel 92,name: "Blaze+1" callsign: "Blaze+1" with a score of 100.00%
+Channel 92 icon differs from source
+Channel 92 with existing frequency id: "" has a revised frequency id: 81
+Channel 92 with existing XMLTVID: "" has a revised XMLTVID: "I110920.json.schedulesdirect.org"
+Channel 92 with existing callsign: "Blaze+1" has a revised callsign: "BLZP1FV"
+Channel 92 with existing name: "Blaze+1" has a new name: "Blaze +1 (Freeview)"
+  Channel 92 updated with:
+{'ChanId': 10080, 'Icon': 's110920_dark_360w_270h.png', 'FrequencyId': '81', 'XMLTVID': 'I110920.json.schedulesdirect.org'}
+Channel 82 icon refresh forced
+Channel 82 with existing callsign: "TalkingPictures TV" has a revised callsign: "TALKPIC"
+Channel 82 with existing name: "TalkingPictures TV" has a new name: "Talking Pictures TV"
+  Channel 82 updated with:
+{'ChanId': 77996, 'Icon': 's99024_dark_360w_270h.png'}
+Channel 83 icon refresh forced
+Channel 83 with existing callsign: "Together TV" has a revised callsign: "TOGETUK"
+Channel 83 with existing name: "Together TV" has a new name: "Together"
+  Channel 83 updated with:
+{'ChanId': 18300, 'Icon': 's24677_dark_360w_270h.png'}
+Channel 84 icon refresh forced
+Channel 84 with existing callsign: "PBS America" has a revised callsign: "PBSAMEF"
+Channel 84 with existing name: "PBS America" has a new name: "PBS America (Freeview)"
+  Channel 84 updated with:
+{'ChanId': 77993, 'Icon': 's131428_dark_360w_270h.png'}
+Channel 85 not found, Searcing for a match with "LBC to the channel name "Create and Craft" (match=0)
+Channel 85, callsign: "CREATEC", name: "Create and Craft" is new
+Channel 90 icon refresh forced
+Channel 90 with existing callsign: "Together TV+1" has a revised callsign: "TOGETP1"
+Channel 90 with existing name: "Together TV+1" has a new name: "Together TV +1"
+  Channel 90 updated with:
+{'ChanId': 10790, 'Icon': 's112603_dark_360w_270h.png'}
+Channel 91 icon refresh forced
+Channel 91 with existing callsign: "WildEarth" has a revised callsign: "WIEAUK"
+Channel 91 with existing name: "WildEarth" has a new name: "WildEarth HD"
+  Channel 91 updated with:
+{'ChanId': 77854, 'Icon': 's131702_dark_360w_270h.png'}
+Channel 92 not found, Searcing for a match with "Blaze+1 to the channel name "Rewind TV" (match=15.384615384615385)
+   Channel 92, name: "Rewind TV" callsign: "REWINDUK", found at channel 81,name: "Rewind TV" callsign: "Rewind TV" with a score of 100.00%
+Channel 81 icon differs from source
+Channel 81 with existing frequency id: "" has a revised frequency id: 92
+Channel 81 with existing XMLTVID: "" has a revised XMLTVID: "I156817.json.schedulesdirect.org"
+Channel 81 with existing callsign: "Rewind TV" has a revised callsign: "REWINDUK"
+  Channel 81 updated with:
+{'ChanId': 10095, 'Icon': 's156817_dark_360w_270h.png', 'FrequencyId': '92', 'XMLTVID': 'I156817.json.schedulesdirect.org'}
+Channel 93 not found, Searcing for a match with "LBC to the channel name "ITVBe +1 (Freeview)" (match=0)
+Channel 93, callsign: "ITVBPFV", name: "ITVBe +1 (Freeview)" is new
+Channel 95 icon refresh forced
+Channel 95 with existing callsign: "High Street TV" has a revised callsign: "HIGHST"
+  Channel 95 updated with:
+{'ChanId': 82505, 'Icon': 's25958_dark_360w_270h.png'}
+Channel 100 icon refresh forced
+Channel 100 with existing callsign: "Freeview" has a revised callsign: "FREEVIE"
+Channel 100 with existing name: "Freeview" has a new name: "Freeview Information"
+  Channel 100 updated with:
+{'ChanId': 10100, 'Icon': 's105389_dark_360w_270h.png'}
+Channel 101 icon refresh forced
+Channel 101 with existing callsign: "BBC ONE Lon HD" has a revised callsign: "BBC1LDHV"
+Channel 101 with existing name: "BBC ONE Lon HD" has a new name: "BBC One London HD"
+  Channel 101 updated with:
+{'ChanId': 78001, 'Icon': 's121745_dark_360w_270h.png'}
+Channel 102 icon refresh forced
+Channel 102 with existing callsign: "BBC TWO HD" has a revised callsign: "BBC2HD"
+Channel 102 with existing name: "BBC TWO HD" has a new name: "BBC Two HD"
+  Channel 102 updated with:
+{'ChanId': 78000, 'Icon': 's50059_dark_360w_270h.png'}
+Channel 103 icon refresh forced
+Channel 103 with existing callsign: "ITV1 HD" has a revised callsign: "ITV1HDL"
+Channel 103 with existing name: "ITV1 HD" has a new name: "ITV1 HD (London)"
+  Channel 103 updated with:
+{'ChanId': 78002, 'Icon': 's50523_dark_360w_270h.png'}
+Channel 104 icon refresh forced
+Channel 104 with existing callsign: "Channel 4 HD" has a revised callsign: "C4HD"
+  Channel 104 updated with:
+{'ChanId': 78003, 'Icon': 's50716_dark_360w_270h.png'}
+Channel 105 icon refresh forced
+Channel 105 with existing callsign: "5 HD" has a revised callsign: "CH5HD"
+  Channel 105 updated with:
+{'ChanId': 78004, 'Icon': 's50717_dark_360w_270h.png'}
+Channel 106 icon refresh forced
+Channel 106 with existing callsign: "BBC FOUR HD" has a revised callsign: "BBC4HD"
+Channel 106 with existing name: "BBC FOUR HD" has a new name: "BBC Four HD"
+  Channel 106 updated with:
+{'ChanId': 78005, 'Icon': 's83282_dark_360w_270h.png'}
+Channel 107 icon refresh forced
+Channel 107 with existing callsign: "BBC THREE HD" has a revised callsign: "BBC3H"
+Channel 107 with existing name: "BBC THREE HD" has a new name: "BBC Three HD"
+  Channel 107 updated with:
+{'ChanId': 10107, 'Icon': 's122089_dark_360w_270h.png'}
+Channel 201 icon refresh forced
+  Channel 201 updated with:
+{'ChanId': 10201, 'Icon': 's29324_dark_360w_270h.png'}
+Channel 202 icon refresh forced
+Channel 202 with existing callsign: "CBeebies" has a revised callsign: "CBEEB"
+  Channel 202 updated with:
+{'ChanId': 10202, 'Icon': 's29325_dark_360w_270h.png'}
+Channel 203 icon refresh forced
+Channel 203 with existing callsign: "CBBC HD" has a revised callsign: "CBBCHD"
+  Channel 203 updated with:
+{'ChanId': 10204, 'Icon': 's83281_dark_360w_270h.png'}
+Channel 204 icon refresh forced
+Channel 204 with existing callsign: "CBeebies HD" has a revised callsign: "CBEEBHD"
+  Channel 204 updated with:
+{'ChanId': 10205, 'Icon': 's83283_dark_360w_270h.png'}
+Channel 205 icon refresh forced
+Channel 205 with existing name: "POP" has a new name: "Pop"
+  Channel 205 updated with:
+{'ChanId': 78058, 'Icon': 's33638_dark_360w_270h.png'}
+Channel 206 icon refresh forced
+Channel 206 with existing callsign: "Tiny Pop" has a revised callsign: "TINPOPSD"
+Channel 206 with existing name: "Tiny Pop" has a new name: "Tiny Pop SD"
+  Channel 206 updated with:
+{'ChanId': 10206, 'Icon': 's153520_dark_360w_270h.png'}
+Channel 208 not found, Searcing for a match with "Pop Player to the channel name "Tiny Pop (Freeview)" (match=37.5)
+Channel 208, callsign: "TINPFV", name: "Tiny Pop (Freeview)" is new
+Channel 209 icon refresh forced
+Channel 209 with existing callsign: "Ketchup TV" has a revised callsign: "KETCHUP"
+  Channel 209 updated with:
+{'ChanId': 10209, 'Icon': 's112601_dark_360w_270h.png'}
+Channel 231 icon refresh forced
+Channel 231 with existing callsign: "BBC NEWS" has a revised callsign: "BBCNEWS"
+Channel 231 with existing name: "BBC NEWS" has a new name: "BBC News"
+  Channel 231 updated with:
+{'ChanId': 10231, 'Icon': 's19037_dark_360w_270h.png'}
+Channel 232 icon refresh forced
+Channel 232 with existing callsign: "BBC Parliament" has a revised callsign: "BBCPARL"
+  Channel 232 updated with:
+{'ChanId': 10232, 'Icon': 's20685_dark_360w_270h.png'}
+Channel 233 icon refresh forced
+Channel 233 with existing callsign: "Sky News" has a revised callsign: "SKYNEWS"
+  Channel 233 updated with:
+{'ChanId': 10233, 'Icon': 's16234_dark_360w_270h.png'}
+Channel 235 not found, Searcing for a match with "LBC to the channel name "Al Jazeera English" (match=0)
+   Channel 235, name: "Al Jazeera English" callsign: "ALJAZEN", found at channel 251,name: "Al Jazeera English" callsign: "Al Jazeera English" with a score of 100.00%
+Channel 251 icon refresh forced
+Channel 251 with existing frequency id: "" has a revised frequency id: 235
+Channel 251 with existing XMLTVID: "" has a revised XMLTVID: "I49968.json.schedulesdirect.org"
+Channel 251 with existing callsign: "Al Jazeera English" has a revised callsign: "ALJAZEN"
+  Channel 251 updated with:
+{'ChanId': 10251, 'Icon': 's49968_dark_360w_270h.png', 'FrequencyId': '235', 'XMLTVID': 'I49968.json.schedulesdirect.org'}
+Channel 236 icon refresh forced
+Channel 236 with existing callsign: "GB News" has a revised callsign: "GBNEWSD"
+  Channel 236 updated with:
+{'ChanId': 10236, 'Icon': 's119993_dark_360w_270h.png'}
+Channel 237 not found, Searcing for a match with "LBC to the channel name "Talk HD" (match=0)
+   Channel 237, name: "Talk HD" callsign: "TALKHD", found at channel 280,name: "Talk" callsign: "Talk" with a score of 90.00%
+Channel 280 icon request with ChanId failed.
+Channel 280 icon request with FileName failed.
+Channel 280 icon cannot be retrieved from the backend
+Channel 280 icon differs from source
+Channel 280 with existing frequency id: "" has a revised frequency id: 237
+Channel 280 with existing XMLTVID: "" has a revised XMLTVID: "I122614.json.schedulesdirect.org"
+Channel 280 with existing callsign: "Talk" has a revised callsign: "TALKHD"
+Channel 280 with existing name: "Talk" has a new name: "Talk HD"
+  Channel 280 updated with:
+{'ChanId': 78064, 'Icon': 's122614_dark_360w_270h.png', 'FrequencyId': '237', 'XMLTVID': 'I122614.json.schedulesdirect.org'}
+Channel 250 icon refresh forced
+Channel 250 with existing callsign: "BBC Red Button" has a revised callsign: "BBCRDB1"
+Channel 250 with existing name: "BBC Red Button" has a new name: "BBC Red Button 1"
+  Channel 250 updated with:
+{'ChanId': 10250, 'Icon': 's81004_dark_360w_270h.png'}
+Channel 255 icon refresh forced
+Channel 255 with existing callsign: "FRANCE 24" has a revised callsign: "FR24EN"
+Channel 255 with existing name: "FRANCE 24" has a new name: "France 24 English HD"
+  Channel 255 updated with:
+{'ChanId': 10255, 'Icon': 's60961_dark_360w_270h.png'}
+Channel 263 icon refresh forced
+Channel 263 with existing callsign: "Sonlife" has a revised callsign: "SBND"
+Channel 263 with existing name: "Sonlife" has a new name: "SonLife Broadcasting Network"
+  Channel 263 updated with:
+{'ChanId': 10263, 'Icon': 's67676_dark_360w_270h.png'}
+Channel 267 not found, Searcing for a match with "God TV to the channel name "Al Jazeera English" (match=30.000000000000004)
+Channel 267, callsign: "ALJAZEN", name: "Al Jazeera English" is new
+Channel 268 not found, Searcing for a match with "It Is Written TV to the channel name "Al Jazeera Arabic" (match=15.384615384615385)
+   Channel 268, name: "Al Jazeera Arabic" callsign: "ALJAZAR", found at channel 252,name: "Al Jazeera Arabic" callsign: "Al Jazeera Arabic" with a score of 100.00%
+Channel 252 icon refresh forced
+Channel 252 with existing frequency id: "" has a revised frequency id: 268
+Channel 252 with existing XMLTVID: "" has a revised XMLTVID: "I78639.json.schedulesdirect.org"
+Channel 252 with existing callsign: "Al Jazeera Arabic" has a revised callsign: "ALJAZAR"
+  Channel 252 updated with:
+{'ChanId': 10252, 'Icon': 's78639_dark_360w_270h.png', 'FrequencyId': '268', 'XMLTVID': 'I78639.json.schedulesdirect.org'}
+Channel 270 not found, Searcing for a match with "Together TV IP to the channel name "Real Crime" (match=31.57894736842105)
+Channel 270, callsign: "RCRIM", name: "Real Crime" is new
+Channel 272 icon refresh forced
+Channel 272 with existing callsign: "NHK WORLD" has a revised callsign: "NHKWLD"
+Channel 272 with existing name: "NHK WORLD" has a new name: "NHK World Europe"
+  Channel 272 updated with:
+{'ChanId': 10272, 'Icon': 's62096_dark_360w_270h.png'}
+Channel 274 not found, Searcing for a match with "Amazing Facts to the channel name "Asharq News" (match=36.36363636363637)
+   Channel 274, name: "Asharq News" callsign: "ASHN", found at channel 260,name: "ASHARQ NEWS" callsign: "ASHARQ NEWS" with a score of 100.00%
+Channel 260 icon refresh forced
+Channel 260 with existing frequency id: "" has a revised frequency id: 274
+Channel 260 with existing XMLTVID: "" has a revised XMLTVID: "I122965.json.schedulesdirect.org"
+Channel 260 with existing callsign: "ASHARQ NEWS" has a revised callsign: "ASHN"
+Channel 260 with existing name: "ASHARQ NEWS" has a new name: "Asharq News"
+  Channel 260 updated with:
+{'ChanId': 10260, 'Icon': 's122965_dark_360w_270h.png', 'FrequencyId': '274', 'XMLTVID': 'I122965.json.schedulesdirect.org'}
+Channel 275 not found, Searcing for a match with "wedotv movies to the channel name "Al Arabiya" (match=9.523809523809524)
+   Channel 275, name: "Al Arabiya" callsign: "ARABIYA", found at channel 261,name: "AL ARABIYA" callsign: "AL ARABIYA" with a score of 100.00%
+Channel 261 icon refresh forced
+Channel 261 with existing frequency id: "" has a revised frequency id: 275
+Channel 261 with existing XMLTVID: "" has a revised XMLTVID: "I43786.json.schedulesdirect.org"
+Channel 261 with existing callsign: "AL ARABIYA" has a revised callsign: "ARABIYA"
+Channel 261 with existing name: "AL ARABIYA" has a new name: "Al Arabiya"
+  Channel 261 updated with:
+{'ChanId': 10261, 'Icon': 's43786_dark_360w_270h.png', 'FrequencyId': '275', 'XMLTVID': 'I43786.json.schedulesdirect.org'}
+Channel 280 not found, Searcing for a match with "Talk to the channel name "ROK" (match=28.57142857142857)
+   Channel 280, name: "ROK" callsign: "ROKEU", found at channel 265,name: "ROK" callsign: "ROK" with a score of 100.00%
+Channel 265 icon refresh forced
+Channel 265 with existing frequency id: "" has a revised frequency id: 280
+Channel 265 with existing XMLTVID: "" has a revised XMLTVID: "I117979.json.schedulesdirect.org"
+Channel 265 with existing callsign: "ROK" has a revised callsign: "ROKEU"
+  Channel 265 updated with:
+{'ChanId': 78061, 'Icon': 's117979_dark_360w_270h.png', 'FrequencyId': '280', 'XMLTVID': 'I117979.json.schedulesdirect.org'}
+Channel 281 not found, Searcing for a match with "LBC to the channel name "Revelation TV" (match=0)
+   Channel 281, name: "Revelation TV" callsign: "REVEL", found at channel 266,name: "Revelation TV" callsign: "Revelation TV" with a score of 100.00%
+Channel 266 icon refresh forced
+Channel 266 with existing frequency id: "" has a revised frequency id: 281
+Channel 266 with existing XMLTVID: "" has a revised XMLTVID: "I32561.json.schedulesdirect.org"
+Channel 266 with existing callsign: "Revelation TV" has a revised callsign: "REVEL"
+  Channel 266 updated with:
+{'ChanId': 10266, 'Icon': 's32561_dark_360w_270h.png', 'FrequencyId': '281', 'XMLTVID': 'I32561.json.schedulesdirect.org'}
+Channel 282 not found, Searcing for a match with "LBC to the channel name "GINX TV HD" (match=0)
+Channel 282, callsign: "GINXTVH", name: "GINX TV HD" is new
+Channel 287 not found, Searcing for a match with "Nolly Africa to the channel name "Newsmax" (match=27.692307692307693)
+   Channel 287, name: "Newsmax" callsign: "VIZNSMX", found at channel 273,name: "Newsmax" callsign: "Newsmax" with a score of 100.00%
+Channel 273 icon refresh forced
+Channel 273 with existing frequency id: "" has a revised frequency id: 287
+Channel 273 with existing XMLTVID: "" has a revised XMLTVID: "I119182.json.schedulesdirect.org"
+Channel 273 with existing callsign: "Newsmax" has a revised callsign: "VIZNSMX"
+  Channel 273 updated with:
+{'ChanId': 78063, 'Icon': 's119182_dark_360w_270h.png', 'FrequencyId': '287', 'XMLTVID': 'I119182.json.schedulesdirect.org'}
+Channel 601 not found, Searcing for a match with "BBC RB 1 to the channel name "BBC Red Button 1" (match=72.0)
+Channel 601, callsign: "BBCRDB1", name: "BBC Red Button 1" is new
+Channel 700 icon refresh forced
+Channel 700 with existing callsign: "BBC Radio 1" has a revised callsign: "BBCR1"
+  Channel 700 updated with:
+{'ChanId': 10700, 'Icon': 's24434_dark_360w_270h.png'}
+Channel 701 not found, Searcing for a match with "BBC R1X to the channel name "BBC Radio 1 Xtra" (match=72.0)
+Channel 701, callsign: "BBCR1X", name: "BBC Radio 1 Xtra" is new
+Channel 702 icon refresh forced
+Channel 702 with existing callsign: "BBC Radio 2" has a revised callsign: "BBCR2"
+  Channel 702 updated with:
+{'ChanId': 10702, 'Icon': 's24435_dark_360w_270h.png'}
+Channel 703 icon refresh forced
+Channel 703 with existing callsign: "BBC Radio 3" has a revised callsign: "BBCR3"
+  Channel 703 updated with:
+{'ChanId': 10703, 'Icon': 's24436_dark_360w_270h.png'}
+Channel 704 icon refresh forced
+Channel 704 with existing callsign: "BBC Radio 4" has a revised callsign: "BBCR4FM"
+Channel 704 with existing name: "BBC Radio 4" has a new name: "BBC Radio 4 FM"
+  Channel 704 updated with:
+{'ChanId': 10704, 'Icon': 's24437_dark_360w_270h.png'}
+Channel 705 not found, Searcing for a match with "BBC R5L to the channel name "BBC Radio 5 Live" (match=72.0)
+Channel 705, callsign: "BBCR5L", name: "BBC Radio 5 Live" is new
+Channel 706 not found, Searcing for a match with "BBC R5SX to the channel name "BBC Radio 5 Live Sports Xtra" (match=65.45454545454547)
+Channel 706, callsign: "BBC5LX", name: "BBC Radio 5 Live Sports Xtra" is new
+Channel 707 not found, Searcing for a match with "BBC 6 Music to the channel name "BBC Radio 6 Music" (match=78.26086956521739)
+Channel 707, callsign: "BBCR6M", name: "BBC Radio 6 Music" is new
+Channel 708 icon refresh forced
+Channel 708 with existing callsign: "BBC Radio 4 Ex" has a revised callsign: "BBCR4EX"
+Channel 708 with existing name: "BBC Radio 4 Ex" has a new name: "BBC Radio 4 Extra"
+  Channel 708 updated with:
+{'ChanId': 10708, 'Icon': 's31790_dark_360w_270h.png'}
+Channel 709 not found, Searcing for a match with "BBC Asian Net. to the channel name "BBC Asian Network" (match=81.4814814814815)
+Channel 709, callsign: "BBCASIA", name: "BBC Asian Network" is new
+Channel 710 not found, Searcing for a match with "BBC World Sv. to the channel name "BBC World Service" (match=76.92307692307692)
+Channel 710, callsign: "BBCWS", name: "BBC World Service" is new
+Channel 718 not found, Searcing for a match with "Smooth Radio to the channel name "Smooth FM 102.2" (match=81.4814814814815)
+Channel 718, callsign: "SMTHFM", name: "Smooth FM 102.2" is new
+Channel 719 not found, Searcing for a match with "LBC to the channel name "BBC Radio Berkshire" (match=0)
+Channel 719, callsign: "BBCRBKS", name: "BBC Radio Berkshire" is new
+Channel 720 not found, Searcing for a match with "LBC to the channel name "BBC Three Counties Radio" (match=0)
+   Channel 720, name: "BBC Three Counties Radio" callsign: "BBCTCR", found at channel 712,name: "BBC Three Counties" callsign: "BBC Three Counties" with a score of 86.49%
+Channel 712 icon refresh forced
+Channel 712 with existing frequency id: "" has a revised frequency id: 720
+Channel 712 with existing XMLTVID: "" has a revised XMLTVID: "I82562.json.schedulesdirect.org"
+Channel 712 with existing callsign: "BBC Three Counties" has a revised callsign: "BBCTCR"
+Channel 712 with existing name: "BBC Three Counties" has a new name: "BBC Three Counties Radio"
+  Channel 712 updated with:
+{'ChanId': 10712, 'Icon': 's82562_dark_360w_270h.png', 'FrequencyId': '720', 'XMLTVID': 'I82562.json.schedulesdirect.org'}
+Channel 721 not found, Searcing for a match with "LBC to the channel name "BBC Radio London" (match=0)
+   Channel 721, name: "BBC Radio London" callsign: "BBCLON", found at channel 713,name: "BBC Radio London" callsign: "BBC Radio London" with a score of 100.00%
+Channel 713 icon refresh forced
+Channel 713 with existing frequency id: "" has a revised frequency id: 721
+Channel 713 with existing XMLTVID: "" has a revised XMLTVID: "I25604.json.schedulesdirect.org"
+Channel 713 with existing callsign: "BBC Radio London" has a revised callsign: "BBCLON"
+  Channel 713 updated with:
+{'ChanId': 10713, 'Icon': 's25604_dark_360w_270h.png', 'FrequencyId': '721', 'XMLTVID': 'I25604.json.schedulesdirect.org'}
+Channel 722 not found, Searcing for a match with "LBC to the channel name "BBC Radio Surrey" (match=0)
+   Channel 722, name: "BBC Radio Surrey" callsign: "BBCRSUR", found at channel 714,name: "BBC Radio Surrey" callsign: "BBC Surrey" with a score of 100.00%
+Channel 714 icon refresh forced
+Channel 714 with existing frequency id: "" has a revised frequency id: 722
+Channel 714 with existing XMLTVID: "" has a revised XMLTVID: "I86817.json.schedulesdirect.org"
+Channel 714 with existing callsign: "BBC Surrey" has a revised callsign: "BBCRSUR"
+  Channel 714 updated with:
+{'ChanId': 10714, 'Icon': 's86817_dark_360w_270h.png', 'FrequencyId': '722', 'XMLTVID': 'I86817.json.schedulesdirect.org'}
+Channel 723 icon refresh forced
+Channel 723 with existing callsign: "talkSPORT" has a revised callsign: "TLKSPT"
+Channel 723 with existing name: "talkSPORT" has a new name: "Talk Sport"
+  Channel 723 updated with:
+{'ChanId': 10723, 'Icon': 's24441_dark_360w_270h.png'}
+Channel 724 icon refresh forced
+Channel 724 with existing callsign: "Capital" has a revised callsign: "CAPRAD"
+Channel 724 with existing name: "Capital" has a new name: "Capital London"
+  Channel 724 updated with:
+{'ChanId': 10724, 'Icon': 's30500_dark_360w_270h.png'}
+Channel 725 icon refresh forced
+Channel 725 with existing callsign: "Premier Radio" has a revised callsign: "PREMIER"
+Channel 725 with existing name: "Premier Radio" has a new name: "Premier"
+  Channel 725 updated with:
+{'ChanId': 82500, 'Icon': 's24469_dark_360w_270h.png'}
+Channel 728 icon refresh forced
+Channel 728 with existing callsign: "Heart" has a revised callsign: "HEART"
+Channel 728 with existing name: "Heart" has a new name: "Heart FM"
+  Channel 728 updated with:
+{'ChanId': 10728, 'Icon': 's24467_dark_360w_270h.png'}
+Channel 730 icon refresh forced
+Channel 730 with existing callsign: "RNIB Connect" has a revised callsign: "RNIBCO"
+  Channel 730 updated with:
+{'ChanId': 10730, 'Icon': 's112560_dark_360w_270h.png'}
+Channel 731 icon refresh forced
+Channel 731 with existing callsign: "Classic FM" has a revised callsign: "CLASSFM"
+  Channel 731 updated with:
+{'ChanId': 10731, 'Icon': 's24439_dark_360w_270h.png'}
+Channel 732 icon refresh forced
+Channel 732 with existing callsign: "LBC" has a revised callsign: "LBCLND"
+  Channel 732 updated with:
+{'ChanId': 10732, 'Icon': 's33579_dark_360w_270h.png'}
+Channel 733 not found, Searcing for a match with "LBC to the channel name "TWR" (match=0)
+Channel 733, callsign: "TWR", name: "TWR" is new
+Channel 734 not found, Searcing for a match with "LBC to the channel name "BBC Radio Essex" (match=0)
+   Channel 734, name: "BBC Radio Essex" callsign: "BBCREX", found at channel 716,name: "BBC Radio Essex" callsign: "BBC Essex" with a score of 100.00%
+Channel 716 icon refresh forced
+Channel 716 with existing frequency id: "" has a revised frequency id: 734
+Channel 716 with existing XMLTVID: "" has a revised XMLTVID: "I33762.json.schedulesdirect.org"
+Channel 716 with existing callsign: "BBC Essex" has a revised callsign: "BBCREX"
+  Channel 716 updated with:
+{'ChanId': 10716, 'Icon': 's33762_dark_360w_270h.png', 'FrequencyId': '734', 'XMLTVID': 'I33762.json.schedulesdirect.org'}
+Using /tmp/tmpj1tzb_vl as file.
+Running: tv_grab_zz_sdjson_sqlite --quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv --output /tmp/tmpj1tzb_vl
+Running: ./MythUtil-Channel-XMLTV-getLineup --host vdr --videosource-id 1 --update --no-update-name --no-update-callsign --no-update-atsc --no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid --refresh-icons /tmp/tmpj1tzb_vl
+Using EIT for channels with no xmltvids
+Done
+
+Disabling EIT for channels with xmltvids
+Done
+
+Updating missing channel icons
+Done
+

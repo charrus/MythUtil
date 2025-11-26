@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "--videosource-id 1 --update --no-update-name --no-update-callsign --no-update-freqid --no-update-atsc --no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid --no-strict-icon-check xmltv.xml"
+        },
+        {
+            "name": "Python Debugger: update-myth-xmltv",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "update-myth-xmltv",
+            "console": "integratedTerminal",
+            "args": ""
+        }
+    ]
+}

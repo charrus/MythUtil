@@ -1,0 +1,243 @@
+The XMLTV get-lineup type (DTV) for lineup GBR-1000014-DEFAULT has limited support
+Channel 1, SD Chanel: 1: Myth name: "BBC ONE Lon" and SD name: "BBC One London" are a match of 88.0%
+Channel 2, SD Chanel: 2: Myth name: "BBC TWO" and SD name: "BBC Two" are a match of 100.0%
+Channel 3, SD Chanel: 3: Myth name: "ITV1" and SD name: "ITV1 (London)" are a match of 90.0%
+Channel 4, SD Chanel: 4: Myth name: "Channel 4" and SD name: "Channel 4" are a match of 100.0%
+Channel 5, SD Chanel: 5: Myth name: "5" and SD name: "5" are a match of 100.0%
+Channel 6, SD Chanel: 6: Myth name: "ITV2" and SD name: "ITV2" are a match of 100.0%
+Channel 8, SD Chanel: 8: Myth name: "London TV" and SD name: "London TV" are a match of 100.0%
+Channel 9, SD Chanel: 9: Myth name: "BBC FOUR" and SD name: "BBC Four" are a match of 100.0%
+Channel 10, SD Chanel: 10: Myth name: "ITV3" and SD name: "ITV3" are a match of 100.0%
+Channel 11, SD Chanel: 11: Myth name: "Sky Mix" and SD name: "Sky Mix" are a match of 100.0%
+Channel 12, SD Chanel: 12: Myth name: "QUEST" and SD name: "Quest" are a match of 100.0%
+Channel 13, SD Chanel: 13: Myth name: "E4" and SD name: "E4" are a match of 100.0%
+Channel 14, SD Chanel: 14: Myth name: "Film4" and SD name: "Film4" are a match of 100.0%
+Channel 15, SD Chanel: 15: Myth name: "Channel 4+1" and SD name: "Channel 4 +1" are a match of 95.65217391304348%
+Channel 16, SD Chanel: 16: Myth name: "QVC" and SD name: "QVC" are a match of 100.0%
+Channel 17, SD Chanel: 17: Myth name: "Really" and SD name: "Really UKTV" are a match of 90.0%
+Channel 18, SD Chanel: 18: Myth name: "More 4" and SD name: "More 4" are a match of 100.0%
+Channel 19, SD Chanel: 19: Myth name: "U&Dave" and SD name: "U&Dave" are a match of 100.0%
+Channel 20, SD Chanel: 20: Myth name: "U&Drama" and SD name: "U&Drama" are a match of 100.0%
+Channel 21, SD Chanel: 21: Myth name: "5USA" and SD name: "5USA" are a match of 100.0%
+Channel 22, SD Chanel: 22: Myth name: "TJC" and SD name: "The Jewellery Channel" are a match of 100.0%
+Channel 23, SD Chanel: 23: Myth name: "BBC THREE" and SD name: "BBC Three" are a match of 100.0%
+Channel 25, SD Chanel: 25: Myth name: "U&W" and SD name: "U&W" are a match of 100.0%
+Channel 26, SD Chanel: 26: Myth name: "ITV4" and SD name: "ITV4" are a match of 100.0%
+Channel 27, SD Chanel: 27: Myth name: "U&Yesterday" and SD name: "U&Yesterday" are a match of 100.0%
+Channel 28, SD Chanel: 28: Myth name: "ITV Quiz" and SD name: "ITV Quiz" are a match of 100.0%
+Channel 29, SD Chanel: 29: Myth name: "ITV2+1" and SD name: "ITV2 +1" are a match of 95.0%
+Channel 30, SD Chanel: 30: Myth name: "E4+1" and SD name: "E4 +1" are a match of 95.0%
+Channel 31, SD Chanel: 31: Myth name: "E4 Extra" and SD name: "E4 Extra" are a match of 100.0%
+Channel 32, SD Chanel: 32: Myth name: "5STAR" and SD name: "5 Star" are a match of 90.9090909090909%
+Channel 33, SD Chanel: 33: Myth name: "5ACTION" and SD name: "5 Action" are a match of 93.33333333333333%
+Channel 34, SD Chanel: 34: Myth name: "Great! Mystery" and SD name: "Great! Mystery" are a match of 100.0%
+Channel 35, SD Chanel: 35: Myth name: "ITV1+1" and SD name: "ITV1 +1" are a match of 95.0%
+Channel 36, SD Chanel: 36: Myth name: "Sky Arts" and SD name: "Sky Arts" are a match of 100.0%
+Channel 37, callsign: "QVC2", name: "QVC2" is not in the XMLTV channel list
+Channel 38, SD Chanel: 38: Myth name: "5 +1" and SD name: "5 +1" are a match of 100.0%
+Channel 39, SD Chanel: 39: Myth name: "DMAX" and SD name: "DMAX" are a match of 100.0%
+Channel 40, SD Chanel: 40: Myth name: "Quest Red" and SD name: "Quest Red" are a match of 100.0%
+Channel 41, SD Chanel: 41: Myth name: "LEGEND" and SD name: "Legend" are a match of 100.0%
+Channel 42, SD Chanel: 42: Myth name: "Great! Action" and SD name: "Great! Action" are a match of 100.0%
+Channel 43, SD Chanel: 43: Myth name: "Food Network" and SD name: "Food Network" are a match of 100.0%
+Channel 44, SD Chanel: 44: Myth name: "HGTV" and SD name: "HGTV" are a match of 100.0%
+Channel 45, SD Chanel: 45: Myth name: "Gemporia" and SD name: "GEMPORIA HD" are a match of 95.0%
+Channel 46, SD Chanel: 46: Myth name: "5SELECT" and SD name: "5SELECT" are a match of 100.0%
+Channel 47, SD Chanel: 47: Myth name: "Film4+1" and SD name: "Film4 +1" are a match of 95.0%
+Channel 48, SD Chanel: 48: Myth name: "Challenge" and SD name: "Challenge" are a match of 100.0%
+Channel 49, SD Chanel: 49: Myth name: "4seven" and SD name: "4Seven" are a match of 100.0%
+Channel 50, SD Chanel: 50: Myth name: "Great! TV" and SD name: "Great! TV" are a match of 100.0%
+Channel 51, SD Chanel: 51: Myth name: "Ideal World" and SD name: "Ideal World (Freeview)" are a match of 90.0%
+Channel 52, SD Chanel: 52: Myth name: "Great! Christmas" and SD name: "Great! Christmas" are a match of 100.0%
+Channel 56, SD Chanel: 56: Myth name: "That's TV (UK)" and SD name: "That's TV" are a match of 95.0%
+Channel 57, SD Chanel: 57: Myth name: "U&Eden" and SD name: "U&Eden" are a match of 100.0%
+Channel 58, SD Chanel: 58: Myth name: "ITV3+1" and SD name: "ITV3 +1 (Freeview)" are a match of 85.5%
+Channel 59, SD Chanel: 59: Myth name: "ITV4+1" and SD name: "ITV4 +1 (Freeview)" are a match of 85.5%
+Channel 60, SD Chanel: 60: Myth name: "U&Drama+1" and SD name: "U&Drama+1" are a match of 100.0%
+Channel 61, callsign: "Great! Movies", name: "Great! Movies" is not in the XMLTV channel list
+Channel 62, SD Chanel: 62: Myth name: "Great! Romance Mix" and SD name: "GREAT! Romance mix" are a match of 100.0%
+Channel 63, callsign: "Great! Player", name: "Great! Player" is not in the XMLTV channel list
+Channel 64, SD Chanel: 64: Myth name: "Blaze" and SD name: "Blaze (Freeview)" are a match of 90.0%
+Channel 65, SD Chanel: 65: Myth name: "That's TV 2" and SD name: "That's TV 2" are a match of 100.0%
+Channel 66, SD Chanel: 66: Myth name: "TBN UK" and SD name: "TBN UK" are a match of 100.0%
+Channel 67, SD Chanel: 67: Myth name: "TRUE CRIME" and SD name: "True Crime" are a match of 100.0%
+Channel 68, SD Chanel: 68: Myth name: "TRUE CRIME XTRA" and SD name: "True Crime Xtra" are a match of 100.0%
+Channel 69, SD Chanel: 69: Myth name: "LEGEND XTRA" and SD name: "Legend Xtra" are a match of 100.0%
+Channel 70, SD Chanel: 70: Myth name: "QUEST+1" and SD name: "Quest +1" are a match of 95.0%
+Channel 71, SD Chanel: 71: Myth name: "That's TV 3" and SD name: "That's TV 3" are a match of 100.0%
+Channel 72, SD Chanel: 72: Myth name: "Jewellery Maker" and SD name: "Jewellery Maker (Freeview)" are a match of 90.0%
+Channel 73, SD Chanel: 73: Myth name: "HobbyMaker" and SD name: "Shopping Quarter" are a match of 38.46153846153846% - Skipping
+Channel 73, callsign: "HobbyMaker", name: "HobbyMaker" is not in the XMLTV channel list
+Channel 74, SD Chanel: 74: Myth name: "U&DaveJaVu" and SD name: "U&DaveJaVu" are a match of 100.0%
+Channel 75, SD Chanel: 75: Myth name: "That's Oldies" and SD name: "Thats Melody" are a match of 64.0% - Skipping
+Channel 75, callsign: "That's Oldies", name: "That's Oldies" is not in the XMLTV channel list
+Channel 76, SD Chanel: 76: Myth name: "That's Melody" and SD name: "That's Dance" are a match of 64.0% - Skipping
+Channel 76, callsign: "That's Melody", name: "That's Melody" is not in the XMLTV channel list
+Channel 79, SD Chanel: 79: Myth name: "Seen On TV HD" and SD name: "Seen On TV HD" are a match of 100.0%
+Channel 81, SD Chanel: 81: Myth name: "Blaze+1" and SD name: "Blaze +1 (Freeview)" are a match of 85.5%
+Channel 82, SD Chanel: 82: Myth name: "TalkingPictures TV" and SD name: "Talking Pictures TV" are a match of 97.2972972972973%
+Channel 83, SD Chanel: 83: Myth name: "Together TV" and SD name: "Together" are a match of 95.0%
+Channel 84, SD Chanel: 84: Myth name: "PBS America" and SD name: "PBS America (Freeview)" are a match of 90.0%
+Channel 85, SD Chanel: 85: Myth name: "Create and Craft" and SD name: "Create and Craft" are a match of 100.0%
+Channel 89, callsign: "Shop On TV", name: "Shop On TV" is not in the XMLTV channel list
+Channel 90, SD Chanel: 90: Myth name: "Together TV+1" and SD name: "Together TV +1" are a match of 96.2962962962963%
+Channel 91, SD Chanel: 91: Myth name: "WildEarth" and SD name: "WildEarth HD" are a match of 95.0%
+Channel 92, SD Chanel: 92: Myth name: "Rewind TV" and SD name: "Rewind TV" are a match of 100.0%
+Channel 95, SD Chanel: 95: Myth name: "High Street TV" and SD name: "High Street TV" are a match of 100.0%
+Channel 96, callsign: "SonLife", name: "SonLife" is not in the XMLTV channel list
+Channel 97, callsign: "Hobbycraft TV", name: "Hobbycraft TV" is not in the XMLTV channel list
+Channel 98, callsign: "wedotv Movies UK", name: "wedotv Movies UK" is not in the XMLTV channel list
+Channel 100, SD Chanel: 100: Myth name: "Freeview" and SD name: "Freeview Information" are a match of 90.0%
+Channel 101, SD Chanel: 101: Myth name: "BBC ONE Lon HD" and SD name: "BBC One London HD" are a match of 90.32258064516128%
+Channel 102, SD Chanel: 102: Myth name: "BBC TWO HD" and SD name: "BBC Two HD" are a match of 100.0%
+Channel 103, SD Chanel: 103: Myth name: "ITV1 HD" and SD name: "ITV1 HD (London)" are a match of 90.0%
+Channel 104, SD Chanel: 104: Myth name: "Channel 4 HD" and SD name: "Channel 4 HD" are a match of 100.0%
+Channel 105, SD Chanel: 105: Myth name: "5 HD" and SD name: "5 HD" are a match of 100.0%
+Channel 106, SD Chanel: 106: Myth name: "BBC FOUR HD" and SD name: "BBC Four HD" are a match of 100.0%
+Channel 107, SD Chanel: 107: Myth name: "BBC THREE HD" and SD name: "BBC Three HD" are a match of 100.0%
+Channel 201, SD Chanel: 201: Myth name: "CBBC" and SD name: "CBBC" are a match of 100.0%
+Channel 202, SD Chanel: 202: Myth name: "CBeebies" and SD name: "CBeebies" are a match of 100.0%
+Channel 203, SD Chanel: 203: Myth name: "CBBC HD" and SD name: "CBBC HD" are a match of 100.0%
+Channel 204, SD Chanel: 204: Myth name: "CBeebies HD" and SD name: "CBeebies HD" are a match of 100.0%
+Channel 205, SD Chanel: 205: Myth name: "POP" and SD name: "Pop" are a match of 100.0%
+Channel 206, SD Chanel: 206: Myth name: "Tiny Pop" and SD name: "Tiny Pop SD" are a match of 95.0%
+Channel 207, callsign: "POP UP", name: "POP UP" is not in the XMLTV channel list
+Channel 208, SD Chanel: 208: Myth name: "Pop Player" and SD name: "Tiny Pop (Freeview)" are a match of 85.5%
+Channel 209, SD Chanel: 209: Myth name: "Ketchup TV" and SD name: "Ketchup TV" are a match of 100.0%
+Channel 210, callsign: "Ketchup Too", name: "Ketchup Too" is not in the XMLTV channel list
+Channel 211, callsign: "YAAAS!", name: "YAAAS!" is not in the XMLTV channel list
+Channel 212, callsign: "POP Max", name: "POP Max" is not in the XMLTV channel list
+Channel 214, callsign: "Cartoon Classics", name: "Cartoon Classics" is not in the XMLTV channel list
+Channel 231, SD Chanel: 231: Myth name: "BBC NEWS" and SD name: "BBC News" are a match of 100.0%
+Channel 232, SD Chanel: 232: Myth name: "BBC Parliament" and SD name: "BBC Parliament" are a match of 100.0%
+Channel 233, SD Chanel: 233: Myth name: "Sky News" and SD name: "Sky News" are a match of 100.0%
+Channel 235, SD Chanel: 235: Myth name: "Al Jazeera English" and SD name: "Al Jazeera English" are a match of 100.0%
+Channel 236, SD Chanel: 236: Myth name: "GB News" and SD name: "GB News" are a match of 100.0%
+Channel 237, SD Chanel: 237: Myth name: "Talk HD" and SD name: "Talk HD" are a match of 100.0%
+Channel 250, SD Chanel: 250: Myth name: "BBC Red Button" and SD name: "BBC Red Button 1" are a match of 95.0%
+Channel 251, callsign: "Al Jazeera English", name: "Al Jazeera English" is not in the XMLTV channel list
+Channel 252, callsign: "Al Jazeera Arabic", name: "Al Jazeera Arabic" is not in the XMLTV channel list
+Channel 253, callsign: "Trailblazer", name: "Trailblazer" is not in the XMLTV channel list
+Channel 254, callsign: "On Demand 365", name: "On Demand 365" is not in the XMLTV channel list
+Channel 255, SD Chanel: 255: Myth name: "FRANCE 24" and SD name: "France 24 English HD" are a match of 90.0%
+Channel 256, callsign: "Odyssey TV", name: "Odyssey TV" is not in the XMLTV channel list
+Channel 257, callsign: "EuroNews", name: "EuroNews" is not in the XMLTV channel list
+Channel 258, callsign: "India Today", name: "India Today" is not in the XMLTV channel list
+Channel 259, callsign: "MBC", name: "MBC" is not in the XMLTV channel list
+Channel 260, callsign: "ASHARQ NEWS", name: "ASHARQ NEWS" is not in the XMLTV channel list
+Channel 261, callsign: "AL ARABIYA", name: "AL ARABIYA" is not in the XMLTV channel list
+Channel 263, SD Chanel: 263: Myth name: "Sonlife" and SD name: "SonLife Broadcasting Network" are a match of 100.0%
+Channel 264, callsign: "Alaraby Network", name: "Alaraby Network" is not in the XMLTV channel list
+Channel 265, callsign: "ROK", name: "ROK" is not in the XMLTV channel list
+Channel 266, callsign: "Revelation TV", name: "Revelation TV" is not in the XMLTV channel list
+Channel 267, SD Chanel: 267: Myth name: "God TV" and SD name: "Al Jazeera English" are a match of 28.5% - Skipping
+Channel 267, callsign: "God TV", name: "God TV" is not in the XMLTV channel list
+Channel 268, SD Chanel: 268: Myth name: "It Is Written TV" and SD name: "Al Jazeera Arabic" are a match of 24.242424242424242% - Skipping
+Channel 268, callsign: "It Is Written TV", name: "It Is Written TV" is not in the XMLTV channel list
+Channel 269, callsign: "New Media TV", name: "New Media TV" is not in the XMLTV channel list
+Channel 270, SD Chanel: 270: Myth name: "Together TV IP" and SD name: "Real Crime" are a match of 25.0% - Skipping
+Channel 270, callsign: "Together TV IP", name: "Together TV IP" is not in the XMLTV channel list
+Channel 271, callsign: "Channelbox", name: "Channelbox" is not in the XMLTV channel list
+Channel 272, SD Chanel: 272: Myth name: "NHK WORLD" and SD name: "NHK World Europe" are a match of 90.0%
+Channel 273, callsign: "Newsmax", name: "Newsmax" is not in the XMLTV channel list
+Channel 274, SD Chanel: 274: Myth name: "Amazing Facts" and SD name: "Asharq News" are a match of 33.333333333333336% - Skipping
+Channel 274, callsign: "Amazing Facts", name: "Amazing Facts" is not in the XMLTV channel list
+Channel 275, SD Chanel: 275: Myth name: "wedotv movies" and SD name: "Al Arabiya" are a match of 17.391304347826086% - Skipping
+Channel 275, callsign: "wedotv movies", name: "wedotv movies" is not in the XMLTV channel list
+Channel 276, callsign: "CNA Originals", name: "CNA Originals" is not in the XMLTV channel list
+Channel 278, callsign: "Nosey", name: "Nosey" is not in the XMLTV channel list
+Channel 279, callsign: "Purpose Media", name: "Purpose Media" is not in the XMLTV channel list
+Channel 280, SD Chanel: 280: Myth name: "Talk" and SD name: "ROK" are a match of 28.57142857142857% - Skipping
+Channel 280, callsign: "Talk", name: "Talk" is not in the XMLTV channel list
+Channel 281, SD Chanel: 281: Myth name: "Revelation TV" and SD name: "Revelation TV" are a match of 100.0%
+Channel 282, SD Chanel: 282: Myth name: "GINX TV HD" and SD name: "GINX TV HD" are a match of 100.0%
+Channel 283, callsign: "Global Arabic +", name: "Global Arabic +" is not in the XMLTV channel list
+Channel 284, callsign: "GIGS", name: "GIGS" is not in the XMLTV channel list
+Channel 287, SD Chanel: 287: Myth name: "Nolly Africa" and SD name: "Newsmax" are a match of 25.71428571428571% - Skipping
+Channel 287, callsign: "Nolly Africa", name: "Nolly Africa" is not in the XMLTV channel list
+Channel 288, callsign: "OUTflix Proud", name: "OUTflix Proud" is not in the XMLTV channel list
+Channel 289, callsign: "MBC Group", name: "MBC Group" is not in the XMLTV channel list
+Channel 555, callsign: "Accessible TV Guide", name: "Accessible TV Guide" is not in the XMLTV channel list
+Channel 601, SD Chanel: 601: Myth name: "BBC RB 1" and SD name: "BBC Red Button 1" are a match of 85.5%
+Channel 670, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 671, callsign: "ADULT Xpanded TV", name: "ADULT Xpanded TV" is not in the XMLTV channel list
+Channel 673, callsign: "ADULT smileTV3", name: "ADULT smileTV3" is not in the XMLTV channel list
+Channel 674, callsign: "ADULT Babestn", name: "ADULT Babestn" is not in the XMLTV channel list
+Channel 699, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 700, SD Chanel: 700: Myth name: "BBC Radio 1" and SD name: "BBC Radio 1" are a match of 100.0%
+Channel 701, SD Chanel: 701: Myth name: "BBC R1X" and SD name: "BBC Radio 1 Xtra" are a match of 85.5%
+Channel 702, SD Chanel: 702: Myth name: "BBC Radio 2" and SD name: "BBC Radio 2" are a match of 100.0%
+Channel 703, SD Chanel: 703: Myth name: "BBC Radio 3" and SD name: "BBC Radio 3" are a match of 100.0%
+Channel 704, SD Chanel: 704: Myth name: "BBC Radio 4" and SD name: "BBC Radio 4 FM" are a match of 100.0%
+Channel 705, SD Chanel: 705: Myth name: "BBC R5L" and SD name: "BBC Radio 5 Live" are a match of 85.5%
+Channel 706, SD Chanel: 706: Myth name: "BBC R5SX" and SD name: "BBC Radio 5 Live Sports Xtra" are a match of 85.5%
+Channel 707, SD Chanel: 707: Myth name: "BBC 6 Music" and SD name: "BBC Radio 6 Music" are a match of 85.5%
+Channel 708, SD Chanel: 708: Myth name: "BBC Radio 4 Ex" and SD name: "BBC Radio 4 Extra" are a match of 90.32258064516128%
+Channel 709, SD Chanel: 709: Myth name: "BBC Asian Net." and SD name: "BBC Asian Network" are a match of 86.66666666666667%
+Channel 710, SD Chanel: 710: Myth name: "BBC World Sv." and SD name: "BBC World Service" are a match of 82.75862068965517%
+Channel 711, callsign: "BBC Berkshire", name: "BBC Berkshire" is not in the XMLTV channel list
+Channel 712, callsign: "BBC Three Counties", name: "BBC Three Counties" is not in the XMLTV channel list
+Channel 713, callsign: "BBC Radio London", name: "BBC Radio London" is not in the XMLTV channel list
+Channel 714, callsign: "BBC Surrey", name: "BBC Surrey" is not in the XMLTV channel list
+Channel 716, callsign: "BBC Essex", name: "BBC Essex" is not in the XMLTV channel list
+Channel 718, SD Chanel: 718: Myth name: "Smooth Radio" and SD name: "Smooth FM 102.2" are a match of 63.33333333333332% - Skipping
+Channel 718, callsign: "Smooth Radio", name: "Smooth Radio" is not in the XMLTV channel list
+Channel 719, SD Chanel: 719: Myth name: "BBC Radio Berkshire" and SD name: "BBC Radio Berkshire" are a match of 100.0%
+Channel 720, SD Chanel: 720: Myth name: "BBC Three Counties Radio" and SD name: "BBC Three Counties Radio" are a match of 100.0%
+Channel 721, SD Chanel: 721: Myth name: "BBC Radio London" and SD name: "BBC Radio London" are a match of 100.0%
+Channel 722, SD Chanel: 722: Myth name: "BBC Radio Surrey" and SD name: "BBC Radio Surrey" are a match of 100.0%
+Channel 723, SD Chanel: 723: Myth name: "talkSPORT" and SD name: "Talk Sport" are a match of 94.73684210526316%
+Channel 724, SD Chanel: 724: Myth name: "Capital" and SD name: "Capital London" are a match of 90.0%
+Channel 725, SD Chanel: 725: Myth name: "Premier Radio" and SD name: "Premier" are a match of 90.0%
+Channel 728, SD Chanel: 728: Myth name: "Heart" and SD name: "Heart FM" are a match of 100.0%
+Channel 730, SD Chanel: 730: Myth name: "RNIB Connect" and SD name: "RNIB Connect" are a match of 100.0%
+Channel 731, SD Chanel: 731: Myth name: "Classic FM" and SD name: "Classic FM" are a match of 100.0%
+Channel 732, SD Chanel: 732: Myth name: "LBC" and SD name: "LBC" are a match of 100.0%
+Channel 733, SD Chanel: 733: Myth name: "TWR" and SD name: "TWR" are a match of 100.0%
+Channel 734, SD Chanel: 734: Myth name: "BBC Radio Essex" and SD name: "BBC Radio Essex" are a match of 100.0%
+Channel 93, callsign: "ITVBPFV", name: "ITVBe +1 (Freeview)" is new
+Channel 95 backened icon request with ChanId failed.
+Channel 95 attempting to use FileName instead.
+Channel 95 backend icon request using FileName was successful.
+Channel 208 with existing XMLTVID: "" has a revised XMLTVID: "I110925.json.schedulesdirect.org"
+  Channel 208 updated with:
+{'ChanId': 10208, 'FrequencyID': None, 'XMLTVID': 'I110925.json.schedulesdirect.org'}
+Channel 96 backened icon request with ChanId failed.
+Channel 96 attempting to use FileName instead.
+Channel 96 backend icon request using FileName was successful.
+Channel 252 icon differs from source
+  Channel 252 updated with:
+{'ChanId': 10252, 'FrequencyID': None, 'Icon': 's78639_dark_360w_270h.png'}
+Channel 260 icon differs from source
+  Channel 260 updated with:
+{'ChanId': 10260, 'FrequencyID': None, 'Icon': 's122965_dark_360w_270h.png'}
+Channel 261 icon differs from source
+  Channel 261 updated with:
+{'ChanId': 10261, 'FrequencyID': None, 'Icon': 's43786_dark_360w_270h.png'}
+Channel 265 icon differs from source
+  Channel 265 updated with:
+{'ChanId': 78061, 'FrequencyID': None, 'Icon': 's117979_dark_360w_270h.png'}
+Channel 266 icon differs from source
+  Channel 266 updated with:
+{'ChanId': 10266, 'FrequencyID': None, 'Icon': 's32561_dark_360w_270h.png'}
+Channel 273 icon differs from source
+  Channel 273 updated with:
+{'ChanId': 78063, 'FrequencyID': None, 'Icon': 's119182_dark_360w_270h.png'}
+Channel 713 backened icon request with ChanId failed.
+Channel 713 attempting to use FileName instead.
+Channel 713 backend icon request using FileName was successful.
+Resetting xmltvid:
+Done
+
+Using /tmp/tmptbcrvn_k as file.
+Running: tv_grab_zz_sdjson_sqlite --quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv --output /tmp/tmptbcrvn_k
+Running: ./MythUtil-Channel-XMLTV-getLineup --host vdr --videosource-id 1 --update --no-update-name --no-update-callsign --no-update-freqid --no-update-atsc --no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid /tmp/tmptbcrvn_k
+Using EIT for channels with no xmltvids
+Done
+
+Disabling EIT for channels with xmltvids
+Done
+
+Updating missing channel icons
+Done
+

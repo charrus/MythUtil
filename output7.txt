@@ -1,0 +1,521 @@
+The XMLTV get-lineup type (DTV) for lineup GBR-1000014-DEFAULT has limited support
+Channel 37, callsign: "QVC2", name: "QVC2" is not in the XMLTV channel list
+Channel 61, callsign: "Great! Movies", name: "Great! Movies" is not in the XMLTV channel list
+Channel 63, callsign: "Great! Player", name: "Great! Player" is not in the XMLTV channel list
+Channel 73, SD Chanel: 73: Myth name: "HobbyMaker" and SD name: "Shopping Quarter" - Skipping
+Channel 73, callsign: "HobbyMaker", name: "HobbyMaker" is not in the XMLTV channel list
+Channel 75, SD Chanel: 75: Myth name: "That's Oldies" and SD name: "Thats Melody" - Skipping
+Channel 75, callsign: "That's Oldies", name: "That's Oldies" is not in the XMLTV channel list
+Channel 76, SD Chanel: 76: Myth name: "That's Melody" and SD name: "That's Dance" - Skipping
+Channel 76, callsign: "That's Melody", name: "That's Melody" is not in the XMLTV channel list
+Channel 89, callsign: "Shop On TV", name: "Shop On TV" is not in the XMLTV channel list
+Channel 96, callsign: "SonLife", name: "SonLife" is not in the XMLTV channel list
+Channel 97, callsign: "Hobbycraft TV", name: "Hobbycraft TV" is not in the XMLTV channel list
+Channel 98, callsign: "wedotv Movies UK", name: "wedotv Movies UK" is not in the XMLTV channel list
+Channel 207, callsign: "POP UP", name: "POP UP" is not in the XMLTV channel list
+Channel 210, callsign: "Ketchup Too", name: "Ketchup Too" is not in the XMLTV channel list
+Channel 211, callsign: "YAAAS!", name: "YAAAS!" is not in the XMLTV channel list
+Channel 212, callsign: "POP Max", name: "POP Max" is not in the XMLTV channel list
+Channel 214, callsign: "Cartoon Classics", name: "Cartoon Classics" is not in the XMLTV channel list
+Channel 251, callsign: "Al Jazeera English", name: "Al Jazeera English" is not in the XMLTV channel list
+Channel 252, callsign: "Al Jazeera Arabic", name: "Al Jazeera Arabic" is not in the XMLTV channel list
+Channel 253, callsign: "Trailblazer", name: "Trailblazer" is not in the XMLTV channel list
+Channel 254, callsign: "On Demand 365", name: "On Demand 365" is not in the XMLTV channel list
+Channel 256, callsign: "Odyssey TV", name: "Odyssey TV" is not in the XMLTV channel list
+Channel 257, callsign: "EuroNews", name: "EuroNews" is not in the XMLTV channel list
+Channel 258, callsign: "India Today", name: "India Today" is not in the XMLTV channel list
+Channel 259, callsign: "MBC", name: "MBC" is not in the XMLTV channel list
+Channel 260, callsign: "ASHARQ NEWS", name: "ASHARQ NEWS" is not in the XMLTV channel list
+Channel 261, callsign: "AL ARABIYA", name: "AL ARABIYA" is not in the XMLTV channel list
+Channel 264, callsign: "Alaraby Network", name: "Alaraby Network" is not in the XMLTV channel list
+Channel 265, callsign: "ROK", name: "ROK" is not in the XMLTV channel list
+Channel 266, callsign: "Revelation TV", name: "Revelation TV" is not in the XMLTV channel list
+Channel 267, SD Chanel: 267: Myth name: "God TV" and SD name: "Al Jazeera English" - Skipping
+Channel 267, callsign: "God TV", name: "God TV" is not in the XMLTV channel list
+Channel 268, SD Chanel: 268: Myth name: "It Is Written TV" and SD name: "Al Jazeera Arabic" - Skipping
+Channel 268, callsign: "It Is Written TV", name: "It Is Written TV" is not in the XMLTV channel list
+Channel 269, callsign: "New Media TV", name: "New Media TV" is not in the XMLTV channel list
+Channel 270, SD Chanel: 270: Myth name: "Together TV IP" and SD name: "Real Crime" - Skipping
+Channel 270, callsign: "Together TV IP", name: "Together TV IP" is not in the XMLTV channel list
+Channel 271, callsign: "Channelbox", name: "Channelbox" is not in the XMLTV channel list
+Channel 273, callsign: "Newsmax", name: "Newsmax" is not in the XMLTV channel list
+Channel 274, SD Chanel: 274: Myth name: "Amazing Facts" and SD name: "Asharq News" - Skipping
+Channel 274, callsign: "Amazing Facts", name: "Amazing Facts" is not in the XMLTV channel list
+Channel 275, SD Chanel: 275: Myth name: "wedotv movies" and SD name: "Al Arabiya" - Skipping
+Channel 275, callsign: "wedotv movies", name: "wedotv movies" is not in the XMLTV channel list
+Channel 276, callsign: "CNA Originals", name: "CNA Originals" is not in the XMLTV channel list
+Channel 278, callsign: "Nosey", name: "Nosey" is not in the XMLTV channel list
+Channel 279, callsign: "Purpose Media", name: "Purpose Media" is not in the XMLTV channel list
+Channel 280, SD Chanel: 280: Myth name: "Talk" and SD name: "ROK" - Skipping
+Channel 280, callsign: "Talk", name: "Talk" is not in the XMLTV channel list
+Channel 283, callsign: "Global Arabic +", name: "Global Arabic +" is not in the XMLTV channel list
+Channel 284, callsign: "GIGS", name: "GIGS" is not in the XMLTV channel list
+Channel 287, SD Chanel: 287: Myth name: "Nolly Africa" and SD name: "Newsmax" - Skipping
+Channel 287, callsign: "Nolly Africa", name: "Nolly Africa" is not in the XMLTV channel list
+Channel 288, callsign: "OUTflix Proud", name: "OUTflix Proud" is not in the XMLTV channel list
+Channel 289, callsign: "MBC Group", name: "MBC Group" is not in the XMLTV channel list
+Channel 555, callsign: "Accessible TV Guide", name: "Accessible TV Guide" is not in the XMLTV channel list
+Channel 670, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 671, callsign: "ADULT Xpanded TV", name: "ADULT Xpanded TV" is not in the XMLTV channel list
+Channel 673, callsign: "ADULT smileTV3", name: "ADULT smileTV3" is not in the XMLTV channel list
+Channel 674, callsign: "ADULT Babestn", name: "ADULT Babestn" is not in the XMLTV channel list
+Channel 699, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 711, callsign: "BBC Berkshire", name: "BBC Berkshire" is not in the XMLTV channel list
+Channel 712, callsign: "BBC Three Counties", name: "BBC Three Counties" is not in the XMLTV channel list
+Channel 713, callsign: "BBC Radio London", name: "BBC Radio London" is not in the XMLTV channel list
+Channel 714, callsign: "BBC Surrey", name: "BBC Surrey" is not in the XMLTV channel list
+Channel 716, callsign: "BBC Essex", name: "BBC Essex" is not in the XMLTV channel list
+Channel 718, SD Chanel: 718: Myth name: "Smooth Radio" and SD name: "Smooth FM 102.2" - Skipping
+Channel 718, callsign: "Smooth Radio", name: "Smooth Radio" is not in the XMLTV channel list
+Channel 1 icon refresh forced
+  Channel 1 updated with:
+{'ChanId': 10001, 'FrequencyId': '1', 'Icon': 's30644_dark_360w_270h.png'}
+Channel 2 icon refresh forced
+  Channel 2 updated with:
+{'ChanId': 10002, 'FrequencyId': '2', 'Icon': 's17154_dark_360w_270h.png'}
+Channel 3 icon refresh forced
+  Channel 3 updated with:
+{'ChanId': 10003, 'FrequencyId': '3', 'Icon': 's17468_dark_360w_270h.png'}
+Channel 4 icon refresh forced
+  Channel 4 updated with:
+{'ChanId': 10004, 'FrequencyId': '4', 'Icon': 's17155_dark_360w_270h.png'}
+Channel 5 icon refresh forced
+  Channel 5 updated with:
+{'ChanId': 10005, 'FrequencyId': '5', 'Icon': 's17157_dark_360w_270h.png'}
+Channel 6 icon refresh forced
+  Channel 6 updated with:
+{'ChanId': 10006, 'FrequencyId': '6', 'Icon': 's20630_dark_360w_270h.png'}
+Channel 8 icon refresh forced
+  Channel 8 updated with:
+{'ChanId': 10008, 'FrequencyId': '8', 'Icon': 's84926_dark_360w_270h.png'}
+Channel 9 icon refresh forced
+  Channel 9 updated with:
+{'ChanId': 10009, 'FrequencyId': '9', 'Icon': 's20684_dark_360w_270h.png'}
+Channel 10 icon refresh forced
+  Channel 10 updated with:
+{'ChanId': 10010, 'FrequencyId': '10', 'Icon': 's44643_dark_360w_270h.png'}
+Channel 11 icon refresh forced
+  Channel 11 updated with:
+{'ChanId': 78046, 'FrequencyId': '11', 'Icon': 's48021_dark_360w_270h.png'}
+Channel 12 icon refresh forced
+  Channel 12 updated with:
+{'ChanId': 77986, 'FrequencyId': '12', 'Icon': 's62391_dark_360w_270h.png'}
+Channel 13 icon refresh forced
+  Channel 13 updated with:
+{'ChanId': 10013, 'FrequencyId': '13', 'Icon': 's25117_dark_360w_270h.png'}
+Channel 14 icon refresh forced
+  Channel 14 updated with:
+{'ChanId': 10014, 'FrequencyId': '14', 'Icon': 's21494_dark_360w_270h.png'}
+Channel 15 icon refresh forced
+  Channel 15 updated with:
+{'ChanId': 10015, 'FrequencyId': '15', 'Icon': 's56892_dark_360w_270h.png'}
+Channel 16 icon refresh forced
+  Channel 16 updated with:
+{'ChanId': 10016, 'FrequencyId': '16', 'Icon': 's125129_dark_360w_270h.png'}
+Channel 17 icon refresh forced
+  Channel 17 updated with:
+{'ChanId': 10017, 'FrequencyId': '17', 'Icon': 's45828_dark_360w_270h.png'}
+Channel 18 icon refresh forced
+  Channel 18 updated with:
+{'ChanId': 10018, 'FrequencyId': '18', 'Icon': 's47657_dark_360w_270h.png'}
+Channel 19 icon refresh forced
+  Channel 19 updated with:
+{'ChanId': 10019, 'FrequencyId': '19', 'Icon': 's24305_dark_360w_270h.png'}
+Channel 20 icon refresh forced
+  Channel 20 updated with:
+{'ChanId': 10020, 'FrequencyId': '20', 'Icon': 's117464_dark_360w_270h.png'}
+Channel 21 icon refresh forced
+  Channel 21 updated with:
+{'ChanId': 10021, 'FrequencyId': '21', 'Icon': 's52335_dark_360w_270h.png'}
+Channel 22 icon refresh forced
+  Channel 22 updated with:
+{'ChanId': 10050, 'FrequencyId': '22', 'Icon': 's30157_dark_360w_270h.png'}
+Channel 23 icon refresh forced
+  Channel 23 updated with:
+{'ChanId': 12300, 'FrequencyId': '23', 'Icon': 's20683_dark_360w_270h.png'}
+Channel 25 icon refresh forced
+  Channel 25 updated with:
+{'ChanId': 77995, 'FrequencyId': '25', 'Icon': 's61458_dark_360w_270h.png'}
+Channel 26 icon refresh forced
+  Channel 26 updated with:
+{'ChanId': 10025, 'FrequencyId': '26', 'Icon': 's48020_dark_360w_270h.png'}
+Channel 27 icon refresh forced
+  Channel 27 updated with:
+{'ChanId': 77981, 'FrequencyId': '27', 'Icon': 's138444_dark_360w_270h.png'}
+Channel 28 icon refresh forced
+  Channel 28 updated with:
+{'ChanId': 77852, 'FrequencyId': '28', 'Icon': 'GNLZZGG0022XGPX.png_dark_360w_270h.png'}
+Channel 29 icon refresh forced
+  Channel 29 updated with:
+{'ChanId': 10028, 'FrequencyId': '29', 'Icon': 's53059_dark_360w_270h.png'}
+Channel 30 icon refresh forced
+  Channel 30 updated with:
+{'ChanId': 10029, 'FrequencyId': '30', 'Icon': 's33882_dark_360w_270h.png'}
+Channel 31 icon refresh forced
+  Channel 31 updated with:
+{'ChanId': 77847, 'FrequencyId': '31', 'Icon': 's31786_dark_360w_270h.png'}
+Channel 32 icon refresh forced
+  Channel 32 updated with:
+{'ChanId': 10031, 'FrequencyId': '32', 'Icon': 's52336_dark_360w_270h.png'}
+Channel 33 icon refresh forced
+  Channel 33 updated with:
+{'ChanId': 10032, 'FrequencyId': '33', 'Icon': 's109246_dark_360w_270h.png'}
+Channel 34 icon refresh forced
+  Channel 34 updated with:
+{'ChanId': 77991, 'FrequencyId': '34', 'Icon': 'GNLZZGG0029BMCL.png_dark_360w_270h.png'}
+Channel 35 icon refresh forced
+  Channel 35 updated with:
+{'ChanId': 10034, 'FrequencyId': '35', 'Icon': 's65160_dark_360w_270h.png'}
+Channel 36 icon refresh forced
+  Channel 36 updated with:
+{'ChanId': 10036, 'FrequencyId': '36', 'Icon': 's24919_dark_360w_270h.png'}
+Channel 38 icon refresh forced
+  Channel 38 updated with:
+{'ChanId': 10045, 'FrequencyId': '38', 'Icon': 's77749_dark_360w_270h.png'}
+Channel 39 icon refresh forced
+  Channel 39 updated with:
+{'ChanId': 77988, 'FrequencyId': '39', 'Icon': 's58793_dark_360w_270h.png'}
+Channel 40 icon refresh forced
+  Channel 40 updated with:
+{'ChanId': 10039, 'FrequencyId': '40', 'Icon': 's102471_dark_360w_270h.png'}
+Channel 41 icon refresh forced
+  Channel 41 updated with:
+{'ChanId': 77851, 'FrequencyId': '41', 'Icon': 's73970_dark_360w_270h.png'}
+Channel 42 icon refresh forced
+  Channel 42 updated with:
+{'ChanId': 10041, 'FrequencyId': '42', 'Icon': 'GNLZZGG0027ESGV.png_dark_360w_270h.png'}
+Channel 43 icon refresh forced
+  Channel 43 updated with:
+{'ChanId': 10042, 'FrequencyId': '43', 'Icon': 's44718_dark_360w_270h.png'}
+Channel 44 icon refresh forced
+  Channel 44 updated with:
+{'ChanId': 77994, 'FrequencyId': '44', 'Icon': 's21257_dark_360w_270h.png'}
+Channel 45 icon refresh forced
+  Channel 45 updated with:
+{'ChanId': 10044, 'FrequencyId': '45', 'Icon': 's27993_dark_360w_270h.png'}
+Channel 46 icon refresh forced
+  Channel 46 updated with:
+{'ChanId': 78007, 'FrequencyId': '46', 'Icon': 's56888_dark_360w_270h.png'}
+Channel 47 icon refresh forced
+  Channel 47 updated with:
+{'ChanId': 10046, 'FrequencyId': '47', 'Icon': 's25630_dark_360w_270h.png'}
+Channel 48 icon refresh forced
+  Channel 48 updated with:
+{'ChanId': 10047, 'FrequencyId': '48', 'Icon': 's21793_dark_360w_270h.png'}
+Channel 49 icon refresh forced
+  Channel 49 updated with:
+{'ChanId': 78056, 'FrequencyId': '49', 'Icon': 's75804_dark_360w_270h.png'}
+Channel 50 icon refresh forced
+  Channel 50 updated with:
+{'ChanId': 77983, 'FrequencyId': '50', 'Icon': 'GNLZZGG002GB9YS.png_dark_360w_270h.png'}
+Channel 51 icon refresh forced
+  Channel 51 updated with:
+{'ChanId': 77982, 'FrequencyId': '51', 'Icon': 's110927_dark_360w_270h.png'}
+Channel 52 icon refresh forced
+  Channel 52 updated with:
+{'ChanId': 77985, 'FrequencyId': '52', 'Icon': 'GNLZZGG0029BNQD.png_dark_360w_270h.png'}
+Channel 56 icon refresh forced
+  Channel 56 updated with:
+{'ChanId': 77992, 'FrequencyId': '56', 'Icon': 's120346_dark_360w_270h.png'}
+Channel 57 icon refresh forced
+  Channel 57 updated with:
+{'ChanId': 78052, 'FrequencyId': '57', 'Icon': 's35806_dark_360w_270h.png'}
+Channel 58 icon refresh forced
+  Channel 58 updated with:
+{'ChanId': 10058, 'FrequencyId': '58', 'Icon': 's98366_dark_360w_270h.png'}
+Channel 59 icon refresh forced
+  Channel 59 updated with:
+{'ChanId': 10093, 'FrequencyId': '59', 'Icon': 's110918_dark_360w_270h.png'}
+Channel 60 icon refresh forced
+  Channel 60 updated with:
+{'ChanId': 16000, 'FrequencyId': '60', 'Icon': 's111955_dark_360w_270h.png'}
+Channel 62 icon refresh forced
+  Channel 62 updated with:
+{'ChanId': 77999, 'FrequencyId': '62', 'Icon': 's50011_dark_360w_270h.png'}
+Channel 64 icon refresh forced
+  Channel 64 updated with:
+{'ChanId': 10063, 'FrequencyId': '64', 'Icon': 's110919_dark_360w_270h.png'}
+Channel 65 icon refresh forced
+  Channel 65 updated with:
+{'ChanId': 10065, 'FrequencyId': '65', 'Icon': 's136453_dark_360w_270h.png'}
+Channel 66 icon refresh forced
+  Channel 66 updated with:
+{'ChanId': 78006, 'FrequencyId': '66', 'Icon': 's97332_dark_360w_270h.png'}
+Channel 67 icon refresh forced
+  Channel 67 updated with:
+{'ChanId': 10066, 'FrequencyId': '67', 'Icon': 's31756_dark_360w_270h.png'}
+Channel 68 icon refresh forced
+  Channel 68 updated with:
+{'ChanId': 77850, 'FrequencyId': '68', 'Icon': 's57827_dark_360w_270h.png'}
+Channel 69 icon refresh forced
+  Channel 69 updated with:
+{'ChanId': 16900, 'FrequencyId': '69', 'Icon': 's42762_dark_360w_270h.png'}
+Channel 70 icon refresh forced
+  Channel 70 updated with:
+{'ChanId': 10069, 'FrequencyId': '70', 'Icon': 's65394_dark_360w_270h.png'}
+Channel 71 icon refresh forced
+  Channel 71 updated with:
+{'ChanId': 17100, 'FrequencyId': '71', 'Icon': 's125463_dark_360w_270h.png'}
+Channel 72 icon refresh forced
+  Channel 72 updated with:
+{'ChanId': 77984, 'FrequencyId': '72', 'Icon': 's131426_dark_360w_270h.png'}
+Channel 73 not found, attempting fuzzy match on the channel name "Shopping Quarter"
+Channel 73, callsign: "SHOPQUA", name: "Shopping Quarter" is new
+Channel 74 icon refresh forced
+  Channel 74 updated with:
+{'ChanId': 78053, 'FrequencyId': '74', 'Icon': 's44855_dark_360w_270h.png'}
+Channel 75 not found, attempting fuzzy match on the channel name "Thats Melody"
+   Channel 75 "Thats Melody" found at mythtv channel 76: "That's Melody" with a score of 96.0%
+Channel 76 icon differs from source
+  Channel 76 updated with:
+{'ChanId': 82503, 'FrequencyId': '75', 'Icon': 's131027_dark_360w_270h.png'}
+Channel 76 not found, attempting fuzzy match on the channel name "That's Dance"
+Channel 76, callsign: "THDANCE", name: "That's Dance" is new
+Channel 79 icon refresh forced
+  Channel 79 updated with:
+{'ChanId': 10079, 'FrequencyId': '79', 'Icon': 's155010_dark_360w_270h.png'}
+Channel 81 icon refresh forced
+  Channel 81 updated with:
+{'ChanId': 10080, 'FrequencyId': '81', 'Icon': 's110920_dark_360w_270h.png'}
+Channel 82 icon refresh forced
+  Channel 82 updated with:
+{'ChanId': 77996, 'FrequencyId': '82', 'Icon': 's99024_dark_360w_270h.png'}
+Channel 83 icon refresh forced
+  Channel 83 updated with:
+{'ChanId': 18300, 'FrequencyId': '83', 'Icon': 's24677_dark_360w_270h.png'}
+Channel 84 icon refresh forced
+  Channel 84 updated with:
+{'ChanId': 77993, 'FrequencyId': '84', 'Icon': 's131428_dark_360w_270h.png'}
+Channel 85 icon refresh forced
+  Channel 85 updated with:
+{'ChanId': 10085, 'FrequencyId': '85', 'Icon': 's33345_dark_360w_270h.png'}
+Channel 90 icon refresh forced
+  Channel 90 updated with:
+{'ChanId': 10790, 'FrequencyId': '90', 'Icon': 's112603_dark_360w_270h.png'}
+Channel 91 icon refresh forced
+  Channel 91 updated with:
+{'ChanId': 77854, 'FrequencyId': '91', 'Icon': 's131702_dark_360w_270h.png'}
+Channel 92 icon refresh forced
+  Channel 92 updated with:
+{'ChanId': 10095, 'FrequencyId': '92', 'Icon': 's156817_dark_360w_270h.png'}
+Channel 93 not found, attempting fuzzy match on the channel name "ITVBe +1 (Freeview)"
+Channel 93, callsign: "ITVBPFV", name: "ITVBe +1 (Freeview)" is new
+Channel 95 backened icon request with ChanId failed.
+Channel 95 attempting to use FileName instead.
+Channel 95 backend icon request using FileName was successful.
+Channel 95 icon refresh forced
+  Channel 95 updated with:
+{'ChanId': 82505, 'FrequencyId': '95', 'Icon': 's25958_dark_360w_270h.png'}
+Channel 100 icon refresh forced
+  Channel 100 updated with:
+{'ChanId': 10100, 'FrequencyId': '100', 'Icon': 's105389_dark_360w_270h.png'}
+Channel 101 icon refresh forced
+  Channel 101 updated with:
+{'ChanId': 78001, 'FrequencyId': '101', 'Icon': 's121745_dark_360w_270h.png'}
+Channel 102 icon refresh forced
+  Channel 102 updated with:
+{'ChanId': 78000, 'FrequencyId': '102', 'Icon': 's50059_dark_360w_270h.png'}
+Channel 103 icon refresh forced
+  Channel 103 updated with:
+{'ChanId': 78002, 'FrequencyId': '103', 'Icon': 's50523_dark_360w_270h.png'}
+Channel 104 icon refresh forced
+  Channel 104 updated with:
+{'ChanId': 78003, 'FrequencyId': '104', 'Icon': 's50716_dark_360w_270h.png'}
+Channel 105 icon refresh forced
+  Channel 105 updated with:
+{'ChanId': 78004, 'FrequencyId': '105', 'Icon': 's50717_dark_360w_270h.png'}
+Channel 106 icon refresh forced
+  Channel 106 updated with:
+{'ChanId': 78005, 'FrequencyId': '106', 'Icon': 's83282_dark_360w_270h.png'}
+Channel 107 icon refresh forced
+  Channel 107 updated with:
+{'ChanId': 10107, 'FrequencyId': '107', 'Icon': 's122089_dark_360w_270h.png'}
+Channel 201 icon refresh forced
+  Channel 201 updated with:
+{'ChanId': 10201, 'FrequencyId': '201', 'Icon': 's29324_dark_360w_270h.png'}
+Channel 202 icon refresh forced
+  Channel 202 updated with:
+{'ChanId': 10202, 'FrequencyId': '202', 'Icon': 's29325_dark_360w_270h.png'}
+Channel 203 icon refresh forced
+  Channel 203 updated with:
+{'ChanId': 10204, 'FrequencyId': '203', 'Icon': 's83281_dark_360w_270h.png'}
+Channel 204 icon refresh forced
+  Channel 204 updated with:
+{'ChanId': 10205, 'FrequencyId': '204', 'Icon': 's83283_dark_360w_270h.png'}
+Channel 205 icon refresh forced
+  Channel 205 updated with:
+{'ChanId': 78058, 'FrequencyId': '205', 'Icon': 's33638_dark_360w_270h.png'}
+Channel 206 icon refresh forced
+  Channel 206 updated with:
+{'ChanId': 10206, 'FrequencyId': '206', 'Icon': 's153520_dark_360w_270h.png'}
+Channel 208 not found, attempting fuzzy match on the channel name "Tiny Pop (Freeview)"
+   Channel 208 "Tiny Pop (Freeview)" found at mythtv channel 207: "POP UP" with a score of 85.5%
+Channel 207 backened icon request with ChanId failed.
+Channel 207 attempting to use FileName instead.
+Channel 207 backend icon request using FileName was successful.
+Channel 207 icon refresh forced
+  Channel 207 updated with:
+{'ChanId': 10207, 'FrequencyId': '208', 'Icon': 's110925_dark_360w_270h.png'}
+Channel 209 icon refresh forced
+  Channel 209 updated with:
+{'ChanId': 10209, 'FrequencyId': '209', 'Icon': 's112601_dark_360w_270h.png'}
+Channel 231 icon refresh forced
+  Channel 231 updated with:
+{'ChanId': 10231, 'FrequencyId': '231', 'Icon': 's19037_dark_360w_270h.png'}
+Channel 232 icon refresh forced
+  Channel 232 updated with:
+{'ChanId': 10232, 'FrequencyId': '232', 'Icon': 's20685_dark_360w_270h.png'}
+Channel 233 icon refresh forced
+  Channel 233 updated with:
+{'ChanId': 10233, 'FrequencyId': '233', 'Icon': 's16234_dark_360w_270h.png'}
+Channel 235 icon refresh forced
+  Channel 235 updated with:
+{'ChanId': 10235, 'FrequencyId': '235', 'Icon': 's49968_dark_360w_270h.png'}
+Channel 236 icon refresh forced
+  Channel 236 updated with:
+{'ChanId': 10236, 'FrequencyId': '236', 'Icon': 's119993_dark_360w_270h.png'}
+Channel 237 icon refresh forced
+  Channel 237 updated with:
+{'ChanId': 10237, 'FrequencyId': '237', 'Icon': 's122614_dark_360w_270h.png'}
+Channel 250 icon refresh forced
+  Channel 250 updated with:
+{'ChanId': 10250, 'FrequencyId': '250', 'Icon': 's81004_dark_360w_270h.png'}
+Channel 255 icon refresh forced
+  Channel 255 updated with:
+{'ChanId': 10255, 'FrequencyId': '255', 'Icon': 's60961_dark_360w_270h.png'}
+Channel 263 icon refresh forced
+  Channel 263 updated with:
+{'ChanId': 10263, 'FrequencyId': '263', 'Icon': 's67676_dark_360w_270h.png'}
+Channel 267 not found, attempting fuzzy match on the channel name "Al Jazeera English"
+   Channel 267 "Al Jazeera English" found at mythtv channel 251: "Al Jazeera English" with a score of 100.0%
+Channel 251 icon differs from source
+  Channel 251 updated with:
+{'ChanId': 10251, 'FrequencyId': '267', 'Icon': 's49968_dark_360w_270h.png'}
+Channel 268 not found, attempting fuzzy match on the channel name "Al Jazeera Arabic"
+   Channel 268 "Al Jazeera Arabic" found at mythtv channel 252: "Al Jazeera Arabic" with a score of 100.0%
+Channel 252 icon differs from source
+  Channel 252 updated with:
+{'ChanId': 10252, 'FrequencyId': '268', 'Icon': 's78639_dark_360w_270h.png'}
+Channel 270 not found, attempting fuzzy match on the channel name "Real Crime"
+Channel 270, callsign: "RCRIM", name: "Real Crime" is new
+Channel 272 icon refresh forced
+  Channel 272 updated with:
+{'ChanId': 10272, 'FrequencyId': '272', 'Icon': 's62096_dark_360w_270h.png'}
+Channel 274 not found, attempting fuzzy match on the channel name "Asharq News"
+   Channel 274 "Asharq News" found at mythtv channel 260: "ASHARQ NEWS" with a score of 100.0%
+Channel 260 icon differs from source
+  Channel 260 updated with:
+{'ChanId': 10260, 'FrequencyId': '274', 'Icon': 's122965_dark_360w_270h.png'}
+Channel 275 not found, attempting fuzzy match on the channel name "Al Arabiya"
+   Channel 275 "Al Arabiya" found at mythtv channel 261: "AL ARABIYA" with a score of 100.0%
+Channel 261 icon differs from source
+  Channel 261 updated with:
+{'ChanId': 10261, 'FrequencyId': '275', 'Icon': 's43786_dark_360w_270h.png'}
+Channel 280 not found, attempting fuzzy match on the channel name "ROK"
+   Channel 280 "ROK" found at mythtv channel 265: "ROK" with a score of 100.0%
+Channel 265 icon differs from source
+  Channel 265 updated with:
+{'ChanId': 78061, 'FrequencyId': '280', 'Icon': 's117979_dark_360w_270h.png'}
+Channel 281 icon refresh forced
+  Channel 281 updated with:
+{'ChanId': 10281, 'FrequencyId': '281', 'Icon': 's32561_dark_360w_270h.png'}
+Channel 282 icon refresh forced
+  Channel 282 updated with:
+{'ChanId': 10282, 'FrequencyId': '282', 'Icon': 's100015_dark_360w_270h.png'}
+Channel 287 not found, attempting fuzzy match on the channel name "Newsmax"
+   Channel 287 "Newsmax" found at mythtv channel 273: "Newsmax" with a score of 100.0%
+Channel 273 icon differs from source
+  Channel 273 updated with:
+{'ChanId': 78063, 'FrequencyId': '287', 'Icon': 's119182_dark_360w_270h.png'}
+Channel 601 icon refresh forced
+  Channel 601 updated with:
+{'ChanId': 10601, 'FrequencyId': '601', 'Icon': 's81004_dark_360w_270h.png'}
+Channel 700 icon refresh forced
+  Channel 700 updated with:
+{'ChanId': 10700, 'FrequencyId': '700', 'Icon': 's24434_dark_360w_270h.png'}
+Channel 701 icon refresh forced
+  Channel 701 updated with:
+{'ChanId': 10701, 'FrequencyId': '701', 'Icon': 's31266_dark_360w_270h.png'}
+Channel 702 icon refresh forced
+  Channel 702 updated with:
+{'ChanId': 10702, 'FrequencyId': '702', 'Icon': 's24435_dark_360w_270h.png'}
+Channel 703 icon refresh forced
+  Channel 703 updated with:
+{'ChanId': 10703, 'FrequencyId': '703', 'Icon': 's24436_dark_360w_270h.png'}
+Channel 704 icon refresh forced
+  Channel 704 updated with:
+{'ChanId': 10704, 'FrequencyId': '704', 'Icon': 's24437_dark_360w_270h.png'}
+Channel 705 icon refresh forced
+  Channel 705 updated with:
+{'ChanId': 10705, 'FrequencyId': '705', 'Icon': 's24438_dark_360w_270h.png'}
+Channel 706 icon refresh forced
+  Channel 706 updated with:
+{'ChanId': 10706, 'FrequencyId': '706', 'Icon': 's29920_dark_360w_270h.png'}
+Channel 707 icon refresh forced
+  Channel 707 updated with:
+{'ChanId': 10707, 'FrequencyId': '707', 'Icon': 's30166_dark_360w_270h.png'}
+Channel 708 icon refresh forced
+  Channel 708 updated with:
+{'ChanId': 10708, 'FrequencyId': '708', 'Icon': 's31790_dark_360w_270h.png'}
+Channel 709 icon refresh forced
+  Channel 709 updated with:
+{'ChanId': 10709, 'FrequencyId': '709', 'Icon': 's24452_dark_360w_270h.png'}
+Channel 710 icon refresh forced
+  Channel 710 updated with:
+{'ChanId': 10710, 'FrequencyId': '710', 'Icon': 's24448_dark_360w_270h.png'}
+Channel 718 not found, attempting fuzzy match on the channel name "Smooth FM 102.2"
+Channel 718, callsign: "SMTHFM", name: "Smooth FM 102.2" is new
+Channel 719 icon refresh forced
+  Channel 719 updated with:
+{'ChanId': 10719, 'FrequencyId': '719', 'Icon': 's82550_dark_360w_270h.png'}
+Channel 720 icon refresh forced
+  Channel 720 updated with:
+{'ChanId': 10720, 'FrequencyId': '720', 'Icon': 's82562_dark_360w_270h.png'}
+Channel 721 icon differs from source
+  Channel 721 updated with:
+{'ChanId': 10721, 'FrequencyId': '721', 'Icon': 's25604_dark_360w_270h.png'}
+Channel 722 icon refresh forced
+  Channel 722 updated with:
+{'ChanId': 10722, 'FrequencyId': '722', 'Icon': 's86817_dark_360w_270h.png'}
+Channel 723 icon refresh forced
+  Channel 723 updated with:
+{'ChanId': 10723, 'FrequencyId': '723', 'Icon': 's24441_dark_360w_270h.png'}
+Channel 724 icon refresh forced
+  Channel 724 updated with:
+{'ChanId': 10724, 'FrequencyId': '724', 'Icon': 's30500_dark_360w_270h.png'}
+Channel 725 icon refresh forced
+  Channel 725 updated with:
+{'ChanId': 82500, 'FrequencyId': '725', 'Icon': 's24469_dark_360w_270h.png'}
+Channel 728 icon refresh forced
+  Channel 728 updated with:
+{'ChanId': 10728, 'FrequencyId': '728', 'Icon': 's24467_dark_360w_270h.png'}
+Channel 730 icon refresh forced
+  Channel 730 updated with:
+{'ChanId': 10730, 'FrequencyId': '730', 'Icon': 's112560_dark_360w_270h.png'}
+Channel 731 icon refresh forced
+  Channel 731 updated with:
+{'ChanId': 10731, 'FrequencyId': '731', 'Icon': 's24439_dark_360w_270h.png'}
+Channel 732 icon refresh forced
+  Channel 732 updated with:
+{'ChanId': 10732, 'FrequencyId': '732', 'Icon': 's33579_dark_360w_270h.png'}
+Channel 733 icon refresh forced
+  Channel 733 updated with:
+{'ChanId': 10733, 'FrequencyId': '733', 'Icon': 's25225_dark_360w_270h.png'}
+Channel 734 icon refresh forced
+  Channel 734 updated with:
+{'ChanId': 10734, 'FrequencyId': '734', 'Icon': 's33762_dark_360w_270h.png'}
+Resetting xmltvid:
+Done
+
+Using /tmp/tmp2byopjaz as file.
+Running: tv_grab_zz_sdjson_sqlite --quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv --output /tmp/tmp2byopjaz
+Running: ./MythUtil-Channel-XMLTV-getLineup --host vdr --videosource-id 1 --update --no-update-name --no-update-callsign --no-update-freqid --no-update-atsc --no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid --refresh-icons /tmp/tmp2byopjaz
+Using EIT for channels with no xmltvids
+Done
+
+Disabling EIT for channels with xmltvids
+Done
+
+Updating missing channel icons
+Done
+

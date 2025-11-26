@@ -1,0 +1,389 @@
+#!/usr/bin/python
+
+import os
+import sys
+import tempfile
+
+import pymysql
+
+mythdb = pymysql.connect(
+    host="vdr", user="mythtv", password="mythtv", database="mythconverg"
+)
+mythcur = mythdb.cursor()
+
+# print("Resetting xmltvid:")
+# sql = "UPDATE mythconverg.channel SET icon = '', xmltvid = '' WHERE deleted IS NULL"  # AND xmltvid = ''"
+# try:
+#     mythcur.execute(sql)
+#     mythdb.commit()
+# except:
+#     mythdb.rollback()
+#     print(f"f{sql} failed")
+#     sys.exit(1)
+
+# print("Done")
+# print()
+
+## print("Saving service_type")
+## sql = (
+##     "UPDATE mythconverg.channel "
+##     "  SET freqid = service_type "
+##     "WHERE deleted IS NULL "
+## )
+## try:
+##     mythcur.execute(sql)
+##     mythdb.commit()
+## except:
+##     mythdb.rollback()
+##     print(f"f{sql} failed")
+##     sys.exit(1)
+##
+## print("Done")
+## print()
+
+# os.system('tv_grab_zz_sdjson_sqlite --quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv | MythUtil-Channel-XMLTV-getLineup --videosource-id 1 --update --no-update-name --no-update-freqid --no-update-callsign --no-update-icons')
+# os.system('tv_grab_zz_sdjson_sqlite --quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv | MythUtil-Channel-XMLTV-getLineup --host vdr --videosource-id 1 --update --no-update-name --no-update-freqid --no-update-callsign --refresh-icons --include-extra-icons')
+
+with tempfile.NamedTemporaryFile() as lineups_xml:
+    lineups_name = lineups_xml.name
+
+    print(f"Using {lineups_name} as file.")
+
+    tv_grab_cmd = (
+        'tv_grab_zz_sdjson_sqlite '
+        '--quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv '
+        f'--output {lineups_name}'
+    )
+
+    xmltv_cmd = (
+        './MythUtil-Channel-XMLTV-getLineup '
+        '--host vdr --videosource-id 1 --update '
+        '--no-update-name --no-update-callsign --no-update-atsc '
+        #'--no-strict-icon-check '
+        '--no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid '
+        #'--no-update-freqid --no-update-icons '
+        '--refresh-icons '
+        f'{lineups_name}'
+    )
+
+print(f"Running: {tv_grab_cmd}")
+os.system(tv_grab_cmd)
+#    f'tv_grab_zz_sdjson_sqlite '
+#    '--quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv '
+#    '--output {lineups_name}'
+# )
+print(f"Running: {xmltv_cmd}")
+os.system(xmltv_cmd)
+#    f'./MythUtil-Channel-XMLTV-getLineup '
+#        '--host vdr --videosource-id 1 --update '
+#        '--no-update-name --no-update-callsign --no-update-freqid --no-update-atsc '
+#        #'--no-strict-icon-check '
+#        '--no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid '
+#        '--refresh-icons '
+#        '{lineups_name}'
+# )
+
+## print("Restoring service_type")
+## sql = (
+##     "UPDATE mythconverg.channel "
+##     "  SET service_type = freqid, freqid = '' "
+##     "WHERE deleted IS NULL "
+## )
+## try:
+##     mythcur.execute(sql)
+##     mythdb.commit()
+## except:
+##     mythdb.rollback()
+##     print(f"f{sql} failed")
+##     sys.exit(1)
+##
+## print("Done")
+## print()
+
+# print("Fixing Sky Mix")
+# sql = (
+#     "UPDATE mythconverg.channel "
+#     "  SET xmltvid = '', icon = '' "
+#     "WHERE deleted IS NULL "
+#     "  AND channum IN (11,36) "
+# )
+# try:
+#     mythcur.execute(sql)
+#     mythdb.commit()
+# except:
+#     mythdb.rollback()
+#     print(f"f{sql} failed")
+#     sys.exit(1)
+#
+# print("Done")
+# print()
+
+# Digital television = 1
+# Digital radio sound = 2
+# Data broadcast (Interactive) = 12
+# H.264/AVC SD digital television = 22
+# H.264/AVC HD digital television = 25
+
+## print("Showing channels")
+## sql = (
+##     "UPDATE mythconverg.channel "
+##     "  SET visible = 1 "
+##     "WHERE deleted IS NULL"
+## )
+## try:
+##     mythcur.execute(sql)
+##     mythdb.commit()
+## except:
+##     mythdb.rollback()
+##     print(f"f{sql} failed")
+##     sys.exit(1)
+##
+## print("Done")
+## print()
+##
+## print("Hiding radio channels")
+## sql = (
+##     "UPDATE mythconverg.channel "
+##     "  SET visible = -1 "
+##     "WHERE deleted IS NULL "
+##     "  AND service_type = 2"
+## )
+## try:
+##     mythcur.execute(sql)
+##     mythdb.commit()
+## except:
+##     mythdb.rollback()
+##     print(f"f{sql} failed")
+##     sys.exit(1)
+##
+## print("Done")
+## print()
+
+print("Using EIT for channels with no xmltvids")
+sql = (
+    "UPDATE channel "
+    " SET useonairguide = 1 "
+    "WHERE deleted IS NULL "
+    "  AND (xmltvid IS NULL OR xmltvid = '');"
+)
+try:
+    mythcur.execute(sql)
+    mythdb.commit()
+except:
+    mythdb.rollback()
+    print(f"f{sql} failed")
+    sys.exit(1)
+
+print("Done")
+print()
+
+print("Disabling EIT for channels with xmltvids")
+sql = (
+    "UPDATE channel "
+    " SET useonairguide = 0 "
+    "WHERE deleted IS NULL "
+    "  AND NOT (xmltvid IS NULL OR xmltvid = '');"
+)
+try:
+    mythcur.execute(sql)
+    mythdb.commit()
+except:
+    mythdb.rollback()
+    print(f"f{sql} failed")
+    sys.exit(1)
+
+print("Done")
+print()
+
+## print("Hiding unavailable channels")
+## sql = (
+##     "UPDATE mythconverg.channel "
+##     "  SET visible = -1, xmltvid = '', useonairguide = 0 "
+##     "WHERE deleted IS NULL "
+##     "  AND channum IN (62)"
+## )
+## try:
+##     mythcur.execute(sql)
+##     mythdb.commit()
+## except:
+##     mythdb.rollback()
+##     print(f"f{sql} failed")
+##     sys.exit(1)
+##
+## print("Done")
+## print()
+##
+## print("Prioritising HD channels")
+## sql = (
+##     "UPDATE mythconverg.channel "
+##     "  SET recpriority = 5 "
+##     "WHERE deleted IS NULL "
+##     "  AND service_type IN (25)"
+## )
+## try:
+##     mythcur.execute(sql)
+##     mythdb.commit()
+## except:
+##     mythdb.rollback()
+##     print(f"f{sql} failed")
+##     sys.exit(1)
+##
+## print("Done")
+## print()
+
+# logofile_re = re.compile(r"^.*/([^/]+)$")
+#
+# print("Fetching active mythtv channels")
+# sql = "SELECT channum FROM channel " "WHERE deleted IS NULL"
+# try:
+#     mythcur.execute(sql)
+#     active_channels = mythcur.fetchall()
+#     mythchannels = [int(row[0]) for row in active_channels]
+# except:
+#     print(f"f{sql} failed")
+#     sys.exit(1)
+#
+# print(f"Foud {len(mythchannels)}.")
+#
+# skipped = 0
+# updated = 0
+#
+# print("Done")
+# print()
+#
+# print("Updating xmltvid and icons")
+# for channel in cur.execute(
+#     """
+#     SELECT channels.station,
+#            json_extract(stations.details, '$.logo.URL'),
+#            json_extract(channels.details,'$.channel'),
+#            json_extract(stations.details, '$.name')
+#       FROM channels, stations
+#       WHERE channels.station = stations.station
+#                             """
+# ):
+#
+#     if NUMBER_OVERRIDE.get(channel[2]):
+#         number = int(NUMBER_OVERRIDE.get(channel[2]))
+#     else:
+#         number = int(channel[2])
+#
+#     if number not in mythchannels:
+#         skipped += 1
+#     else:
+#         xmltvid = f"I{channel[0]}.json.schedulesdirect.org"
+#         if channel[1]:
+#             logo = logofile_re.search(channel[1]).groups()[0]
+#         else:
+#             logo = ""
+#         name = channel[3]
+#
+#         sql = """UPDATE channel SET xmltvid = '%s', icon = '%s', useonairguide = 0
+#           WHERE channum = %d
+#             AND deleted IS NULL""" % (
+#             xmltvid,
+#             logo,
+## #             number,
+#         )
+#         print(f"Updating {number}: {name}")
+#         mythcur.execute(sql)
+#         updated += 1
+#
+# try:
+#     mythdb.commit()
+# except:
+#     mythdb.rollback()
+#     print("Update SQL failed")
+#     sys.exit(1)
+
+# print("Updating missing channel icons")
+# sql = (
+#     "UPDATE channel "
+#     "INNER JOIN dtv_multiplex USING (mplexid) "
+#     "SET icon = CONCAT('1_0_1_', HEX(channel.serviceid), '_', HEX(dtv_multiplex.transportid), '_', HEX(dtv_multiplex.networkid), '_EEEE0000_0_0_0.png') "
+#     "WHERE channel.deleted IS NULL "
+#     "AND icon IS NULL OR icon = ''"
+# )
+# try:
+#     mythcur.execute(sql)
+#     mythdb.commit()
+# except:
+#     mythdb.rollback()
+#     print(f"f{sql} failed")
+#     sys.exit(1)
+
+# print("Done")
+# print()
+
+print("Updating missing channel icons")
+sql = (
+    "UPDATE channel "
+    "SET icon = CONCAT(LOWER(name), '.png') "
+    "WHERE "
+    "  deleted IS NULL "
+    " AND icon IS NULL OR icon = ''"
+)
+# sql = (
+#     "UPDATE channel "
+#     "SET "
+#     "  icon = CONCAT ( "
+#     "    'logos/', "
+#     "    REPLACE ( "
+#     "      REPLACE ( "
+#     "        REPLACE ( "
+#     "          REPLACE ( "
+#     "            REPLACE ( "
+#     "              REPLACE ( "
+#     "                REPLACE ( "
+#     "                  REPLACE ( "
+#     "                    REPLACE ( "
+#     "                      REPLACE ( "
+#     "                        REPLACE (REPLACE (LOWER(name), ' lon', ''), \"'\", ''), "
+#     "                        '+', "
+#     "                        'plus' "
+#     "                      ), "
+#     "                      '&', "
+#     "                      'and' "
+#     "                    ), "
+#     "                    '.', "
+#     "                    '' "
+#     "                  ), "
+#     "                  '!', "
+#     "                  '' "
+#     "                ), "
+#     "                ' ', "
+#     "                '' "
+#     "              ), "
+#     "              'ketchuptoo', "
+#     "              'ketchuptv' "
+#     "            ), "
+#     "            'aljazeeraarabic', "
+#     "            'aljazeera' "
+#     "          ), "
+#     "          'aljazeeraenglish', "
+#     "          'aljazeera' "
+#     "        ), "
+#     "        'londontv', "
+#     "        'localtv-londontv' "
+#     "      ), "
+#     "      '(uk)', "
+#     "      '' "
+#     "    ), '.png' "
+#     "  ) "
+#     "WHERE "
+#     "  deleted IS NULL "
+#     " AND icon IS NULL OR icon = ''"
+# )
+try:
+    mythcur.execute(sql)
+    mythdb.commit()
+except:
+    mythdb.rollback()
+    print(f"f{sql} failed")
+    sys.exit(1)
+
+print("Done")
+print()
+
+# print()
+# print(f"Summary: {updated} updated, {skipped} skipped.")

@@ -1,0 +1,658 @@
+The XMLTV get-lineup type (DTV) for lineup GBR-1000014-DEFAULT has limited support
+Channel 22, name: "The Jewellery Channel" is not a match for "TJC" score: 45.0% - Skipping as XMLTV channel number matches a different station
+Channel 22, callsign: "TJC", name: "TJC" is not in the XMLTV channel list
+Channel 37, callsign: "QVC2", name: "QVC2" is not in the XMLTV channel list
+Channel 61, callsign: "Great! Movies", name: "Great! Movies" is not in the XMLTV channel list
+Channel 63, callsign: "Great! Player", name: "Great! Player" is not in the XMLTV channel list
+Channel 73, name: "Shopping Quarter" is not a match for "HobbyMaker" score: 38.46153846153846% - Skipping as XMLTV channel number matches a different station
+Channel 73, callsign: "HobbyMaker", name: "HobbyMaker" is not in the XMLTV channel list
+Channel 75, name: "Thats Melody" is not a match for "That's Oldies" score: 64.0% - Skipping as XMLTV channel number matches a different station
+Channel 75, callsign: "That's Oldies", name: "That's Oldies" is not in the XMLTV channel list
+Channel 76, name: "That's Dance" is not a match for "That's Melody" score: 64.0% - Skipping as XMLTV channel number matches a different station
+Channel 76, callsign: "That's Melody", name: "That's Melody" is not in the XMLTV channel list
+Channel 89, callsign: "Shop On TV", name: "Shop On TV" is not in the XMLTV channel list
+Channel 96, callsign: "SonLife", name: "SonLife" is not in the XMLTV channel list
+Channel 97, callsign: "Hobbycraft TV", name: "Hobbycraft TV" is not in the XMLTV channel list
+Channel 98, callsign: "wedotv Movies UK", name: "wedotv Movies UK" is not in the XMLTV channel list
+Channel 207, callsign: "POP UP", name: "POP UP" is not in the XMLTV channel list
+Channel 210, callsign: "Ketchup Too", name: "Ketchup Too" is not in the XMLTV channel list
+Channel 211, callsign: "YAAAS!", name: "YAAAS!" is not in the XMLTV channel list
+Channel 212, callsign: "POP Max", name: "POP Max" is not in the XMLTV channel list
+Channel 214, callsign: "Cartoon Classics", name: "Cartoon Classics" is not in the XMLTV channel list
+Channel 251, callsign: "Al Jazeera English", name: "Al Jazeera English" is not in the XMLTV channel list
+Channel 252, callsign: "Al Jazeera Arabic", name: "Al Jazeera Arabic" is not in the XMLTV channel list
+Channel 253, callsign: "Trailblazer", name: "Trailblazer" is not in the XMLTV channel list
+Channel 254, callsign: "On Demand 365", name: "On Demand 365" is not in the XMLTV channel list
+Channel 256, callsign: "Odyssey TV", name: "Odyssey TV" is not in the XMLTV channel list
+Channel 257, callsign: "EuroNews", name: "EuroNews" is not in the XMLTV channel list
+Channel 258, callsign: "India Today", name: "India Today" is not in the XMLTV channel list
+Channel 259, callsign: "MBC", name: "MBC" is not in the XMLTV channel list
+Channel 260, callsign: "ASHARQ NEWS", name: "ASHARQ NEWS" is not in the XMLTV channel list
+Channel 261, callsign: "AL ARABIYA", name: "AL ARABIYA" is not in the XMLTV channel list
+Channel 264, callsign: "Alaraby Network", name: "Alaraby Network" is not in the XMLTV channel list
+Channel 265, callsign: "ROK", name: "ROK" is not in the XMLTV channel list
+Channel 266, callsign: "Revelation TV", name: "Revelation TV" is not in the XMLTV channel list
+Channel 267, name: "Al Jazeera English" is not a match for "God TV" score: 28.5% - Skipping as XMLTV channel number matches a different station
+Channel 267, callsign: "God TV", name: "God TV" is not in the XMLTV channel list
+Channel 268, name: "Al Jazeera Arabic" is not a match for "It Is Written TV" score: 24.242424242424242% - Skipping as XMLTV channel number matches a different station
+Channel 268, callsign: "It Is Written TV", name: "It Is Written TV" is not in the XMLTV channel list
+Channel 269, callsign: "New Media TV", name: "New Media TV" is not in the XMLTV channel list
+Channel 270, name: "Real Crime" is not a match for "Together TV IP" score: 25.0% - Skipping as XMLTV channel number matches a different station
+Channel 270, callsign: "Together TV IP", name: "Together TV IP" is not in the XMLTV channel list
+Channel 271, callsign: "Channelbox", name: "Channelbox" is not in the XMLTV channel list
+Channel 273, callsign: "Newsmax", name: "Newsmax" is not in the XMLTV channel list
+Channel 274, name: "Asharq News" is not a match for "Amazing Facts" score: 33.333333333333336% - Skipping as XMLTV channel number matches a different station
+Channel 274, callsign: "Amazing Facts", name: "Amazing Facts" is not in the XMLTV channel list
+Channel 275, name: "Al Arabiya" is not a match for "wedotv movies" score: 17.391304347826086% - Skipping as XMLTV channel number matches a different station
+Channel 275, callsign: "wedotv movies", name: "wedotv movies" is not in the XMLTV channel list
+Channel 276, callsign: "CNA Originals", name: "CNA Originals" is not in the XMLTV channel list
+Channel 278, callsign: "Nosey", name: "Nosey" is not in the XMLTV channel list
+Channel 279, callsign: "Purpose Media", name: "Purpose Media" is not in the XMLTV channel list
+Channel 280, name: "ROK" is not a match for "Talk" score: 28.57142857142857% - Skipping as XMLTV channel number matches a different station
+Channel 280, callsign: "Talk", name: "Talk" is not in the XMLTV channel list
+Channel 283, callsign: "Global Arabic +", name: "Global Arabic +" is not in the XMLTV channel list
+Channel 284, callsign: "GIGS", name: "GIGS" is not in the XMLTV channel list
+Channel 287, name: "Newsmax" is not a match for "Nolly Africa" score: 25.71428571428571% - Skipping as XMLTV channel number matches a different station
+Channel 287, callsign: "Nolly Africa", name: "Nolly Africa" is not in the XMLTV channel list
+Channel 288, callsign: "OUTflix Proud", name: "OUTflix Proud" is not in the XMLTV channel list
+Channel 289, callsign: "MBC Group", name: "MBC Group" is not in the XMLTV channel list
+Channel 555, callsign: "Accessible TV Guide", name: "Accessible TV Guide" is not in the XMLTV channel list
+Channel 670, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 671, callsign: "ADULT Xpanded TV", name: "ADULT Xpanded TV" is not in the XMLTV channel list
+Channel 673, callsign: "ADULT smileTV3", name: "ADULT smileTV3" is not in the XMLTV channel list
+Channel 674, callsign: "ADULT Babestn", name: "ADULT Babestn" is not in the XMLTV channel list
+Channel 699, callsign: "ADULT Section", name: "ADULT Section" is not in the XMLTV channel list
+Channel 711, callsign: "BBC Berkshire", name: "BBC Berkshire" is not in the XMLTV channel list
+Channel 712, callsign: "BBC Three Counties", name: "BBC Three Counties" is not in the XMLTV channel list
+Channel 713, callsign: "BBC Radio London", name: "BBC Radio London" is not in the XMLTV channel list
+Channel 714, callsign: "BBC Surrey", name: "BBC Surrey" is not in the XMLTV channel list
+Channel 716, callsign: "BBC Essex", name: "BBC Essex" is not in the XMLTV channel list
+Channel 1 icon refresh forced
+Channel 1 with existing XMLTVID: "" has a revised XMLTVID: "I30644.json.schedulesdirect.org"
+  Channel 1 updated with:
+{'ChanId': 10001, 'Icon': 's30644_dark_360w_270h.png', 'XMLTVID': 'I30644.json.schedulesdirect.org'}
+Channel 2 icon refresh forced
+Channel 2 with existing XMLTVID: "" has a revised XMLTVID: "I17154.json.schedulesdirect.org"
+  Channel 2 updated with:
+{'ChanId': 10002, 'Icon': 's17154_dark_360w_270h.png', 'XMLTVID': 'I17154.json.schedulesdirect.org'}
+Channel 3 icon refresh forced
+Channel 3 with existing XMLTVID: "" has a revised XMLTVID: "I17468.json.schedulesdirect.org"
+  Channel 3 updated with:
+{'ChanId': 10003, 'Icon': 's17468_dark_360w_270h.png', 'XMLTVID': 'I17468.json.schedulesdirect.org'}
+Channel 4 icon refresh forced
+Channel 4 with existing XMLTVID: "" has a revised XMLTVID: "I17155.json.schedulesdirect.org"
+  Channel 4 updated with:
+{'ChanId': 10004, 'Icon': 's17155_dark_360w_270h.png', 'XMLTVID': 'I17155.json.schedulesdirect.org'}
+Channel 5 icon refresh forced
+Channel 5 with existing XMLTVID: "" has a revised XMLTVID: "I17157.json.schedulesdirect.org"
+  Channel 5 updated with:
+{'ChanId': 10005, 'Icon': 's17157_dark_360w_270h.png', 'XMLTVID': 'I17157.json.schedulesdirect.org'}
+Channel 6 icon refresh forced
+Channel 6 with existing XMLTVID: "" has a revised XMLTVID: "I20630.json.schedulesdirect.org"
+  Channel 6 updated with:
+{'ChanId': 10006, 'Icon': 's20630_dark_360w_270h.png', 'XMLTVID': 'I20630.json.schedulesdirect.org'}
+Channel 8 icon refresh forced
+Channel 8 with existing XMLTVID: "" has a revised XMLTVID: "I84926.json.schedulesdirect.org"
+  Channel 8 updated with:
+{'ChanId': 10008, 'Icon': 's84926_dark_360w_270h.png', 'XMLTVID': 'I84926.json.schedulesdirect.org'}
+Channel 9 icon refresh forced
+Channel 9 with existing XMLTVID: "" has a revised XMLTVID: "I20684.json.schedulesdirect.org"
+  Channel 9 updated with:
+{'ChanId': 10009, 'Icon': 's20684_dark_360w_270h.png', 'XMLTVID': 'I20684.json.schedulesdirect.org'}
+Channel 10 icon refresh forced
+Channel 10 with existing XMLTVID: "" has a revised XMLTVID: "I44643.json.schedulesdirect.org"
+  Channel 10 updated with:
+{'ChanId': 10010, 'Icon': 's44643_dark_360w_270h.png', 'XMLTVID': 'I44643.json.schedulesdirect.org'}
+Channel 11 icon refresh forced
+Channel 11 with existing XMLTVID: "" has a revised XMLTVID: "I48021.json.schedulesdirect.org"
+  Channel 11 updated with:
+{'ChanId': 78046, 'Icon': 's48021_dark_360w_270h.png', 'XMLTVID': 'I48021.json.schedulesdirect.org'}
+Channel 12 icon refresh forced
+Channel 12 with existing XMLTVID: "" has a revised XMLTVID: "I62391.json.schedulesdirect.org"
+  Channel 12 updated with:
+{'ChanId': 77986, 'Icon': 's62391_dark_360w_270h.png', 'XMLTVID': 'I62391.json.schedulesdirect.org'}
+Channel 13 icon refresh forced
+Channel 13 with existing XMLTVID: "" has a revised XMLTVID: "I25117.json.schedulesdirect.org"
+  Channel 13 updated with:
+{'ChanId': 10013, 'Icon': 's25117_dark_360w_270h.png', 'XMLTVID': 'I25117.json.schedulesdirect.org'}
+Channel 14 icon refresh forced
+Channel 14 with existing XMLTVID: "" has a revised XMLTVID: "I21494.json.schedulesdirect.org"
+  Channel 14 updated with:
+{'ChanId': 10014, 'Icon': 's21494_dark_360w_270h.png', 'XMLTVID': 'I21494.json.schedulesdirect.org'}
+Channel 15 icon refresh forced
+Channel 15 with existing XMLTVID: "" has a revised XMLTVID: "I56892.json.schedulesdirect.org"
+  Channel 15 updated with:
+{'ChanId': 10015, 'Icon': 's56892_dark_360w_270h.png', 'XMLTVID': 'I56892.json.schedulesdirect.org'}
+Channel 16 icon refresh forced
+Channel 16 with existing XMLTVID: "" has a revised XMLTVID: "I125129.json.schedulesdirect.org"
+  Channel 16 updated with:
+{'ChanId': 10016, 'Icon': 's125129_dark_360w_270h.png', 'XMLTVID': 'I125129.json.schedulesdirect.org'}
+Channel 17 icon refresh forced
+Channel 17 with existing XMLTVID: "" has a revised XMLTVID: "I45828.json.schedulesdirect.org"
+  Channel 17 updated with:
+{'ChanId': 10017, 'Icon': 's45828_dark_360w_270h.png', 'XMLTVID': 'I45828.json.schedulesdirect.org'}
+Channel 18 icon refresh forced
+Channel 18 with existing XMLTVID: "" has a revised XMLTVID: "I47657.json.schedulesdirect.org"
+  Channel 18 updated with:
+{'ChanId': 10018, 'Icon': 's47657_dark_360w_270h.png', 'XMLTVID': 'I47657.json.schedulesdirect.org'}
+Channel 19 icon refresh forced
+Channel 19 with existing XMLTVID: "" has a revised XMLTVID: "I24305.json.schedulesdirect.org"
+  Channel 19 updated with:
+{'ChanId': 10019, 'Icon': 's24305_dark_360w_270h.png', 'XMLTVID': 'I24305.json.schedulesdirect.org'}
+Channel 20 icon refresh forced
+Channel 20 with existing XMLTVID: "" has a revised XMLTVID: "I117464.json.schedulesdirect.org"
+  Channel 20 updated with:
+{'ChanId': 10020, 'Icon': 's117464_dark_360w_270h.png', 'XMLTVID': 'I117464.json.schedulesdirect.org'}
+Channel 21 icon refresh forced
+Channel 21 with existing XMLTVID: "" has a revised XMLTVID: "I52335.json.schedulesdirect.org"
+  Channel 21 updated with:
+{'ChanId': 10021, 'Icon': 's52335_dark_360w_270h.png', 'XMLTVID': 'I52335.json.schedulesdirect.org'}
+Channel 22 not found, attempting fuzzy match on the channel name "The Jewellery Channel"
+Channel 22, callsign: "JEWELCH", name: "The Jewellery Channel" is new
+Channel 23 icon refresh forced
+Channel 23 with existing XMLTVID: "" has a revised XMLTVID: "I20683.json.schedulesdirect.org"
+  Channel 23 updated with:
+{'ChanId': 12300, 'Icon': 's20683_dark_360w_270h.png', 'XMLTVID': 'I20683.json.schedulesdirect.org'}
+Channel 25 icon refresh forced
+Channel 25 with existing XMLTVID: "" has a revised XMLTVID: "I61458.json.schedulesdirect.org"
+  Channel 25 updated with:
+{'ChanId': 77995, 'Icon': 's61458_dark_360w_270h.png', 'XMLTVID': 'I61458.json.schedulesdirect.org'}
+Channel 26 icon refresh forced
+Channel 26 with existing XMLTVID: "" has a revised XMLTVID: "I48020.json.schedulesdirect.org"
+  Channel 26 updated with:
+{'ChanId': 10025, 'Icon': 's48020_dark_360w_270h.png', 'XMLTVID': 'I48020.json.schedulesdirect.org'}
+Channel 27 icon refresh forced
+Channel 27 with existing XMLTVID: "" has a revised XMLTVID: "I138444.json.schedulesdirect.org"
+  Channel 27 updated with:
+{'ChanId': 77981, 'Icon': 's138444_dark_360w_270h.png', 'XMLTVID': 'I138444.json.schedulesdirect.org'}
+Channel 28 icon refresh forced
+Channel 28 with existing XMLTVID: "" has a revised XMLTVID: "I90257.json.schedulesdirect.org"
+  Channel 28 updated with:
+{'ChanId': 77852, 'Icon': 'GNLZZGG0022XGPX.png_dark_360w_270h.png', 'XMLTVID': 'I90257.json.schedulesdirect.org'}
+Channel 29 icon refresh forced
+Channel 29 with existing XMLTVID: "" has a revised XMLTVID: "I53059.json.schedulesdirect.org"
+  Channel 29 updated with:
+{'ChanId': 10028, 'Icon': 's53059_dark_360w_270h.png', 'XMLTVID': 'I53059.json.schedulesdirect.org'}
+Channel 30 icon refresh forced
+Channel 30 with existing XMLTVID: "" has a revised XMLTVID: "I33882.json.schedulesdirect.org"
+  Channel 30 updated with:
+{'ChanId': 10029, 'Icon': 's33882_dark_360w_270h.png', 'XMLTVID': 'I33882.json.schedulesdirect.org'}
+Channel 31 icon refresh forced
+Channel 31 with existing XMLTVID: "" has a revised XMLTVID: "I31786.json.schedulesdirect.org"
+  Channel 31 updated with:
+{'ChanId': 77847, 'Icon': 's31786_dark_360w_270h.png', 'XMLTVID': 'I31786.json.schedulesdirect.org'}
+Channel 32 icon refresh forced
+Channel 32 with existing XMLTVID: "" has a revised XMLTVID: "I52336.json.schedulesdirect.org"
+  Channel 32 updated with:
+{'ChanId': 10031, 'Icon': 's52336_dark_360w_270h.png', 'XMLTVID': 'I52336.json.schedulesdirect.org'}
+Channel 33 icon refresh forced
+Channel 33 with existing XMLTVID: "" has a revised XMLTVID: "I109246.json.schedulesdirect.org"
+  Channel 33 updated with:
+{'ChanId': 10032, 'Icon': 's109246_dark_360w_270h.png', 'XMLTVID': 'I109246.json.schedulesdirect.org'}
+Channel 34 icon refresh forced
+Channel 34 with existing XMLTVID: "" has a revised XMLTVID: "I81450.json.schedulesdirect.org"
+  Channel 34 updated with:
+{'ChanId': 77991, 'Icon': 'GNLZZGG0029BMCL.png_dark_360w_270h.png', 'XMLTVID': 'I81450.json.schedulesdirect.org'}
+Channel 35 icon refresh forced
+Channel 35 with existing XMLTVID: "" has a revised XMLTVID: "I65160.json.schedulesdirect.org"
+  Channel 35 updated with:
+{'ChanId': 10034, 'Icon': 's65160_dark_360w_270h.png', 'XMLTVID': 'I65160.json.schedulesdirect.org'}
+Channel 36 icon refresh forced
+Channel 36 with existing XMLTVID: "" has a revised XMLTVID: "I24919.json.schedulesdirect.org"
+  Channel 36 updated with:
+{'ChanId': 10036, 'Icon': 's24919_dark_360w_270h.png', 'XMLTVID': 'I24919.json.schedulesdirect.org'}
+Channel 38 icon refresh forced
+Channel 38 with existing XMLTVID: "" has a revised XMLTVID: "I77749.json.schedulesdirect.org"
+  Channel 38 updated with:
+{'ChanId': 10045, 'Icon': 's77749_dark_360w_270h.png', 'XMLTVID': 'I77749.json.schedulesdirect.org'}
+Channel 39 icon refresh forced
+Channel 39 with existing XMLTVID: "" has a revised XMLTVID: "I58793.json.schedulesdirect.org"
+  Channel 39 updated with:
+{'ChanId': 77988, 'Icon': 's58793_dark_360w_270h.png', 'XMLTVID': 'I58793.json.schedulesdirect.org'}
+Channel 40 icon refresh forced
+Channel 40 with existing XMLTVID: "" has a revised XMLTVID: "I102471.json.schedulesdirect.org"
+  Channel 40 updated with:
+{'ChanId': 10039, 'Icon': 's102471_dark_360w_270h.png', 'XMLTVID': 'I102471.json.schedulesdirect.org'}
+Channel 41 icon refresh forced
+Channel 41 with existing XMLTVID: "" has a revised XMLTVID: "I73970.json.schedulesdirect.org"
+  Channel 41 updated with:
+{'ChanId': 77851, 'Icon': 's73970_dark_360w_270h.png', 'XMLTVID': 'I73970.json.schedulesdirect.org'}
+Channel 42 icon refresh forced
+Channel 42 with existing XMLTVID: "" has a revised XMLTVID: "I46306.json.schedulesdirect.org"
+  Channel 42 updated with:
+{'ChanId': 10041, 'Icon': 'GNLZZGG0027ESGV.png_dark_360w_270h.png', 'XMLTVID': 'I46306.json.schedulesdirect.org'}
+Channel 43 icon refresh forced
+Channel 43 with existing XMLTVID: "" has a revised XMLTVID: "I44718.json.schedulesdirect.org"
+  Channel 43 updated with:
+{'ChanId': 10042, 'Icon': 's44718_dark_360w_270h.png', 'XMLTVID': 'I44718.json.schedulesdirect.org'}
+Channel 44 icon refresh forced
+Channel 44 with existing XMLTVID: "" has a revised XMLTVID: "I21257.json.schedulesdirect.org"
+  Channel 44 updated with:
+{'ChanId': 77994, 'Icon': 's21257_dark_360w_270h.png', 'XMLTVID': 'I21257.json.schedulesdirect.org'}
+Channel 45 icon refresh forced
+Channel 45 with existing XMLTVID: "" has a revised XMLTVID: "I27993.json.schedulesdirect.org"
+  Channel 45 updated with:
+{'ChanId': 10044, 'Icon': 's27993_dark_360w_270h.png', 'XMLTVID': 'I27993.json.schedulesdirect.org'}
+Channel 46 icon refresh forced
+Channel 46 with existing XMLTVID: "" has a revised XMLTVID: "I56888.json.schedulesdirect.org"
+  Channel 46 updated with:
+{'ChanId': 78007, 'Icon': 's56888_dark_360w_270h.png', 'XMLTVID': 'I56888.json.schedulesdirect.org'}
+Channel 47 icon refresh forced
+Channel 47 with existing XMLTVID: "" has a revised XMLTVID: "I25630.json.schedulesdirect.org"
+  Channel 47 updated with:
+{'ChanId': 10046, 'Icon': 's25630_dark_360w_270h.png', 'XMLTVID': 'I25630.json.schedulesdirect.org'}
+Channel 48 icon refresh forced
+Channel 48 with existing XMLTVID: "" has a revised XMLTVID: "I21793.json.schedulesdirect.org"
+  Channel 48 updated with:
+{'ChanId': 10047, 'Icon': 's21793_dark_360w_270h.png', 'XMLTVID': 'I21793.json.schedulesdirect.org'}
+Channel 49 icon refresh forced
+Channel 49 with existing XMLTVID: "" has a revised XMLTVID: "I75804.json.schedulesdirect.org"
+  Channel 49 updated with:
+{'ChanId': 78056, 'Icon': 's75804_dark_360w_270h.png', 'XMLTVID': 'I75804.json.schedulesdirect.org'}
+Channel 50 icon refresh forced
+Channel 50 with existing XMLTVID: "" has a revised XMLTVID: "I57747.json.schedulesdirect.org"
+  Channel 50 updated with:
+{'ChanId': 77983, 'Icon': 'GNLZZGG002GB9YS.png_dark_360w_270h.png', 'XMLTVID': 'I57747.json.schedulesdirect.org'}
+Channel 51 icon refresh forced
+Channel 51 with existing XMLTVID: "" has a revised XMLTVID: "I110927.json.schedulesdirect.org"
+  Channel 51 updated with:
+{'ChanId': 77982, 'Icon': 's110927_dark_360w_270h.png', 'XMLTVID': 'I110927.json.schedulesdirect.org'}
+Channel 52 icon refresh forced
+Channel 52 with existing XMLTVID: "" has a revised XMLTVID: "I44717.json.schedulesdirect.org"
+  Channel 52 updated with:
+{'ChanId': 77985, 'Icon': 'GNLZZGG0029BNQD.png_dark_360w_270h.png', 'XMLTVID': 'I44717.json.schedulesdirect.org'}
+Channel 56 icon refresh forced
+Channel 56 with existing XMLTVID: "" has a revised XMLTVID: "I120346.json.schedulesdirect.org"
+  Channel 56 updated with:
+{'ChanId': 77992, 'Icon': 's120346_dark_360w_270h.png', 'XMLTVID': 'I120346.json.schedulesdirect.org'}
+Channel 57 icon refresh forced
+Channel 57 with existing XMLTVID: "" has a revised XMLTVID: "I35806.json.schedulesdirect.org"
+  Channel 57 updated with:
+{'ChanId': 78052, 'Icon': 's35806_dark_360w_270h.png', 'XMLTVID': 'I35806.json.schedulesdirect.org'}
+Channel 58 icon refresh forced
+Channel 58 with existing XMLTVID: "" has a revised XMLTVID: "I98366.json.schedulesdirect.org"
+  Channel 58 updated with:
+{'ChanId': 10058, 'Icon': 's98366_dark_360w_270h.png', 'XMLTVID': 'I98366.json.schedulesdirect.org'}
+Channel 59 icon refresh forced
+Channel 59 with existing XMLTVID: "" has a revised XMLTVID: "I110918.json.schedulesdirect.org"
+  Channel 59 updated with:
+{'ChanId': 10093, 'Icon': 's110918_dark_360w_270h.png', 'XMLTVID': 'I110918.json.schedulesdirect.org'}
+Channel 60 icon refresh forced
+Channel 60 with existing XMLTVID: "" has a revised XMLTVID: "I111955.json.schedulesdirect.org"
+  Channel 60 updated with:
+{'ChanId': 16000, 'Icon': 's111955_dark_360w_270h.png', 'XMLTVID': 'I111955.json.schedulesdirect.org'}
+Channel 62 icon refresh forced
+Channel 62 with existing XMLTVID: "" has a revised XMLTVID: "I50011.json.schedulesdirect.org"
+  Channel 62 updated with:
+{'ChanId': 77999, 'Icon': 's50011_dark_360w_270h.png', 'XMLTVID': 'I50011.json.schedulesdirect.org'}
+Channel 64 icon refresh forced
+Channel 64 with existing XMLTVID: "" has a revised XMLTVID: "I110919.json.schedulesdirect.org"
+  Channel 64 updated with:
+{'ChanId': 10063, 'Icon': 's110919_dark_360w_270h.png', 'XMLTVID': 'I110919.json.schedulesdirect.org'}
+Channel 65 icon refresh forced
+Channel 65 with existing XMLTVID: "" has a revised XMLTVID: "I136453.json.schedulesdirect.org"
+  Channel 65 updated with:
+{'ChanId': 10065, 'Icon': 's136453_dark_360w_270h.png', 'XMLTVID': 'I136453.json.schedulesdirect.org'}
+Channel 66 icon refresh forced
+Channel 66 with existing XMLTVID: "" has a revised XMLTVID: "I97332.json.schedulesdirect.org"
+  Channel 66 updated with:
+{'ChanId': 78006, 'Icon': 's97332_dark_360w_270h.png', 'XMLTVID': 'I97332.json.schedulesdirect.org'}
+Channel 67 icon refresh forced
+Channel 67 with existing XMLTVID: "" has a revised XMLTVID: "I31756.json.schedulesdirect.org"
+  Channel 67 updated with:
+{'ChanId': 10066, 'Icon': 's31756_dark_360w_270h.png', 'XMLTVID': 'I31756.json.schedulesdirect.org'}
+Channel 68 icon refresh forced
+Channel 68 with existing XMLTVID: "" has a revised XMLTVID: "I57827.json.schedulesdirect.org"
+  Channel 68 updated with:
+{'ChanId': 77850, 'Icon': 's57827_dark_360w_270h.png', 'XMLTVID': 'I57827.json.schedulesdirect.org'}
+Channel 69 icon refresh forced
+Channel 69 with existing XMLTVID: "" has a revised XMLTVID: "I42762.json.schedulesdirect.org"
+  Channel 69 updated with:
+{'ChanId': 16900, 'Icon': 's42762_dark_360w_270h.png', 'XMLTVID': 'I42762.json.schedulesdirect.org'}
+Channel 70 icon refresh forced
+Channel 70 with existing XMLTVID: "" has a revised XMLTVID: "I65394.json.schedulesdirect.org"
+  Channel 70 updated with:
+{'ChanId': 10069, 'Icon': 's65394_dark_360w_270h.png', 'XMLTVID': 'I65394.json.schedulesdirect.org'}
+Channel 71 icon refresh forced
+Channel 71 with existing XMLTVID: "" has a revised XMLTVID: "I125463.json.schedulesdirect.org"
+  Channel 71 updated with:
+{'ChanId': 17100, 'Icon': 's125463_dark_360w_270h.png', 'XMLTVID': 'I125463.json.schedulesdirect.org'}
+Channel 72 icon refresh forced
+Channel 72 with existing XMLTVID: "" has a revised XMLTVID: "I131426.json.schedulesdirect.org"
+  Channel 72 updated with:
+{'ChanId': 77984, 'Icon': 's131426_dark_360w_270h.png', 'XMLTVID': 'I131426.json.schedulesdirect.org'}
+Channel 73 not found, attempting fuzzy match on the channel name "Shopping Quarter"
+Channel 73, callsign: "SHOPQUA", name: "Shopping Quarter" is new
+Channel 74 icon refresh forced
+Channel 74 with existing XMLTVID: "" has a revised XMLTVID: "I44855.json.schedulesdirect.org"
+  Channel 74 updated with:
+{'ChanId': 78053, 'Icon': 's44855_dark_360w_270h.png', 'XMLTVID': 'I44855.json.schedulesdirect.org'}
+Channel 75 not found, attempting fuzzy match on the channel name "Thats Melody"
+   Channel 75 "Thats Melody" found at mythtv channel 76: "That's Melody" with a score of 96.0%
+Channel 76 icon differs from source
+Channel 76 with existing XMLTVID: "" has a revised XMLTVID: "I131027.json.schedulesdirect.org"
+  Channel 76 updated with:
+{'ChanId': 82503, 'Icon': 's131027_dark_360w_270h.png', 'XMLTVID': 'I131027.json.schedulesdirect.org'}
+Channel 76 not found, attempting fuzzy match on the channel name "That's Dance"
+Channel 76, callsign: "THDANCE", name: "That's Dance" is new
+Channel 79 icon refresh forced
+Channel 79 with existing XMLTVID: "" has a revised XMLTVID: "I155010.json.schedulesdirect.org"
+  Channel 79 updated with:
+{'ChanId': 10079, 'Icon': 's155010_dark_360w_270h.png', 'XMLTVID': 'I155010.json.schedulesdirect.org'}
+Channel 81 icon refresh forced
+Channel 81 with existing XMLTVID: "" has a revised XMLTVID: "I110920.json.schedulesdirect.org"
+  Channel 81 updated with:
+{'ChanId': 10080, 'Icon': 's110920_dark_360w_270h.png', 'XMLTVID': 'I110920.json.schedulesdirect.org'}
+Channel 82 icon refresh forced
+Channel 82 with existing XMLTVID: "" has a revised XMLTVID: "I99024.json.schedulesdirect.org"
+  Channel 82 updated with:
+{'ChanId': 77996, 'Icon': 's99024_dark_360w_270h.png', 'XMLTVID': 'I99024.json.schedulesdirect.org'}
+Channel 83 icon refresh forced
+Channel 83 with existing XMLTVID: "" has a revised XMLTVID: "I24677.json.schedulesdirect.org"
+  Channel 83 updated with:
+{'ChanId': 18300, 'Icon': 's24677_dark_360w_270h.png', 'XMLTVID': 'I24677.json.schedulesdirect.org'}
+Channel 84 icon refresh forced
+Channel 84 with existing XMLTVID: "" has a revised XMLTVID: "I131428.json.schedulesdirect.org"
+  Channel 84 updated with:
+{'ChanId': 77993, 'Icon': 's131428_dark_360w_270h.png', 'XMLTVID': 'I131428.json.schedulesdirect.org'}
+Channel 85 icon refresh forced
+Channel 85 with existing XMLTVID: "" has a revised XMLTVID: "I33345.json.schedulesdirect.org"
+  Channel 85 updated with:
+{'ChanId': 10085, 'Icon': 's33345_dark_360w_270h.png', 'XMLTVID': 'I33345.json.schedulesdirect.org'}
+Channel 90 icon refresh forced
+Channel 90 with existing XMLTVID: "" has a revised XMLTVID: "I112603.json.schedulesdirect.org"
+  Channel 90 updated with:
+{'ChanId': 10790, 'Icon': 's112603_dark_360w_270h.png', 'XMLTVID': 'I112603.json.schedulesdirect.org'}
+Channel 91 icon refresh forced
+Channel 91 with existing XMLTVID: "" has a revised XMLTVID: "I131702.json.schedulesdirect.org"
+  Channel 91 updated with:
+{'ChanId': 77854, 'Icon': 's131702_dark_360w_270h.png', 'XMLTVID': 'I131702.json.schedulesdirect.org'}
+Channel 92 icon refresh forced
+Channel 92 with existing XMLTVID: "" has a revised XMLTVID: "I156817.json.schedulesdirect.org"
+  Channel 92 updated with:
+{'ChanId': 10095, 'Icon': 's156817_dark_360w_270h.png', 'XMLTVID': 'I156817.json.schedulesdirect.org'}
+Channel 93 not found, attempting fuzzy match on the channel name "ITVBe +1 (Freeview)"
+Channel 93, callsign: "ITVBPFV", name: "ITVBe +1 (Freeview)" is new
+Channel 95 backened icon request with ChanId failed.
+Channel 95 attempting to use FileName instead.
+Channel 95 backened icon request with FileName also failed.
+Channel 95 icon cannot be retrieved from the backend
+Channel 95 icon differs from source
+Channel 95 with existing XMLTVID: "" has a revised XMLTVID: "I25958.json.schedulesdirect.org"
+  Channel 95 updated with:
+{'ChanId': 82505, 'Icon': 's25958_dark_360w_270h.png', 'XMLTVID': 'I25958.json.schedulesdirect.org'}
+Channel 100 icon refresh forced
+Channel 100 with existing XMLTVID: "" has a revised XMLTVID: "I105389.json.schedulesdirect.org"
+  Channel 100 updated with:
+{'ChanId': 10100, 'Icon': 's105389_dark_360w_270h.png', 'XMLTVID': 'I105389.json.schedulesdirect.org'}
+Channel 101 icon refresh forced
+Channel 101 with existing XMLTVID: "" has a revised XMLTVID: "I121745.json.schedulesdirect.org"
+  Channel 101 updated with:
+{'ChanId': 78001, 'Icon': 's121745_dark_360w_270h.png', 'XMLTVID': 'I121745.json.schedulesdirect.org'}
+Channel 102 icon refresh forced
+Channel 102 with existing XMLTVID: "" has a revised XMLTVID: "I50059.json.schedulesdirect.org"
+  Channel 102 updated with:
+{'ChanId': 78000, 'Icon': 's50059_dark_360w_270h.png', 'XMLTVID': 'I50059.json.schedulesdirect.org'}
+Channel 103 icon refresh forced
+Channel 103 with existing XMLTVID: "" has a revised XMLTVID: "I50523.json.schedulesdirect.org"
+  Channel 103 updated with:
+{'ChanId': 78002, 'Icon': 's50523_dark_360w_270h.png', 'XMLTVID': 'I50523.json.schedulesdirect.org'}
+Channel 104 icon refresh forced
+Channel 104 with existing XMLTVID: "" has a revised XMLTVID: "I50716.json.schedulesdirect.org"
+  Channel 104 updated with:
+{'ChanId': 78003, 'Icon': 's50716_dark_360w_270h.png', 'XMLTVID': 'I50716.json.schedulesdirect.org'}
+Channel 105 icon refresh forced
+Channel 105 with existing XMLTVID: "" has a revised XMLTVID: "I50717.json.schedulesdirect.org"
+  Channel 105 updated with:
+{'ChanId': 78004, 'Icon': 's50717_dark_360w_270h.png', 'XMLTVID': 'I50717.json.schedulesdirect.org'}
+Channel 106 icon refresh forced
+Channel 106 with existing XMLTVID: "" has a revised XMLTVID: "I83282.json.schedulesdirect.org"
+  Channel 106 updated with:
+{'ChanId': 78005, 'Icon': 's83282_dark_360w_270h.png', 'XMLTVID': 'I83282.json.schedulesdirect.org'}
+Channel 107 icon refresh forced
+Channel 107 with existing XMLTVID: "" has a revised XMLTVID: "I122089.json.schedulesdirect.org"
+  Channel 107 updated with:
+{'ChanId': 10107, 'Icon': 's122089_dark_360w_270h.png', 'XMLTVID': 'I122089.json.schedulesdirect.org'}
+Channel 201 icon refresh forced
+Channel 201 with existing XMLTVID: "" has a revised XMLTVID: "I29324.json.schedulesdirect.org"
+  Channel 201 updated with:
+{'ChanId': 10201, 'Icon': 's29324_dark_360w_270h.png', 'XMLTVID': 'I29324.json.schedulesdirect.org'}
+Channel 202 icon refresh forced
+Channel 202 with existing XMLTVID: "" has a revised XMLTVID: "I29325.json.schedulesdirect.org"
+  Channel 202 updated with:
+{'ChanId': 10202, 'Icon': 's29325_dark_360w_270h.png', 'XMLTVID': 'I29325.json.schedulesdirect.org'}
+Channel 203 icon refresh forced
+Channel 203 with existing XMLTVID: "" has a revised XMLTVID: "I83281.json.schedulesdirect.org"
+  Channel 203 updated with:
+{'ChanId': 10204, 'Icon': 's83281_dark_360w_270h.png', 'XMLTVID': 'I83281.json.schedulesdirect.org'}
+Channel 204 icon refresh forced
+Channel 204 with existing XMLTVID: "" has a revised XMLTVID: "I83283.json.schedulesdirect.org"
+  Channel 204 updated with:
+{'ChanId': 10205, 'Icon': 's83283_dark_360w_270h.png', 'XMLTVID': 'I83283.json.schedulesdirect.org'}
+Channel 205 icon refresh forced
+Channel 205 with existing XMLTVID: "" has a revised XMLTVID: "I33638.json.schedulesdirect.org"
+  Channel 205 updated with:
+{'ChanId': 78058, 'Icon': 's33638_dark_360w_270h.png', 'XMLTVID': 'I33638.json.schedulesdirect.org'}
+Channel 206 icon refresh forced
+Channel 206 with existing XMLTVID: "" has a revised XMLTVID: "I153520.json.schedulesdirect.org"
+  Channel 206 updated with:
+{'ChanId': 10206, 'Icon': 's153520_dark_360w_270h.png', 'XMLTVID': 'I153520.json.schedulesdirect.org'}
+Channel 208 not found, attempting fuzzy match on the channel name "Tiny Pop (Freeview)"
+   Channel 208 "Tiny Pop (Freeview)" found at mythtv channel 207: "POP UP" with a score of 85.5%
+Channel 207 backened icon request with ChanId failed.
+Channel 207 attempting to use FileName instead.
+Channel 207 backened icon request with FileName also failed.
+Channel 207 icon cannot be retrieved from the backend
+Channel 207 icon differs from source
+Channel 207 with existing XMLTVID: "" has a revised XMLTVID: "I110925.json.schedulesdirect.org"
+  Channel 207 updated with:
+{'ChanId': 10207, 'Icon': 's110925_dark_360w_270h.png', 'XMLTVID': 'I110925.json.schedulesdirect.org'}
+Channel 209 icon refresh forced
+Channel 209 with existing XMLTVID: "" has a revised XMLTVID: "I112601.json.schedulesdirect.org"
+  Channel 209 updated with:
+{'ChanId': 10209, 'Icon': 's112601_dark_360w_270h.png', 'XMLTVID': 'I112601.json.schedulesdirect.org'}
+Channel 231 icon refresh forced
+Channel 231 with existing XMLTVID: "" has a revised XMLTVID: "I19037.json.schedulesdirect.org"
+  Channel 231 updated with:
+{'ChanId': 10231, 'Icon': 's19037_dark_360w_270h.png', 'XMLTVID': 'I19037.json.schedulesdirect.org'}
+Channel 232 icon refresh forced
+Channel 232 with existing XMLTVID: "" has a revised XMLTVID: "I20685.json.schedulesdirect.org"
+  Channel 232 updated with:
+{'ChanId': 10232, 'Icon': 's20685_dark_360w_270h.png', 'XMLTVID': 'I20685.json.schedulesdirect.org'}
+Channel 233 icon refresh forced
+Channel 233 with existing XMLTVID: "" has a revised XMLTVID: "I16234.json.schedulesdirect.org"
+  Channel 233 updated with:
+{'ChanId': 10233, 'Icon': 's16234_dark_360w_270h.png', 'XMLTVID': 'I16234.json.schedulesdirect.org'}
+Channel 235 icon refresh forced
+Channel 235 with existing XMLTVID: "" has a revised XMLTVID: "I49968.json.schedulesdirect.org"
+  Channel 235 updated with:
+{'ChanId': 10235, 'Icon': 's49968_dark_360w_270h.png', 'XMLTVID': 'I49968.json.schedulesdirect.org'}
+Channel 236 icon refresh forced
+Channel 236 with existing XMLTVID: "" has a revised XMLTVID: "I119993.json.schedulesdirect.org"
+  Channel 236 updated with:
+{'ChanId': 10236, 'Icon': 's119993_dark_360w_270h.png', 'XMLTVID': 'I119993.json.schedulesdirect.org'}
+Channel 237 icon refresh forced
+Channel 237 with existing XMLTVID: "" has a revised XMLTVID: "I122614.json.schedulesdirect.org"
+  Channel 237 updated with:
+{'ChanId': 10237, 'Icon': 's122614_dark_360w_270h.png', 'XMLTVID': 'I122614.json.schedulesdirect.org'}
+Channel 250 icon refresh forced
+Channel 250 with existing XMLTVID: "" has a revised XMLTVID: "I81004.json.schedulesdirect.org"
+  Channel 250 updated with:
+{'ChanId': 10250, 'Icon': 's81004_dark_360w_270h.png', 'XMLTVID': 'I81004.json.schedulesdirect.org'}
+Channel 255 icon refresh forced
+Channel 255 with existing XMLTVID: "" has a revised XMLTVID: "I60961.json.schedulesdirect.org"
+  Channel 255 updated with:
+{'ChanId': 10255, 'Icon': 's60961_dark_360w_270h.png', 'XMLTVID': 'I60961.json.schedulesdirect.org'}
+Channel 263 icon refresh forced
+Channel 263 with existing XMLTVID: "" has a revised XMLTVID: "I67676.json.schedulesdirect.org"
+  Channel 263 updated with:
+{'ChanId': 10263, 'Icon': 's67676_dark_360w_270h.png', 'XMLTVID': 'I67676.json.schedulesdirect.org'}
+Channel 267 not found, attempting fuzzy match on the channel name "Al Jazeera English"
+   Channel 267 "Al Jazeera English" found at mythtv channel 251: "Al Jazeera English" with a score of 100.0%
+Channel 251 icon differs from source
+Channel 251 with existing XMLTVID: "" has a revised XMLTVID: "I49968.json.schedulesdirect.org"
+  Channel 251 updated with:
+{'ChanId': 10251, 'Icon': 's49968_dark_360w_270h.png', 'XMLTVID': 'I49968.json.schedulesdirect.org'}
+Channel 268 not found, attempting fuzzy match on the channel name "Al Jazeera Arabic"
+   Channel 268 "Al Jazeera Arabic" found at mythtv channel 252: "Al Jazeera Arabic" with a score of 100.0%
+Channel 252 icon differs from source
+Channel 252 with existing XMLTVID: "" has a revised XMLTVID: "I78639.json.schedulesdirect.org"
+  Channel 252 updated with:
+{'ChanId': 10252, 'Icon': 's78639_dark_360w_270h.png', 'XMLTVID': 'I78639.json.schedulesdirect.org'}
+Channel 270 not found, attempting fuzzy match on the channel name "Real Crime"
+Channel 270, callsign: "RCRIM", name: "Real Crime" is new
+Channel 272 icon refresh forced
+Channel 272 with existing XMLTVID: "" has a revised XMLTVID: "I62096.json.schedulesdirect.org"
+  Channel 272 updated with:
+{'ChanId': 10272, 'Icon': 's62096_dark_360w_270h.png', 'XMLTVID': 'I62096.json.schedulesdirect.org'}
+Channel 274 not found, attempting fuzzy match on the channel name "Asharq News"
+   Channel 274 "Asharq News" found at mythtv channel 260: "ASHARQ NEWS" with a score of 100.0%
+Channel 260 icon differs from source
+Channel 260 with existing XMLTVID: "" has a revised XMLTVID: "I122965.json.schedulesdirect.org"
+  Channel 260 updated with:
+{'ChanId': 10260, 'Icon': 's122965_dark_360w_270h.png', 'XMLTVID': 'I122965.json.schedulesdirect.org'}
+Channel 275 not found, attempting fuzzy match on the channel name "Al Arabiya"
+   Channel 275 "Al Arabiya" found at mythtv channel 261: "AL ARABIYA" with a score of 100.0%
+Channel 261 icon differs from source
+Channel 261 with existing XMLTVID: "" has a revised XMLTVID: "I43786.json.schedulesdirect.org"
+  Channel 261 updated with:
+{'ChanId': 10261, 'Icon': 's43786_dark_360w_270h.png', 'XMLTVID': 'I43786.json.schedulesdirect.org'}
+Channel 280 not found, attempting fuzzy match on the channel name "ROK"
+   Channel 280 "ROK" found at mythtv channel 265: "ROK" with a score of 100.0%
+Channel 265 icon differs from source
+Channel 265 with existing XMLTVID: "" has a revised XMLTVID: "I117979.json.schedulesdirect.org"
+  Channel 265 updated with:
+{'ChanId': 78061, 'Icon': 's117979_dark_360w_270h.png', 'XMLTVID': 'I117979.json.schedulesdirect.org'}
+Channel 281 icon refresh forced
+Channel 281 with existing XMLTVID: "" has a revised XMLTVID: "I32561.json.schedulesdirect.org"
+  Channel 281 updated with:
+{'ChanId': 10281, 'Icon': 's32561_dark_360w_270h.png', 'XMLTVID': 'I32561.json.schedulesdirect.org'}
+Channel 282 icon refresh forced
+Channel 282 with existing XMLTVID: "" has a revised XMLTVID: "I100015.json.schedulesdirect.org"
+  Channel 282 updated with:
+{'ChanId': 10282, 'Icon': 's100015_dark_360w_270h.png', 'XMLTVID': 'I100015.json.schedulesdirect.org'}
+Channel 287 not found, attempting fuzzy match on the channel name "Newsmax"
+   Channel 287 "Newsmax" found at mythtv channel 273: "Newsmax" with a score of 100.0%
+Channel 273 icon differs from source
+Channel 273 with existing XMLTVID: "" has a revised XMLTVID: "I119182.json.schedulesdirect.org"
+  Channel 273 updated with:
+{'ChanId': 78063, 'Icon': 's119182_dark_360w_270h.png', 'XMLTVID': 'I119182.json.schedulesdirect.org'}
+Channel 601 icon refresh forced
+Channel 601 with existing XMLTVID: "" has a revised XMLTVID: "I81004.json.schedulesdirect.org"
+  Channel 601 updated with:
+{'ChanId': 10601, 'Icon': 's81004_dark_360w_270h.png', 'XMLTVID': 'I81004.json.schedulesdirect.org'}
+Channel 700 icon refresh forced
+Channel 700 with existing XMLTVID: "" has a revised XMLTVID: "I24434.json.schedulesdirect.org"
+  Channel 700 updated with:
+{'ChanId': 10700, 'Icon': 's24434_dark_360w_270h.png', 'XMLTVID': 'I24434.json.schedulesdirect.org'}
+Channel 701 icon refresh forced
+Channel 701 with existing XMLTVID: "" has a revised XMLTVID: "I31266.json.schedulesdirect.org"
+  Channel 701 updated with:
+{'ChanId': 10701, 'Icon': 's31266_dark_360w_270h.png', 'XMLTVID': 'I31266.json.schedulesdirect.org'}
+Channel 702 icon refresh forced
+Channel 702 with existing XMLTVID: "" has a revised XMLTVID: "I24435.json.schedulesdirect.org"
+  Channel 702 updated with:
+{'ChanId': 10702, 'Icon': 's24435_dark_360w_270h.png', 'XMLTVID': 'I24435.json.schedulesdirect.org'}
+Channel 703 icon refresh forced
+Channel 703 with existing XMLTVID: "" has a revised XMLTVID: "I24436.json.schedulesdirect.org"
+  Channel 703 updated with:
+{'ChanId': 10703, 'Icon': 's24436_dark_360w_270h.png', 'XMLTVID': 'I24436.json.schedulesdirect.org'}
+Channel 704 icon refresh forced
+Channel 704 with existing XMLTVID: "" has a revised XMLTVID: "I24437.json.schedulesdirect.org"
+  Channel 704 updated with:
+{'ChanId': 10704, 'Icon': 's24437_dark_360w_270h.png', 'XMLTVID': 'I24437.json.schedulesdirect.org'}
+Channel 705 icon refresh forced
+Channel 705 with existing XMLTVID: "" has a revised XMLTVID: "I24438.json.schedulesdirect.org"
+  Channel 705 updated with:
+{'ChanId': 10705, 'Icon': 's24438_dark_360w_270h.png', 'XMLTVID': 'I24438.json.schedulesdirect.org'}
+Channel 706 icon refresh forced
+Channel 706 with existing XMLTVID: "" has a revised XMLTVID: "I29920.json.schedulesdirect.org"
+  Channel 706 updated with:
+{'ChanId': 10706, 'Icon': 's29920_dark_360w_270h.png', 'XMLTVID': 'I29920.json.schedulesdirect.org'}
+Channel 707 icon refresh forced
+Channel 707 with existing XMLTVID: "" has a revised XMLTVID: "I30166.json.schedulesdirect.org"
+  Channel 707 updated with:
+{'ChanId': 10707, 'Icon': 's30166_dark_360w_270h.png', 'XMLTVID': 'I30166.json.schedulesdirect.org'}
+Channel 708 icon refresh forced
+Channel 708 with existing XMLTVID: "" has a revised XMLTVID: "I31790.json.schedulesdirect.org"
+  Channel 708 updated with:
+{'ChanId': 10708, 'Icon': 's31790_dark_360w_270h.png', 'XMLTVID': 'I31790.json.schedulesdirect.org'}
+Channel 709 icon refresh forced
+Channel 709 with existing XMLTVID: "" has a revised XMLTVID: "I24452.json.schedulesdirect.org"
+  Channel 709 updated with:
+{'ChanId': 10709, 'Icon': 's24452_dark_360w_270h.png', 'XMLTVID': 'I24452.json.schedulesdirect.org'}
+Channel 710 icon refresh forced
+Channel 710 with existing XMLTVID: "" has a revised XMLTVID: "I24448.json.schedulesdirect.org"
+  Channel 710 updated with:
+{'ChanId': 10710, 'Icon': 's24448_dark_360w_270h.png', 'XMLTVID': 'I24448.json.schedulesdirect.org'}
+Channel 718 icon refresh forced
+Channel 718 with existing XMLTVID: "" has a revised XMLTVID: "I45752.json.schedulesdirect.org"
+  Channel 718 updated with:
+{'ChanId': 10718, 'Icon': 's45752_dark_360w_270h.png', 'XMLTVID': 'I45752.json.schedulesdirect.org'}
+Channel 719 icon refresh forced
+Channel 719 with existing XMLTVID: "" has a revised XMLTVID: "I82550.json.schedulesdirect.org"
+  Channel 719 updated with:
+{'ChanId': 10719, 'Icon': 's82550_dark_360w_270h.png', 'XMLTVID': 'I82550.json.schedulesdirect.org'}
+Channel 720 icon refresh forced
+Channel 720 with existing XMLTVID: "" has a revised XMLTVID: "I82562.json.schedulesdirect.org"
+  Channel 720 updated with:
+{'ChanId': 10720, 'Icon': 's82562_dark_360w_270h.png', 'XMLTVID': 'I82562.json.schedulesdirect.org'}
+Channel 721 icon differs from source
+Channel 721 with existing XMLTVID: "" has a revised XMLTVID: "I25604.json.schedulesdirect.org"
+  Channel 721 updated with:
+{'ChanId': 10721, 'Icon': 's25604_dark_360w_270h.png', 'XMLTVID': 'I25604.json.schedulesdirect.org'}
+Channel 722 icon refresh forced
+Channel 722 with existing XMLTVID: "" has a revised XMLTVID: "I86817.json.schedulesdirect.org"
+  Channel 722 updated with:
+{'ChanId': 10722, 'Icon': 's86817_dark_360w_270h.png', 'XMLTVID': 'I86817.json.schedulesdirect.org'}
+Channel 723 icon refresh forced
+Channel 723 with existing XMLTVID: "" has a revised XMLTVID: "I24441.json.schedulesdirect.org"
+  Channel 723 updated with:
+{'ChanId': 10723, 'Icon': 's24441_dark_360w_270h.png', 'XMLTVID': 'I24441.json.schedulesdirect.org'}
+Channel 724 icon refresh forced
+Channel 724 with existing XMLTVID: "" has a revised XMLTVID: "I30500.json.schedulesdirect.org"
+  Channel 724 updated with:
+{'ChanId': 10724, 'Icon': 's30500_dark_360w_270h.png', 'XMLTVID': 'I30500.json.schedulesdirect.org'}
+Channel 725 icon refresh forced
+Channel 725 with existing XMLTVID: "" has a revised XMLTVID: "I24469.json.schedulesdirect.org"
+  Channel 725 updated with:
+{'ChanId': 82500, 'Icon': 's24469_dark_360w_270h.png', 'XMLTVID': 'I24469.json.schedulesdirect.org'}
+Channel 728 icon refresh forced
+Channel 728 with existing XMLTVID: "" has a revised XMLTVID: "I24467.json.schedulesdirect.org"
+  Channel 728 updated with:
+{'ChanId': 10728, 'Icon': 's24467_dark_360w_270h.png', 'XMLTVID': 'I24467.json.schedulesdirect.org'}
+Channel 730 icon refresh forced
+Channel 730 with existing XMLTVID: "" has a revised XMLTVID: "I112560.json.schedulesdirect.org"
+  Channel 730 updated with:
+{'ChanId': 10730, 'Icon': 's112560_dark_360w_270h.png', 'XMLTVID': 'I112560.json.schedulesdirect.org'}
+Channel 731 icon refresh forced
+Channel 731 with existing XMLTVID: "" has a revised XMLTVID: "I24439.json.schedulesdirect.org"
+  Channel 731 updated with:
+{'ChanId': 10731, 'Icon': 's24439_dark_360w_270h.png', 'XMLTVID': 'I24439.json.schedulesdirect.org'}
+Channel 732 icon refresh forced
+Channel 732 with existing XMLTVID: "" has a revised XMLTVID: "I33579.json.schedulesdirect.org"
+  Channel 732 updated with:
+{'ChanId': 10732, 'Icon': 's33579_dark_360w_270h.png', 'XMLTVID': 'I33579.json.schedulesdirect.org'}
+Channel 733 icon refresh forced
+Channel 733 with existing XMLTVID: "" has a revised XMLTVID: "I25225.json.schedulesdirect.org"
+  Channel 733 updated with:
+{'ChanId': 10733, 'Icon': 's25225_dark_360w_270h.png', 'XMLTVID': 'I25225.json.schedulesdirect.org'}
+Channel 734 icon refresh forced
+Channel 734 with existing XMLTVID: "" has a revised XMLTVID: "I33762.json.schedulesdirect.org"
+  Channel 734 updated with:
+{'ChanId': 10734, 'Icon': 's33762_dark_360w_270h.png', 'XMLTVID': 'I33762.json.schedulesdirect.org'}
+Resetting xmltvid:
+Done
+
+Using /tmp/tmp2jwty6h1 as file.
+Running: tv_grab_zz_sdjson_sqlite --quiet --get-lineup --config-file /etc/mythtv/SATIP-T2.xmltv --output /tmp/tmp2jwty6h1
+Running: ./MythUtil-Channel-XMLTV-getLineup --host vdr --videosource-id 1 --update --no-update-name --no-update-callsign --no-update-freqid --no-update-atsc --no-lcnoffset --no-lcnoffset-channel-number --no-lcnoffset-freqid --refresh-icons /tmp/tmp2jwty6h1
+Using EIT for channels with no xmltvids
+Done
+
+Disabling EIT for channels with xmltvids
+Done
+
+Updating missing channel icons
+Done
+

@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Note: list-lineups and get-lineup is still unofficial in XMLTV, and the format and content of this xml is liable to change. -->
+<!-- Note: This data has been downloaded from Schedules Direct, and use of the data is restricted by the subscriber agreement to non-commercial use with open source projects.  Refer to the Schedules Direct subscriber agreement for more information -->
+
+<xmltv-lineups modified="2025-11-23T18:28:48 +0000" generator-info-name="tv_grab_zz_sdjson_sqlite" generator-info-url="https://github.com/garybuhrmaster/tv_grab_zz_sdjson_sqlite" source-info-name="Schedules Direct" source-info-url="https://www.schedulesdirect.org">
+ <xmltv-lineup id="GBR-1000014-DEFAULT">
+  <type>DTV</type>
+  <display-name>Freeview (DVB-T London)</display-name>
+  <lineup-entry>
+   <preset>282</preset>
+   <station rfc2838="I100015.json.schedulesdirect.org">
+    <name>GINX TV HD</name>
+    <short-name>GINXTVH</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s100015_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s100015_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s100015_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s100015_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>40</preset>
+   <station rfc2838="I102471.json.schedulesdirect.org">
+    <name>Quest Red</name>
+    <short-name>QREDUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s102471_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s102471_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s102471_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s102471_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>100</preset>
+   <station rfc2838="I105389.json.schedulesdirect.org">
+    <name>Freeview Information</name>
+    <short-name>FREEVIE</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105389_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105389_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105389_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105389_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>673</preset>
+   <station rfc2838="I105394.json.schedulesdirect.org">
+    <name>Smile TV3</name>
+    <short-name>SMILET3</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105394_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105394_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105394_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105394_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>33</preset>
+   <station rfc2838="I109246.json.schedulesdirect.org">
+    <name>5 Action</name>
+    <short-name>5ACTSVM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109246_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109246_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109246_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109246_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>93</preset>
+   <station rfc2838="I110917.json.schedulesdirect.org">
+    <name>ITVBe +1 (Freeview)</name>
+    <short-name>ITVBPFV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110917_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110917_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110917_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110917_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>59</preset>
+   <station rfc2838="I110918.json.schedulesdirect.org">
+    <name>ITV4 +1 (Freeview)</name>
+    <short-name>ITV4PF</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110918_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110918_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110918_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110918_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>64</preset>
+   <station rfc2838="I110919.json.schedulesdirect.org">
+    <name>Blaze (Freeview)</name>
+    <short-name>BLZEFV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110919_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110919_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110919_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110919_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>92</preset>
+   <station rfc2838="I110920.json.schedulesdirect.org">
+    <name>Blaze +1 (Freeview)</name>
+    <short-name>BLZP1FV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110920_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110920_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110920_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110920_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>51</preset>
+   <station rfc2838="I110927.json.schedulesdirect.org">
+    <name>Ideal World (Freeview)</name>
+    <short-name>IDLFV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110927_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110927_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110927_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s110927_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>60</preset>
+   <station rfc2838="I111955.json.schedulesdirect.org">
+    <name>U&amp;Drama+1</name>
+    <short-name>UDRP1VM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111955_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111955_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111955_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111955_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>730</preset>
+   <station rfc2838="I112560.json.schedulesdirect.org">
+    <name>RNIB Connect</name>
+    <short-name>RNIBCO</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112560_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112560_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112560_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112560_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>209</preset>
+   <station rfc2838="I112601.json.schedulesdirect.org">
+    <name>Ketchup TV</name>
+    <short-name>KETCHUP</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112601_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112601_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112601_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112601_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>90</preset>
+   <station rfc2838="I112603.json.schedulesdirect.org">
+    <name>Together TV +1</name>
+    <short-name>TOGETP1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112603_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112603_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112603_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s112603_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>278</preset>
+   <station rfc2838="I115047.json.schedulesdirect.org">
+    <name>Nosey</name>
+    <short-name>PTVUKNO</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115047_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115047_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115047_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115047_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>259</preset>
+   <station rfc2838="I115555.json.schedulesdirect.org">
+    <name>MBC</name>
+    <short-name>MBCAR</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115555_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115555_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115555_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115555_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>252</preset>
+   <station rfc2838="I115648.json.schedulesdirect.org">
+    <name>Al Jazeera</name>
+    <short-name>ALJAZE</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115648_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115648_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115648_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s115648_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>20</preset>
+   <station rfc2838="I117464.json.schedulesdirect.org">
+    <name>U&amp;Drama</name>
+    <short-name>UDRAMA</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117464_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117464_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117464_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117464_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>265</preset>
+   <station rfc2838="I117979.json.schedulesdirect.org">
+    <name>ROK</name>
+    <short-name>ROKEU</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117979_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117979_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117979_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117979_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>87</preset>
+   <station rfc2838="I118547.json.schedulesdirect.org">
+    <name>TV Warehouse</name>
+    <short-name>TVWARE</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s118547_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s118547_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s118547_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s118547_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>236</preset>
+   <station rfc2838="I119993.json.schedulesdirect.org">
+    <name>GB News</name>
+    <short-name>GBNEWSD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s119993_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s119993_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s119993_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s119993_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>56</preset>
+   <station rfc2838="I120346.json.schedulesdirect.org">
+    <name>That's TV</name>
+    <short-name>THATSTV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s120346_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s120346_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s120346_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s120346_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>101</preset>
+   <station rfc2838="I121745.json.schedulesdirect.org">
+    <name>BBC One London HD</name>
+    <short-name>BBC1LDHV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s121745_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s121745_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s121745_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s121745_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>107</preset>
+   <station rfc2838="I122089.json.schedulesdirect.org">
+    <name>BBC Three HD</name>
+    <short-name>BBC3H</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122089_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122089_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122089_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122089_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>280</preset>
+   <station rfc2838="I122614.json.schedulesdirect.org">
+    <name>Talk HD</name>
+    <short-name>TALKHD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122614_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122614_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122614_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s122614_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>16</preset>
+   <station rfc2838="I125129.json.schedulesdirect.org">
+    <name>QVC</name>
+    <short-name>QVCUKSD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125129_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125129_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125129_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125129_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>71</preset>
+   <station rfc2838="I125463.json.schedulesdirect.org">
+    <name>That's TV 3</name>
+    <short-name>THATMEM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125463_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125463_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125463_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s125463_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>76</preset>
+   <station rfc2838="I131027.json.schedulesdirect.org">
+    <name>Thats Melody</name>
+    <short-name>THAT80S</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131027_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131027_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131027_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131027_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>72</preset>
+   <station rfc2838="I131426.json.schedulesdirect.org">
+    <name>Jewellery Maker (Freeview)</name>
+    <short-name>JEWMAKF</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131426_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131426_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131426_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131426_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>84</preset>
+   <station rfc2838="I131428.json.schedulesdirect.org">
+    <name>PBS America (Freeview)</name>
+    <short-name>PBSAMEF</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131428_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131428_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131428_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131428_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>91</preset>
+   <station rfc2838="I131702.json.schedulesdirect.org">
+    <name>WildEarth HD</name>
+    <short-name>WIEAUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131702_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131702_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131702_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s131702_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>98</preset>
+   <station rfc2838="I134299.json.schedulesdirect.org">
+    <name>Wedo Movies</name>
+    <short-name>WDMVENG</short-name>
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>275</preset>
+   <station rfc2838="I134299.json.schedulesdirect.org">
+    <name>Wedo Movies</name>
+    <short-name>WDMVENG</short-name>
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>65</preset>
+   <station rfc2838="I136453.json.schedulesdirect.org">
+    <name>That's TV 2</name>
+    <short-name>THATS2</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s136453_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s136453_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s136453_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s136453_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>258</preset>
+   <station rfc2838="I137608.json.schedulesdirect.org">
+    <name>India Today</name>
+    <short-name>INTODAY</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s137608_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s137608_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s137608_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s137608_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>27</preset>
+   <station rfc2838="I138444.json.schedulesdirect.org">
+    <name>U&amp;Yesterday</name>
+    <short-name>UYESTSD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s138444_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s138444_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s138444_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s138444_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>73</preset>
+   <station rfc2838="I147156.json.schedulesdirect.org">
+    <name>Hobby Maker HD</name>
+    <short-name>HOBBYMA</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s147156_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s147156_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s147156_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s147156_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>206</preset>
+   <station rfc2838="I153520.json.schedulesdirect.org">
+    <name>Tiny Pop SD</name>
+    <short-name>TINPOPSD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s153520_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s153520_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s153520_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s153520_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>81</preset>
+   <station rfc2838="I156817.json.schedulesdirect.org">
+    <name>Rewind TV</name>
+    <short-name>REWINDUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s156817_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s156817_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s156817_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s156817_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>233</preset>
+   <station rfc2838="I16234.json.schedulesdirect.org">
+    <name>Sky News</name>
+    <short-name>SKYNEWS</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16234_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16234_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16234_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16234_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>260</preset>
+   <station rfc2838="I165082.json.schedulesdirect.org">
+    <name>Asharq News</name>
+    <short-name>ASHNEWS</short-name>
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>2</preset>
+   <station rfc2838="I17154.json.schedulesdirect.org">
+    <name>BBC Two</name>
+    <short-name>BBC2</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17154_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17154_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17154_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17154_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>4</preset>
+   <station rfc2838="I17155.json.schedulesdirect.org">
+    <name>Channel 4</name>
+    <short-name>C4</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17155_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17155_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17155_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17155_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>5</preset>
+   <station rfc2838="I17157.json.schedulesdirect.org">
+    <name>5</name>
+    <short-name>CH5</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17157_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17157_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17157_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17157_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>3</preset>
+   <station rfc2838="I17468.json.schedulesdirect.org">
+    <name>ITV1 (London)</name>
+    <short-name>ITV1LON</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17468_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17468_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17468_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17468_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>231</preset>
+   <station rfc2838="I19037.json.schedulesdirect.org">
+    <name>BBC News</name>
+    <short-name>BBCNEWS</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19037_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19037_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19037_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19037_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>97</preset>
+   <station rfc2838="I199467.json.schedulesdirect.org">
+    <name>Hobbycraft TV</name>
+    <short-name>HOBBYCR</short-name>
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>61</preset>
+   <station rfc2838="I199471.json.schedulesdirect.org">
+    <name>Great! Movies</name>
+    <short-name>GRTMOFV</short-name>
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>88</preset>
+   <station rfc2838="I199472.json.schedulesdirect.org">
+    <name>TV Warehouse +1</name>
+    <short-name>TVWARE1</short-name>
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>6</preset>
+   <station rfc2838="I20630.json.schedulesdirect.org">
+    <name>ITV2</name>
+    <short-name>ITV2</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20630_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20630_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20630_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20630_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>23</preset>
+   <station rfc2838="I20683.json.schedulesdirect.org">
+    <name>BBC Three</name>
+    <short-name>BBC3</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20683_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20683_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20683_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20683_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>9</preset>
+   <station rfc2838="I20684.json.schedulesdirect.org">
+    <name>BBC Four</name>
+    <short-name>BBC4</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20684_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20684_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20684_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20684_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>232</preset>
+   <station rfc2838="I20685.json.schedulesdirect.org">
+    <name>BBC Parliament</name>
+    <short-name>BBCPARL</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20685_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20685_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20685_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20685_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>44</preset>
+   <station rfc2838="I21257.json.schedulesdirect.org">
+    <name>HGTV</name>
+    <short-name>HGTVUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>14</preset>
+   <station rfc2838="I21494.json.schedulesdirect.org">
+    <name>Film4</name>
+    <short-name>FILM4UK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21494_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21494_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21494_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21494_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>48</preset>
+   <station rfc2838="I21793.json.schedulesdirect.org">
+    <name>Challenge</name>
+    <short-name>CHALL</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21793_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21793_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21793_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21793_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>19</preset>
+   <station rfc2838="I24305.json.schedulesdirect.org">
+    <name>U&amp;Dave</name>
+    <short-name>UDAVE</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24305_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24305_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24305_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24305_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>700</preset>
+   <station rfc2838="I24434.json.schedulesdirect.org">
+    <name>BBC Radio 1</name>
+    <short-name>BBCR1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24434_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24434_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24434_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24434_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>702</preset>
+   <station rfc2838="I24435.json.schedulesdirect.org">
+    <name>BBC Radio 2</name>
+    <short-name>BBCR2</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24435_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24435_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24435_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24435_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>703</preset>
+   <station rfc2838="I24436.json.schedulesdirect.org">
+    <name>BBC Radio 3</name>
+    <short-name>BBCR3</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24436_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24436_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24436_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24436_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>704</preset>
+   <station rfc2838="I24437.json.schedulesdirect.org">
+    <name>BBC Radio 4 FM</name>
+    <short-name>BBCR4FM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24437_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24437_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24437_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24437_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>705</preset>
+   <station rfc2838="I24438.json.schedulesdirect.org">
+    <name>BBC Radio 5 Live</name>
+    <short-name>BBCR5L</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24438_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24438_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24438_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24438_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>731</preset>
+   <station rfc2838="I24439.json.schedulesdirect.org">
+    <name>Classic FM</name>
+    <short-name>CLASSFM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24439_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24439_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24439_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24439_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>723</preset>
+   <station rfc2838="I24441.json.schedulesdirect.org">
+    <name>Talk Sport</name>
+    <short-name>TLKSPT</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24441_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24441_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24441_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24441_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>710</preset>
+   <station rfc2838="I24448.json.schedulesdirect.org">
+    <name>BBC World Service</name>
+    <short-name>BBCWS</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24448_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24448_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24448_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24448_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>709</preset>
+   <station rfc2838="I24452.json.schedulesdirect.org">
+    <name>BBC Asian Network</name>
+    <short-name>BBCASIA</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24452_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24452_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24452_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24452_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>728</preset>
+   <station rfc2838="I24467.json.schedulesdirect.org">
+    <name>Heart FM</name>
+    <short-name>HEART</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24467_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24467_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24467_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24467_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>725</preset>
+   <station rfc2838="I24469.json.schedulesdirect.org">
+    <name>Premier</name>
+    <short-name>PREMIER</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24469_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24469_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24469_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24469_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>83</preset>
+   <station rfc2838="I24677.json.schedulesdirect.org">
+    <name>Together</name>
+    <short-name>TOGETUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>270</preset>
+   <station rfc2838="I24677.json.schedulesdirect.org">
+    <name>Together</name>
+    <short-name>TOGETUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24677_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>36</preset>
+   <station rfc2838="I24919.json.schedulesdirect.org">
+    <name>Sky Arts</name>
+    <short-name>SKYART1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24919_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24919_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24919_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24919_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>13</preset>
+   <station rfc2838="I25117.json.schedulesdirect.org">
+    <name>E4</name>
+    <short-name>E4</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25117_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25117_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25117_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25117_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>713</preset>
+   <station rfc2838="I25604.json.schedulesdirect.org">
+    <name>BBC Radio London</name>
+    <short-name>BBCLON</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25604_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25604_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25604_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25604_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>47</preset>
+   <station rfc2838="I25630.json.schedulesdirect.org">
+    <name>Film4 +1</name>
+    <short-name>FILM41</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25630_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25630_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25630_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25630_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>95</preset>
+   <station rfc2838="I25958.json.schedulesdirect.org">
+    <name>High Street TV</name>
+    <short-name>HIGHST</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25958_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25958_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25958_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25958_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>674</preset>
+   <station rfc2838="I26052.json.schedulesdirect.org">
+    <name>Babestation</name>
+    <short-name>BABEST</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26052_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26052_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26052_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26052_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>267</preset>
+   <station rfc2838="I26215.json.schedulesdirect.org">
+    <name>God</name>
+    <short-name>GODCH</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26215_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26215_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26215_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26215_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>45</preset>
+   <station rfc2838="I27993.json.schedulesdirect.org">
+    <name>GEMPORIA HD</name>
+    <short-name>GEMPORIAHD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s27993_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s27993_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s27993_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s27993_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>201</preset>
+   <station rfc2838="I29324.json.schedulesdirect.org">
+    <name>CBBC</name>
+    <short-name>CBBC</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29324_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29324_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29324_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29324_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>202</preset>
+   <station rfc2838="I29325.json.schedulesdirect.org">
+    <name>CBeebies</name>
+    <short-name>CBEEB</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29325_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29325_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29325_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29325_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>706</preset>
+   <station rfc2838="I29920.json.schedulesdirect.org">
+    <name>BBC Radio 5 Live Sports Xtra</name>
+    <short-name>BBC5LX</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29920_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29920_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29920_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s29920_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>22</preset>
+   <station rfc2838="I30157.json.schedulesdirect.org">
+    <name>The Jewellery Channel</name>
+    <short-name>JEWELCH</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30157_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30157_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30157_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30157_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>707</preset>
+   <station rfc2838="I30166.json.schedulesdirect.org">
+    <name>BBC Radio 6 Music</name>
+    <short-name>BBCR6M</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30166_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30166_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30166_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30166_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>724</preset>
+   <station rfc2838="I30500.json.schedulesdirect.org">
+    <name>Capital London</name>
+    <short-name>CAPRAD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30500_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30500_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30500_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30500_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>1</preset>
+   <station rfc2838="I30644.json.schedulesdirect.org">
+    <name>BBC One London</name>
+    <short-name>BBC1LDN</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30644_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30644_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30644_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30644_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>701</preset>
+   <station rfc2838="I31266.json.schedulesdirect.org">
+    <name>BBC Radio 1 Xtra</name>
+    <short-name>BBCR1X</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31266_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31266_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31266_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31266_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>67</preset>
+   <station rfc2838="I31756.json.schedulesdirect.org">
+    <name>True Crime</name>
+    <short-name>TRUCRUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31756_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31756_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31756_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31756_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>31</preset>
+   <station rfc2838="I31786.json.schedulesdirect.org">
+    <name>E4 Extra</name>
+    <short-name>E4EXTRA</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31786_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31786_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31786_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31786_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>708</preset>
+   <station rfc2838="I31790.json.schedulesdirect.org">
+    <name>BBC Radio 4 Extra</name>
+    <short-name>BBCR4EX</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31790_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31790_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31790_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s31790_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>266</preset>
+   <station rfc2838="I32561.json.schedulesdirect.org">
+    <name>Revelation TV</name>
+    <short-name>REVEL</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32561_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32561_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32561_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32561_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>732</preset>
+   <station rfc2838="I33579.json.schedulesdirect.org">
+    <name>LBC</name>
+    <short-name>LBCLND</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33579_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33579_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33579_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33579_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>205</preset>
+   <station rfc2838="I33638.json.schedulesdirect.org">
+    <name>Pop</name>
+    <short-name>POP</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33638_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33638_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33638_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33638_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>30</preset>
+   <station rfc2838="I33882.json.schedulesdirect.org">
+    <name>E4 +1</name>
+    <short-name>E4P1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33882_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33882_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33882_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33882_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>57</preset>
+   <station rfc2838="I35806.json.schedulesdirect.org">
+    <name>U&amp;Eden</name>
+    <short-name>EDEN</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35806_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35806_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35806_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35806_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>94</preset>
+   <station rfc2838="I42745.json.schedulesdirect.org">
+    <name>SonLife International</name>
+    <short-name>SNLFINT</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>263</preset>
+   <station rfc2838="I42745.json.schedulesdirect.org">
+    <name>SonLife International</name>
+    <short-name>SNLFINT</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42745_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>69</preset>
+   <station rfc2838="I42762.json.schedulesdirect.org">
+    <name>Legend Xtra</name>
+    <short-name>LEGEXTR</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42762_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42762_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42762_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42762_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>261</preset>
+   <station rfc2838="I43786.json.schedulesdirect.org">
+    <name>Al Arabiya</name>
+    <short-name>ARABIYA</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s43786_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s43786_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s43786_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s43786_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>10</preset>
+   <station rfc2838="I44643.json.schedulesdirect.org">
+    <name>ITV3</name>
+    <short-name>ITVTHREE</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44643_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44643_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44643_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44643_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>52</preset>
+   <station rfc2838="I44717.json.schedulesdirect.org">
+    <name>Great! Christmas</name>
+    <short-name>GREATRO</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BNQD.png_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BP02.png_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BP17.png_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BNYJ.png_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>43</preset>
+   <station rfc2838="I44718.json.schedulesdirect.org">
+    <name>Food Network</name>
+    <short-name>FOODNET</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44718_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44718_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44718_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44718_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>74</preset>
+   <station rfc2838="I44855.json.schedulesdirect.org">
+    <name>U&amp;DaveJaVu</name>
+    <short-name>UDAVEJV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44855_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44855_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44855_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44855_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>718</preset>
+   <station rfc2838="I45752.json.schedulesdirect.org">
+    <name>Smooth FM 102.2</name>
+    <short-name>SMTHFM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45752_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45752_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45752_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45752_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>17</preset>
+   <station rfc2838="I45828.json.schedulesdirect.org">
+    <name>Really UKTV</name>
+    <short-name>REALLY</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45828_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45828_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45828_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45828_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>42</preset>
+   <station rfc2838="I46306.json.schedulesdirect.org">
+    <name>Great! Action</name>
+    <short-name>GRTMACT</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027ESGV.png_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027ET12.png_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027ESNT.png_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027ESHS.png_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>18</preset>
+   <station rfc2838="I47657.json.schedulesdirect.org">
+    <name>More 4</name>
+    <short-name>MORE4</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s47657_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s47657_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s47657_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s47657_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>26</preset>
+   <station rfc2838="I48020.json.schedulesdirect.org">
+    <name>ITV4</name>
+    <short-name>ITV4</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48020_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48020_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48020_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48020_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>11</preset>
+   <station rfc2838="I48021.json.schedulesdirect.org">
+    <name>Sky Mix</name>
+    <short-name>SKYMIX</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48021_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48021_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48021_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48021_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>235</preset>
+   <station rfc2838="I49968.json.schedulesdirect.org">
+    <name>Al Jazeera English</name>
+    <short-name>ALJAZEN</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49968_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49968_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49968_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49968_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>62</preset>
+   <station rfc2838="I50011.json.schedulesdirect.org">
+    <name>GREAT! Romance mix</name>
+    <short-name>GRROMIX</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50011_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50011_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50011_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50011_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>102</preset>
+   <station rfc2838="I50059.json.schedulesdirect.org">
+    <name>BBC Two HD</name>
+    <short-name>BBC2HD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50059_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50059_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50059_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50059_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>103</preset>
+   <station rfc2838="I50523.json.schedulesdirect.org">
+    <name>ITV1 HD (London)</name>
+    <short-name>ITV1HDL</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50523_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50523_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50523_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50523_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>104</preset>
+   <station rfc2838="I50716.json.schedulesdirect.org">
+    <name>Channel 4 HD</name>
+    <short-name>C4HD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50716_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50716_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50716_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50716_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>105</preset>
+   <station rfc2838="I50717.json.schedulesdirect.org">
+    <name>5 HD</name>
+    <short-name>CH5HD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50717_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50717_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50717_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50717_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>21</preset>
+   <station rfc2838="I52335.json.schedulesdirect.org">
+    <name>5USA</name>
+    <short-name>5USA</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52335_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52335_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52335_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52335_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>32</preset>
+   <station rfc2838="I52336.json.schedulesdirect.org">
+    <name>5 Star</name>
+    <short-name>5ST</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52336_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52336_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52336_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s52336_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>29</preset>
+   <station rfc2838="I53059.json.schedulesdirect.org">
+    <name>ITV2 +1</name>
+    <short-name>ITV2P1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53059_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53059_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53059_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53059_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>46</preset>
+   <station rfc2838="I56888.json.schedulesdirect.org">
+    <name>5SELECT</name>
+    <short-name>5SELECT</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56888_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56888_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56888_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56888_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>15</preset>
+   <station rfc2838="I56892.json.schedulesdirect.org">
+    <name>Channel 4 +1</name>
+    <short-name>C4P1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56892_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56892_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56892_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56892_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>212</preset>
+   <station rfc2838="I56896.json.schedulesdirect.org">
+    <name>Pop Max</name>
+    <short-name>POPMXUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56896_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56896_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56896_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56896_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>34</preset>
+   <station rfc2838="I57747.json.schedulesdirect.org">
+    <name>Great! TV</name>
+    <short-name>GREATUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GB9YS.png_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GBB0H.png_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GBB1S.png_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002GB9EE.png_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>68</preset>
+   <station rfc2838="I57827.json.schedulesdirect.org">
+    <name>True Crime Xtra</name>
+    <short-name>TCEXTRA</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57827_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57827_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57827_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57827_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>39</preset>
+   <station rfc2838="I58793.json.schedulesdirect.org">
+    <name>DMAX</name>
+    <short-name>DMAXE</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58793_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58793_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58793_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58793_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>255</preset>
+   <station rfc2838="I60961.json.schedulesdirect.org">
+    <name>France 24 English HD</name>
+    <short-name>FR24EN</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60961_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60961_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60961_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60961_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>25</preset>
+   <station rfc2838="I61458.json.schedulesdirect.org">
+    <name>U&amp;W</name>
+    <short-name>UANDW</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61458_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61458_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61458_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61458_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>272</preset>
+   <station rfc2838="I62096.json.schedulesdirect.org">
+    <name>NHK World Europe</name>
+    <short-name>NHKWLD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62096_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62096_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62096_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62096_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>12</preset>
+   <station rfc2838="I62391.json.schedulesdirect.org">
+    <name>Quest</name>
+    <short-name>QUEST</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62391_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62391_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62391_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62391_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>35</preset>
+   <station rfc2838="I65160.json.schedulesdirect.org">
+    <name>ITV1 +1</name>
+    <short-name>ITVP1LN</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65160_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65160_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65160_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65160_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>70</preset>
+   <station rfc2838="I65394.json.schedulesdirect.org">
+    <name>Quest +1</name>
+    <short-name>QUESTP1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65394_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65394_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65394_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65394_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>257</preset>
+   <station rfc2838="I67870.json.schedulesdirect.org">
+    <name>euronews</name>
+    <short-name>EURNWSV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67870_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67870_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67870_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67870_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>41</preset>
+   <station rfc2838="I73970.json.schedulesdirect.org">
+    <name>Legend</name>
+    <short-name>LEGENDVM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73970_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73970_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73970_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73970_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>49</preset>
+   <station rfc2838="I75804.json.schedulesdirect.org">
+    <name>4Seven</name>
+    <short-name>4SEVEN</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75804_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75804_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75804_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75804_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>38</preset>
+   <station rfc2838="I77749.json.schedulesdirect.org">
+    <name>5 +1</name>
+    <short-name>CH5P1VM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77749_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77749_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77749_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77749_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>251</preset>
+   <station rfc2838="I77775.json.schedulesdirect.org">
+    <name>Al Jazeera</name>
+    <short-name>ALJAZEV</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77775_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77775_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77775_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77775_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>250</preset>
+   <station rfc2838="I81004.json.schedulesdirect.org">
+    <name>BBC Red Button 1</name>
+    <short-name>BBCRDB1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>601</preset>
+   <station rfc2838="I81004.json.schedulesdirect.org">
+    <name>BBC Red Button 1</name>
+    <short-name>BBCRDB1</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s81004_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>50</preset>
+   <station rfc2838="I81450.json.schedulesdirect.org">
+    <name>Great! Mystery</name>
+    <short-name>GRETMYS</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BMCL.png_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BMG3.png_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BMJ1.png_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029BMMZ.png_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>203</preset>
+   <station rfc2838="I83281.json.schedulesdirect.org">
+    <name>CBBC HD</name>
+    <short-name>CBBCHD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83281_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83281_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83281_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83281_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>106</preset>
+   <station rfc2838="I83282.json.schedulesdirect.org">
+    <name>BBC Four HD</name>
+    <short-name>BBC4HD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83282_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83282_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83282_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83282_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>204</preset>
+   <station rfc2838="I83283.json.schedulesdirect.org">
+    <name>CBeebies HD</name>
+    <short-name>CBEEBHD</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83283_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83283_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83283_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83283_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>8</preset>
+   <station rfc2838="I84926.json.schedulesdirect.org">
+    <name>London TV</name>
+    <short-name>LONLIVE</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s84926_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s84926_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s84926_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s84926_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>28</preset>
+   <station rfc2838="I90257.json.schedulesdirect.org">
+    <name>ITV Quiz</name>
+    <short-name>ITVQZVM</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0022XGPX.png_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0022XHST.png_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0022XHXK.png_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0022XMSE.png_gray_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>66</preset>
+   <station rfc2838="I97332.json.schedulesdirect.org">
+    <name>TBN UK</name>
+    <short-name>TBNUK</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97332_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97332_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97332_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97332_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>58</preset>
+   <station rfc2838="I98366.json.schedulesdirect.org">
+    <name>ITV3 +1 (Freeview)</name>
+    <short-name>ITV3P1F</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s98366_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s98366_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s98366_white_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s98366_light_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+  <lineup-entry>
+   <preset>82</preset>
+   <station rfc2838="I99024.json.schedulesdirect.org">
+    <name>Talking Pictures TV</name>
+    <short-name>TALKPIC</short-name>
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s99024_dark_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s99024_light_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s99024_gray_360w_270h.png" width="360" height="270" />
+    <logo url="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s99024_white_360w_270h.png" width="360" height="270" />
+   </station>
+   <dvb-channel></dvb-channel>
+  </lineup-entry>
+ </xmltv-lineup>
+</xmltv-lineups>

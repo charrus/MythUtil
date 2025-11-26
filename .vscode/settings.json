@@ -1,0 +1,20 @@
+{
+    "ruff.nativeServer": "on",
+    "ruff.configuration": "pyproject.toml",
+    "python.terminal.shellIntegration.enabled": true,
+    "debugpy.debugJustMyCode": false,
+    "python.createEnvironment.contentButton": "show",
+    "flake8.enabled": false,
+    "ruff.format.backend": "internal",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll.ruff": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "ruff.configurationPreference": "editorFirst",
+    "ruff.lineLength": 88,
+    "ruff.lint.enable": true,
+    "editor.formatOnType": true
+}
